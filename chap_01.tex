@@ -1,98 +1,65 @@
 \chapter{Contexte général}
 \section*{Introduction}
-Text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text, text...
+Dans ce premier chapitre introductif, nous présentons l’organisme d’accueil Sofrecom et sa filiale Sofrecom Tunisie. Ensuite, nous introduisons le contexte du sujet, la problématique et un diagnostic technique de la solution existante. Enfin, nous présentons la méthode de développement choisie pour la réalisation de notre solution.
 
-% Une section
+\section[Présentation de l’entreprise]{Présentation de l’entreprise}
 
-% Exemple d'une section qui porte une référence à une bibliographie
-% NB: il faut bien suivre le syntaxe pour ne pas tomber dans le cas où il y a une référence dans la table des matières.
-\section[Organisme d'accueil]{Organisme d'accueil \cite{webArticle1}}
-
-% NB: il faut annoncer la figure dabord.
-% Pour faire appel à une figure, il suffit d'utiliser le label comme suit :
-La figure \ref{fig:logo_tt} présente le logo de la tunisie télécom. (Il est déconseiller de mettre le logo de la société dans le rapport, il est déjà présent dans la page de garde).
-
-% On peut ajouter une figure en utilisant le syntaxe suivant:
-\begin{figure}[htpb]
-\centering
-\frame{\includegraphics[width=0.5\columnwidth]{Logo_Entreprise}}
-\caption{Logo Entreprise}
-\label{fig:logo_tt}
-\end{figure}
-
-\section{\'Etude et critique de l'éxistant}
-
-\section{Problématique}
-
-\section{\'Etude bibliographique (sur un thème précis)}
-
-%On peut ajouter un tableau en utilisant le syntaxe suivant:
-%% Ce syntaxe est modifié afin de vous offrir un tableau divisible automatiquement dans les pages.
-
-Le tableau \ref{tab:myfirstlongtable} présente un exemple d'un tableau qui peut être divisé automatiquement dans les pages.
-
-\begin{longtable}[c]{
-    |p{.20\textwidth}
-    |p{.60\textwidth}|
-}
-    \caption{Tableau long}
-    \label{tab:myfirstlongtable}\\
-    \hline
-    
-    0
-    & 0 \\
-    \hline 
-    
-    1
-    & 1 \\
-    \hline 
-    
-    2
-    & 2 \\
-    \hline
-    
-    3
-    & 3 \\
-    \hline
-    
-    4
-    & 4 \\
-    \hline
-    
-    5
-    & 5 \\ \hline
-    
-    6
-    & 6 \\ \hline
-    
-    7
-    & 7 \\
-    \hline
-    
-    8
-    & 8 \\
-    \hline
-    
-    9
-    & 9 \\
-    \hline
-    
-    10
-    & 10 \\
-    \hline
-    
-    11
-    & 11 \\
-    \hline
-    
-    12
-    & 12 \\
-    \hline
-\end{longtable}
-
-\section{Solution proposée et objectifs globaux du projet}
-
-\section{Choix méthodologique}
-
+\subsection[Le groupe Sofrecom]{Le groupe Sofrecom}
+Sofrecom, filiale d’Orange, développe depuis 50 ans un savoir-faire unique dans les métiers de l’opérateur, ce qui en fait un leader mondial du conseil et de l’ingénierie télécom. Ces dernières années, plus de 200 acteurs majeurs, dans plus de 100 pays, ont confié à Sofrecom la conduite de leurs projets stratégiques et opérationnels. Le Know-How Network de Sofrecom, c’est aussi la garantie d’un transfert de savoir-faire, de compétences et d’expertises pour une transformation durable s’appuyant sur des méthodologies certifiées au niveau international.
+\subsection{Sofrecom Tunisie}
+Sofrecom Tunisie créée en Octobre 2012, considérée comme la filière la plus jeune et la plus importante du groupe Sofrecom en zone Afrique et Moyen Orient. Au court de 5 ans, elle a pu se positionner en tant qu’un acteur majeur  d’ingénierie en télécommunications et du conseil.\\
+Sofrecom Tunisie compte aujourd’hui plus que 560 experts, et deux clients majeurs qui font partie du groupe Orange : DSI France et OLS. Sofrecom Tunisie propose à ses clients une large  gamme des services autour de huit spécialités:
+\begin{itemize}
+	\item Ingénierie
+	\item Architecture
+	\item Support et maintenance
+	\item Sécurité informatique
+	\item Expertise technique
+	\item Développement
+	\item Innovation 
+	\item Consulting
+\end{itemize}
+Notre projet concerne le métier du \textbf{développement}.
+\section[Contexte du projet]{Contexte du projet}
+Dans cette section, nous commencerons, dans un premier temps, par présenter l’application Panoramix. Nous citerons les différents manques, les points faibles et les problèmes, puis nous allons proposer notre solution.
+\subsection[Présentation de l’application Panoramix]{Présentation de l’application Panoramix}
+\textbf{Panoramix} est une application web, développé par Sofrecom depuis 2016, qui servira de point d'entrée unique pour les positions de travail de la vente sur le segment Pro PME (entreprise de taille inférieure à 100 employées).\\
+Ce portail adapté à chaque position de travail, permettra de traiter toutes les demandes client en simplifiant et fluidifiant le parcours des conseillers.\\
+L’introduction de parcours guidés, là où il y avait des applications et des process à mémoriser, facilitera la montée en compétence d’une nouvelle recrue et masquera la complexité afin de se concentrer sur comment répondre au mieux à la demande client. Le conseiller réactif pourra lui aussi organiser son activité, grâce à une meilleure visibilité sur les dossiers client qu’il gère ou qui lui sont affectés. Au centre du portail, sera la vue 360 du client avec ses interlocuteurs, son parc, son historique…. 
+Enfin, Panoramix est un moyen sûr d’être dans la posture adéquat pour respecter les règles de saine concurrence.
+\subsection[Limites et critiques de l’existant]{Limites et critiques de l’existant}
+Après chaque itération le projet Panoramix, subit des améliorations. Des fonctionnalités s’ajoutent pour s’aligner plus au besoin du client. Le projet a commencé depuis des années, et selon son plan d’évolution, il continuera à évoluer encore pour quelques années. Ceci a généré plusieurs défis. Et parmi les nouveaux défis, la fusion entre deux métiers différents dans le  même socle :
+\begin{itemize}
+	\item Le métier de Centre d’appel Orange ou bien 3901
+	\item Le métier de Boutique Orange ou bien CPRO
+		\subitem \textbullet Boutique GDT ( générale de téléphone)
+		\subitem \textbullet Boutique AD (Boutique Orange)
+\end{itemize}
+qui sont deux métiers séparés mais ils ont des grandes parties communes et ils ont le même client cible(Pro PME).\\
+Cette différence ne concerne pas seulement le niveau d’interaction avec le client mais la différence au niveau métier aussi tel que les boutiques ne peuvent pas accéder aux mêmes applications que centre d’appel : l’accès aux applications est limité selon le type et l’emplacement de la boutique, par contre le centre d’appel à l’accès à toutes les applications.\\
+Cette mise à jour permet à Panoramix d’ajouter entre 9000 et 12000 utilisateurs aux 2650 utilisateurs existants déjà et  de maintenir environ 2500 utilisateurs actifs mais la solution actuelle n’est pas assez performante et l’infrastructure actuelle ne peut pas supporter ce nombre des utilisateurs. Et par conséquence, certains problèmes s’imposent. En premier lieu, nous remarquons que les informations ne sont pas centralisées, en deuxième lieu il y’a une différence d’interprétation de la fiche client et des applications et en plus le centre d’appel et les boutiques n’ont pas la même historique des réclamations de clients.\\
+\section[Solution proposée]{Solution proposée}
+Dans le souci d’apporter une valeur ajoutée et un meilleur service technologique aux clients et au groupe lui-même, nous envisageons de :
+\begin{itemize}
+	\item Fournir \textbf{un point d’accès unique aux outils et aux informations} du quotidien permettant de traiter toutes les demandes client inhérentes à une position de travail pour les deux types des utilisateurs (Boutique et centre d’appel)
+	\item Assurer \textbf{une ergonomie optimisée et homogène}
+	\item \textbf{Interconnecter les outils} pour supprimer les ressaisies et les ruptures de processus
+	\item \textbf{Personnaliser et filtrer les informations} dont l’utilisateur métier a besoin
+	\item \textbf{Un niveau de performance optimal} : l’application doit être rapide, sans temps de latence
+	\item Un accès aux informations et outils \textbf{dont l’utilisateur a besoin}, et \textbf{uniquement celles nécessaires}, pour assurer son métier au quotidien
+	\item \textbf{Haute disponibilité} même avec la différence horaire avec les pays DOM-TOM
+\end{itemize}
+Ces promesses seront bénéfiques pour :
+\begin{itemize}
+	\item \textbf{Orange} : Réduire la complexité des projets et fusion deux métiers différents dans une seule application qui est "Panoramix"
+	\item \textbf{Conseiller client } : mieux guidé, plus de confort, accès plus rapide aux infos
+	\subitem → Réduction du temps  de traitement
+	\subitem → Plus efficace, plus à l’écoute du client
+	\item \textbf{Client} : réduction du délai d’attente, baisse des réitérations, baisse du taux de transfert
+\end{itemize}
+\section[La méthodologie : SCRUM]{La méthodologie : SCRUM}
+Dans le contexte de notre projet, les dimensions de notre produit ne sont pas fixes dès le début et en plus nous avons besoin de dialoguer  et collaborer avec le reste des membres de l’équipe en quotidien pour pouvoir réussir toutes les étapes de production et de déploiement de notre projet. Donc l’utilisation d’une méthode agile est une priorité pour pouvoir réussir la mission dans les meilleures conditions. 
+\\
+Nous avons choisi d’adapter \textbf{la méthode Scrum}, utilisée par l’équipe de Panoramix, qui présente une implémentation de l’approche agile.
 \section*{Conclusion}
-    Conclusion partielle ayant pour objectif de synthétiser le chapitre et d’annoncer le chapitre suivant.
+Dans le premier chapitre, nous avons présenté notre cadre de travail et la méthode de conception et de développement des tâches requises. Nous pouvons passer au chapitre suivant qui est réservé à l’analyse préliminaire.
