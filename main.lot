@@ -8,19 +8,25 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Analyse et spécification des besoins}{8}%
+\contentsline {xchapter}{Analyse préliminaire}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Les tâches des acteurs de système}}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces Backlog de produit\relax }}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Planification des sprints\relax }}{14}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conception et choix technologiques}{10}%
+\contentsline {xchapter}{Conception et choix technologiques}{24}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Réalisation}{12}%
+\contentsline {xchapter}{Réalisation}{26}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{14}%
+\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{29}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

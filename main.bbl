@@ -1,0 +1,65 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{webArticle2}{online}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Auteur},
+         familyi={A\bibinitperiod},
+         given={NOM},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Organisme}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 19-Janvier-2016]}
+    \field{title}{titre de l'article}
+    \verb{url}
+    \verb http://www.exemple-lien.org/article/?id\_art=124
+    \endverb
+    \field{year}{Jan. 2015}
+  \endentry
+
+  \entry{webArticle1}{online}{}
+    \name{author}{1}{}{%
+      {{hash=SM}{%
+         family={Shell},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SM1}
+    \strng{fullhash}{SM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 5-Février-2016]}
+    \field{title}{{IEEE}tran Homepage}
+    \verb{url}
+    \verb http://www.michaelshell.org/tex/ieeetran/
+    \endverb
+    \field{year}{Jan. 2007}
+  \endentry
+\enddatalist
+\endinput

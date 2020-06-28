@@ -8,19 +8,63 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Analyse et spécification des besoins}{8}%
+\contentsline {xchapter}{Analyse préliminaire}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {1.2}\else \textLR {2.1}\fi }{\ignorespaces Les acteurs de système}}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {2.2}\else \textLR {2.2}\fi }{\ignorespaces Diagramme de cas d'utilisation générale}}{10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {3.2}\else \textLR {2.3}\fi }{\ignorespaces Description de processus SCRUM}}{12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {4.2}\else \textLR {2.4}\fi }{\ignorespaces Logo Eclipse IDE}}{14}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {5.2}\else \textLR {2.5}\fi }{\ignorespaces Logo Visual studio Code}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {6.2}\else \textLR {2.6}\fi }{\ignorespaces Logo Laragon}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {7.2}\else \textLR {2.7}\fi }{\ignorespaces Logo Apache}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces Logo MariaDB}}{15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces Logo HeidiSQL}}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces Logo SeleniumLibrary}}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {11.2}\else \textLR {2.11}\fi }{\ignorespaces Logo Robot Framework}}{16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {12.2}\else \textLR {2.12}\fi }{\ignorespaces Logo Jenkins}}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.2}\else \textLR {2.13}\fi }{\ignorespaces Logo Javascript}}{17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {14.2}\else \textLR {2.14}\fi }{\ignorespaces Logo jQuery}}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Logo Axios}}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Logo HTML5}}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {17.2}\else \textLR {2.17}\fi }{\ignorespaces Logo PHP}}{18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {18.2}\else \textLR {2.18}\fi }{\ignorespaces Logo Orange framework \& tools\relax }}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {19.2}\else \textLR {2.19}\fi }{\ignorespaces Logo Boosted}}{19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {20.2}\else \textLR {2.20}\fi }{\ignorespaces L'architecture logique des tests de non régression}}{20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {21.2}\else \textLR {2.21}\fi }{\ignorespaces L'architectures 3 tiers du Web}}{21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {22.2}\else \textLR {2.22}\fi }{\ignorespaces L'architecture logicielle de l’application}}{22}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conception et choix technologiques}{10}%
+\contentsline {xchapter}{Conception et choix technologiques}{24}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Réalisation}{12}%
+\contentsline {xchapter}{Réalisation}{26}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{15}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{30}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
