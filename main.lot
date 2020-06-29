@@ -34,9 +34,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces Description textuelle du cas d’utilisation «Gérer utilisateurs»\relax }}{41}%
 \defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Sprint 2 – Module Boutique}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces User stories de sprint 2\relax }}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Description textuelle du cas d’utilisation «simulation SRCD»\relax }}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Description textuelle du cas d’utilisation «consultation boutiques»\relax }}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces Description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»\relax }}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces Description textuelle du cas d’utilisation «mettre à jour les données boutiques»\relax }}{59}%
+\defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{56}%
+\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{68}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

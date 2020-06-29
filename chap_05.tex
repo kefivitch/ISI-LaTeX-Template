@@ -1,329 +1,250 @@
-% !TeX spellcheck = <none>
-\chapter{Sprint 1 – Gestion des utilisateurs et les rôles}
+\chapter{Sprint 2 – Module Boutique}
 	
 \section*{Introduction}
-Ce chapitre fait l’objet d’une présentation du deuxième sprint du projet. Ce dernier comporte la gestion des utilisateurs et leurs rôles.
+Dans ce chapitre, nous allons nous intéresser à le module Boutique. Par la suite, nous nous intéresserons à l’aspect conceptuel et fonctionnel de ce sprint.
 
-\section[Sprint Backlog]{Sprint Backlog}
-Le sprint Backlog permet de faciliter la récupération des tâches et qui fait la mise au point du travail tout en précisant les tâches. Ces dernières contiennent tous les user-stories du Product Backlog.
+\section[Backlog sprint]{Backlog sprint}
+Dans le backlog du sprint, nous présenterons deux parties :  le but du sprint et les user stories.
+
 \subsection[But de sprint]{But de sprint}
-La première règle à suivre avant de se lancer dans un sprint, l’équipe SCRUM doit obligatoirement définir le but de ce sprint. Et pour cela, nous devons répondre à une question existentielle: Pourquoi faisons-nous ce sprint?\\
-Donc, suite à une conversation entre le Product Owner et l’équipe SCRUM, nous avons conclu que le but de notre premier sprint sera : «Gestion des utilisateurs et leurs rôles».
+En suivant le même principe que le sprint précédent, nous commencerons par définir l'objectif du sprint. Par conséquent, l'objectif de ce sprint est l'intégration de module Boutique et l’affectation des utilisateurs aux boutiques.
 \subsection[User stories]{User stories}
-Après avoir déterminé l'objectif exact du sprint, il est temps de déterminer les user stories que nous voulons y inclure. Lors de la sélection de ces user stories, nous devons garder à l'esprit la priorité de chaque user story que nous avons configurée lorsque nous avons établi notre backlog produit.
+Après avoir défini le but du sprint, nous pourrons lister les user stories qui appartiennent au sprint.
+La table \ref{tab:user-stories-sprint-2} représente notre backlog de Sprint 2.
 \begin{longtable}[c]{|l|l|l|}
 	\hline
 	\rowcolor[HTML]{C0C0C0} 
-	User stories &
+	User stories&
 	Tâches &
-	Complexité\footnotemark{}\\ \hline
+	Complexité \\ \hline
+	
+	%
 	\endhead
 	%
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un \\ administrateur/admin.\\  habilitations, je souhaite de gérer \\ les utilisateurs de Panoramix\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\  des utilisateurs\\ \tabitem Consultation\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Création \\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite d’avoir toutes les \\ informations des boutiques à jour\end{tabular} &
+	Intégrer le module Boutique dans le projet &
 	1 \\ \hline
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un \\ administrateur/admin.\\  habilitations, je souhaite\\  d’importer(ADD) ou supprimer \\ (DEL) des utilisateurs à partir d'un\\ fichier csv\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter bouton “importer” dans \\ l’interface de gestion des\\  utilisateurs et la logique derrière \\ en fonction de structure de le \\ fichier csv\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je \\ souhaite d’affecter les utilisateurs\\ CPRO aux boutiques\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\ des affectations\\ \tabitem Consultation\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Affectation des utilisateurs\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
 	2 \\ \hline
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un \\ administrateur/admin. \\ habilitations, je souhaite\\ d’exporter les informations des \\ utilisateurs dans un fichier csv\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter bouton “exporter” dans\\ l’interface de gestion des \\ utilisateurs et la logique derrière\end{tabular} &
-	2 \\ \hline
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je \\ souhaite de gérer les rôles\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\  des rôles\\ \tabitem Consultation\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Création\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
-	1 \\ \hline
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\  souhaite de gérer les types de rôles\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion \\ des types de rôles\\ \tabitem Consultation des types de rôles.\\ \tabitem Attribution de types au rôle\\ \tabitem Modification de types\\ \tabitem Suppression de l’attribution\\ \tabitem Recherche \\ et la logique derrière\end{tabular} &
-	2 \\ \hline
-	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\  souhaite d’activer/désactiver le \\ rôles attribué à un utilisateur\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la \\ gestion des rôles\\ \tabitem Consultation\\ \tabitem Modification\\ \tabitem  Recherche\\ et la logique derrière\end{tabular} &
-	2 \\ \hline
+	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite d’exporter les\\  affectations des utilisateurs CPRO\\  aux boutiques\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}Ajouter bouton “exporter” dans\\ l’interface de gestion des\\ utilisateurs et la logique derrière\end{tabular} &
+	3 \\ \hline
+	\begin{tabular}[c]{@{}l@{}}En tant qu’un utilisateur de \\ Panoramix, je souhaite de simuler \\ la page SRCD\end{tabular} &
+	Développer une interface SRCD &
+	3 \\ \hline
 	\captionsetup{justification=centering}
-	\caption{user stories sprint 1}
-	\label{tab:user-stories-sprint1}\\
+	\caption{User stories de sprint 2}
+	\label{tab:user-stories-sprint-2}\\
 \end{longtable}
-\footnotetext{plus faible plus complexe}
 
-\section{Etude et réalisation du sprint 1}
-La deuxième partie de notre projet, qui représente le module de gestion des utilisateurs et leurs rôles, nous donne la possibilité d’ajouter la nouvelle population C’Pro.
-\subsection{Diagramme de cas d’utilisation global sprint 1}
-La figure \ref{fig:usecase-sprint1} décrit le diagramme de cas d’utilisation global du sprint 1.
+\section{Etude de réalisation du sprint 2}
+Cette section de notre projet présente les différents diagrammes de cas d’utilisation avec leurs raffinements
+\subsection{Diagramme de cas d’utilisation global sprint 2}
+La figure \ref{fig:usecase-sprint2} décrit le diagramme de cas d’utilisation global du sprint 2
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 1/usecase-Sprint1"}
-	\caption[Diagramme de cas d’utilisation global sprint 1]{Diagramme de cas d’utilisation global sprint 1}
-	\label{fig:usecase-sprint1}
+	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 2/UseCase-sprint2"}
+	\caption[Diagramme de cas d’utilisation global sprint 2]{Diagramme de cas d’utilisation global sprint 2}
+	\label{fig:usecase-sprint2}
 \end{figure}
 \subsection{Raffinement et description textuelle des diagrammes de cas d’utilisation}
 Dans cette section, nous présentons les diagrammes des cas d’utilisation détaillés et leurs descriptions textuelles.
-\subsubsection{Cas d’utilisation «Gérer utilisateurs»}
-La figure \ref{fig:usecase-gestion-users} décrit le raffinement du cas d’utilisation « Gérer utilisateurs »
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 1/usecase-gestion-users"}
-	\caption[Cas d’utilisation «Gérer utilisateurs»]{Cas d’utilisation «Gérer utilisateurs»}
-	\label{fig:usecase-gestion-users}
-\end{figure}
-\myparagraph{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs} contient la description textuelle du cas d’utilisation« Gérer Utilisateurs»
-
-\begin{table}[H]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			\rowcolor[HTML]{C0C0C0} 
-			Cas d’utilisation & Gérer utilisateurs                                                                 \\ \hline
-			Acteurs           & Administrateur, Administrateur Habilitation                                        \\ \hline
-			Résumé            & L’administrateur des habilitations ou l’administrateur peut gérer les utilisateurs \\ \hline
-			Pré-condition     & L’acteur doit être authentifié                                                     \\ \hline
-			Scénario principal &
-			\begin{tabular}[c]{@{}l@{}}Pour gérer les utilisateurs, l’acteur peut :\\ Ajouter un utilisateur\\ Modifier un utilisateur\\ Supprimer un utilisateur\\ Consulter les utilisateurs\\ Import des utilisateurs ou les supprimer en masse en\\ basant sur le champs action ( soit ADD, soit DEL)\\ Exporter les utilisateurs dans un fichier csv\end{tabular} \\ \hline
-			Post-condition    & Mettre à jour la liste des utilisateurs                                            \\ \hline
-		\end{tabular}%
-	}
-	\captionsetup{justification=centering}
-	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-	\label{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}
-\end{table}
-
-\subsubsection{Cas d’utilisation «Gérer rôles»}
-La figure \ref{fig:usecase-gestion-roles-1} illustre le raffinement du cas d’utilisation «Gérer rôles»
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=01\linewidth]{"img/conception/usecases/sprint 1/usecase-gestion-roles-1"}
-	\caption[cas d’utilisation «Gérer rôles»]{cas d’utilisation «Gérer rôles»}
-	\label{fig:usecase-gestion-roles-1}
-\end{figure}
-\myparagraph{Description textuelle du cas d’utilisation «Gérer rôles»}
-Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-roles} contient la description textuelle du cas d’utilisation «Gérer rôles».
-
+\newpage
+\subsubsection{Description textuelle du cas d’utilisation «simulation SRCD»}
+Le tableau suivant contient la description textuelle du cas d’utilisation «simulation SRCD»
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|}
 		\hline
 		\rowcolor[HTML]{C0C0C0} 
-		Cas d’utilisation & Gérer rôles                            \\ \hline
-		Acteurs           & Administrateur                         \\ \hline
-		Résumé            & L’administrateur peut gérer les rôles  \\ \hline
-		Pré-condition     & L'administrateur doit être authentifié \\ \hline
+		Cas d’utilisation & simulation SRCD                        \\ \hline
+		Acteurs           & Toute personne ayant l’accès à la page \\ \hline
+		Résumé &
+		\begin{tabular}[c]{@{}l@{}}Semble à la page bouchon qui sert à simuler le \\ mécanisme que le client est inscrit en entrant à \\ la boutique\end{tabular} \\ \hline
 		Scénario principal &
-		\begin{tabular}[c]{@{}l@{}}Pour gérer les rôles, l’administrateur peut :\\ Ajouter un rôle\\ Modifier un rôle\\ Supprimer un rôle\\ Consulter les rôles\\ gestion des types de rôles\\ activation des rôles attribué à un utilisateur\end{tabular} \\ \hline
-		Post-condition    & Mettre à jour la liste des rôles       \\ \hline
+		\begin{tabular}[c]{@{}l@{}}L’utilisateur remplit le formulaire par :\\ code edo de boutique\\ CUID de client \\ id d'établissement\end{tabular} \\ \hline
+		Post condition    & Le client sera ajouté au fil d’attente \\ \hline
 	\end{tabular}
 	\captionsetup{justification=centering}
-	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-	\label{tab:Description-textuelle-du-cas-utilisation-gerer-roles}
+	\caption{ Description textuelle du cas d’utilisation «simulation SRCD»}
+	\label{tab:descrip-text-sim-srcd}
+\end{table}
+
+\subsubsection{Description textuelle du cas d’utilisation «consultation boutiques»}
+Le tableau \ref{tab:descrip-text-consult-boutique} contient la description textuelle du cas d’utilisation «consultation boutiques»
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		Cas d’utilisation & consultation boutiques                 \\ \hline
+		Acteurs           & Administrateur                         \\ \hline
+		Résumé &
+		\begin{tabular}[c]{@{}l@{}}L’administrateur peut consulter les données \\ boutique via l’interface\end{tabular} \\ \hline
+		Précondition      & L’administrateur doit être authentifié \\ \hline
+		Scénario principal &
+		\begin{tabular}[c]{@{}l@{}}L’administrateur accède à la page des données \\ boutique, il peut faire une recherche et il peut voir \\ toutes informations concernant une boutique\end{tabular} \\ \hline
+	\end{tabular}
+	\captionsetup{justification=centering}
+	\caption{Description textuelle du cas d’utilisation «consultation boutiques»}
+	\label{tab:descrip-text-consult-boutique}
+\end{table}
+\newpage
+\subsubsection{Cas d’utilisation «affectation  utilisateurs aux boutiques»}
+La figure \ref{fig:usecase-affectation} illustre le raffinement du cas d’utilisation «affectation utilisateurs aux boutiques»
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 2/UseCase-affectation"}
+	\caption[Cas d’utilisation «affectation utilisateurs aux boutiques»]{Cas d’utilisation «affectation utilisateurs aux boutiques»}
+	\label{fig:usecase-affectation}
+\end{figure}
+\myparagraph{Description textuelle du cas d’utilisation «affectation  utilisateurs aux boutiques»}
+Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		Cas d’utilisation & Affectation utilisateurs aux boutiques                        \\ \hline
+		Acteurs           & Administrateur                                                \\ \hline
+		Résumé            & L’administrateur peut affecter des utilisateurs aux boutiques \\ \hline
+		précondition &
+		\begin{tabular}[c]{@{}l@{}}l’administrateur doit être authentifié\\ L’utilisateur doit être existant\\ La boutique doit être existante\end{tabular} \\ \hline
+		Scénario principal &
+		\begin{tabular}[c]{@{}l@{}}Pour gérer les affectations, l’administrateur peut :\\ affecter un utilisateur à une boutique\\ Modifier une affectation\\ Supprimer une affectation\\ Consulter les affectations\\ Rechercher des affectations\end{tabular} \\ \hline
+		Post condition    & Mettre à jour la liste des affectations                       \\ \hline
+	\end{tabular}
+	\captionsetup{justification=centering}
+	\caption{Description textuelle du cas d’utilisation «affectation  utilisateurs aux boutiques»}
+	\label{tab:descrip-text-affect-user-boutique}
+\end{table}
+\newpage
+\subsubsection{Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}
+Le tableau \ref{tab:descrip-text-update-boutique} contient la description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		Cas d’utilisation & Affectation utilisateurs aux boutiques \\ \hline
+		Acteurs           & Système                                \\ \hline
+		Résumé &
+		\begin{tabular}[c]{@{}l@{}}Un script Bash sera exécuté chaque matin pour\\ exploiter les fichiers xml de serveur O3 afin d’obtenir\\ les nouvelles données boutiques\end{tabular} \\ \hline
+		précondition &
+		\begin{tabular}[c]{@{}l@{}}Chaque jour les fichiers O3 doit être existes dans le\\ dossier\end{tabular} \\ \hline
+		Scénario principal &
+		\begin{tabular}[c]{@{}l@{}}Le script sera lancé chaque matin et les fichiers O3\\ seront archivés avec leurs état ( soit OK en cas de\\ succès, soit KO en cas d'échec)\end{tabular} \\ \hline
+		post condition    & Mettre à jour la liste des boutiques   \\ \hline
+	\end{tabular}
+	\caption{Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}
+	\label{tab:descrip-text-update-boutique}
 \end{table}
 
 \section{Conception}
-Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.
+Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.\newpage
 \subsection{Diagramme de classes}
-la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale.
+la figure \ref{fig:classdiag-sprint2} illustre la structure statique du sprint 2 schématisée dans un diagramme de classe globale.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/conception/classes/ClassDiag-sprint1}
-	\caption[Diagramme de classes de sprint 1]{Diagramme de classes de sprint 1}
-	\label{fig:classdiag-sprint1}
+	\includegraphics[width=0.5\linewidth]{img/conception/classes/ClassDiag-sprint2}
+	\caption[Diagramme de classes de sprint 2]{Diagramme de classes de sprint 2}
+	\label{fig:classdiag-sprint2}
 \end{figure}
-\subsection{diagramme de séquences détaillés}
+
+\subsection{Diagrammes de séquences détaillés}
 Nous allons maintenant passer à l’aspect dynamique des opérations représentées dans le diagramme de classe à l’aide des diagrammes de séquences de système et d’objets.
-\subsubsection{Quelques diagramme de séquences système de Sprint 1}
-Dans cette section, nous présenterons quelques diagrammes de séquences système de sprint 1 tels que : \newpage
-\myparagraph{Diagramme de séquences système d’«Ajouter Utilisateur»}
+\subsubsection[Quelques diagrammes de séquences système de Sprint 2]{Quelques diagrammes de séquences système de Sprint 2}
+Dans cette section, nous présenterons quelques diagrammes de séquences système de “module Boutique” tels que :
+\myparagraph{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.65\linewidth]{img/conception/sequences/add-user}
-	\caption[Diagramme de séquences système d’ «Ajouter Utilisateur»]{Diagramme de séquences système d’ «Ajouter Utilisateur»}
-	\label{fig:add-user}
+	\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 2/affectation-system"}
+	\caption[Diagramme de séquences système d’ «affecter un utilisateur au boutique»]{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}
+	\label{fig:affectation-system}
 \end{figure}
 
-\myparagraph{Diagramme de séquences système de «Supprimer Utilisateur»}
+\myparagraph{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.65\linewidth]{img/conception/sequences/delete-user}
-	\caption[Diagramme de séquences système de «Supprimer Utilisateur»]{Diagramme de séquences système de «Supprimer Utilisateur»}
-	\label{fig:delete-user}
+	\includegraphics[width=0.65\linewidth]{"img/conception/sequences/sprint 2/affectation-obj"}
+	\caption[diagramme de séquences objets d’ «affecter un utilisateur au boutique»]{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}
+	\label{fig:affectation-obj}
 \end{figure}
 
-\myparagraph{Diagramme de séquences système d’«Importer Utilisateurs»}
+\myparagraph{L'algorigramme de «mise à jour des données boutiques» }
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.65\linewidth]{img/conception/sequences/import}
-	\caption[Diagramme de séquences système d’ «Importer Utilisateur»]{Diagramme de séquences système d' «Importer Utilisateurs»}
-	\label{fig:import}
+	\includegraphics[width=0.6\linewidth]{img/conception/FlowchartDiagram-update-boutique}
+	\caption[L'algorigramme de «mise à jour des données boutiques»]{L'algorigramme de «mise à jour des données boutiques»}
+	\label{fig:flowchartdiagram-update-boutique}
 \end{figure}
 
-\subsubsection{Diagramme de séquences objets de Sprint 1}
-Nous présentons dans ce qui suit quelques diagrammes de séquences objets détaillés du \\sprint 1.
-\newpage
-\myparagraph{Diagramme de séquences objets d’«Ajouter Utilisateur» }
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.75\linewidth]{img/conception/sequences/add-user-obj}
-	\caption[Diagramme de séquences objets d’«Ajouter Utilisateur»]{Diagramme de séquences objets d’«Ajouter Utilisateur»}
-	\label{fig:add-user-obj}
-\end{figure}
-
-\myparagraph{Diagramme de séquences objets de «Supprimer Utilisateur» }
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.75\linewidth]{img/conception/sequences/delete-obj}
-	\caption[Diagramme de séquences objets de «Supprimer Utilisateur»]{Diagramme de séquences objets de «Supprimer Utilisateur»}
-	\label{fig:delete-obj}
-\end{figure}
-
-\section[Réalisation]{Réalisation}
-Dans cette sous-sections nous allons exposer les différentes interfaces réalisées dans le \\sprint 1. 
-\subsection[Interfaces de gestion des utilisateurs]{Interfaces de gestion des utilisateurs}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des utilisateurs.
+\section{Réalisation}
+Dans cette sections nous allons exposer les différentes interfaces réalisées dans le sprint 2. 
+\subsection{Interfaces de consultation boutique}
+les captures d'écran ci-dessous représentent les deux IHMs de consultation boutique.
 \begin{itemize}
-	\item Consultation des utilisateurs \& recherche
+	\item Consultation des boutiques et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{img/screenshots/users/consultation}
-		\caption[Interface consultation des utilisateurs et recherche]{Interface consultation des utilisateurs et recherche}
-		\label{fig:consultation-user}
+		\includegraphics[width=0.5\linewidth]{img/screenshots/boutique/index}
+		\caption[Interface consultation des boutiques et recherche]{Interface consultation des boutiques et recherche}
+		\label{fig:index-btq}
 	\end{figure}
 	
-	\item Voir un utilisateur
+	\item Voir les données d'une boutique
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.65\linewidth]{img/screenshots/users/view}
-		\caption[Interface voir utilisateur]{Interface voir utilisateur}
-		\label{fig:view-user}
-	\end{figure}
-
-	\item Modifier ou créer utilisateur
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.65\linewidth]{img/screenshots/users/modif}
-		\caption[Interface modifier ou créer utilisateur]{Interface modifier ou créer utilisateur}
-		\label{fig:modif-user}
-	\end{figure}
-	\newpage
-	\item Supprimer utilisateur
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.65\linewidth]{img/screenshots/users/delete}
-		\caption[Interface supprimer utilisateur]{Interface supprimer utilisateur}
-		\label{fig:delete-user-ihm}
-	\end{figure}
-
-	\item Importer utilisateurs
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.65\linewidth]{img/screenshots/users/import}
-		\caption[Interface importer utilisateurs]{Interface importer utilisateurs}
-		\label{fig:import-user-ihm}
-	\end{figure}
-
-	\item Résultat d'exportation des utilisateurs
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.65\linewidth]{img/screenshots/users/export}
-		\caption[Interface résultat d'exportation des utilisateurs]{Interface résultat d'exportation des utilisateurs}
-		\label{fig:export-user-ihm}
+		\includegraphics[width=0.5\linewidth]{img/screenshots/boutique/view}
+		\caption[Interfacevoir les données d'une boutique]{Interface voir les données d'une boutique}
+		\label{fig:view-btq}
 	\end{figure}
 \end{itemize}
 
-\subsection{Interfaces de gestion des rôles}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des rôles.
+\subsection{Interfaces de gestion des affectations}
+les captures d'écran ci-dessous représentent les différentes IHM de gestion des affectations.
 \begin{itemize}
-	\item Consultation des rôles et recherche
+	\item Consultation des affectations et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{img/screenshots/roles/index}
-		\caption[Interface consultation des rôles]{Interface consultation des rôles et recherche}
-		\label{fig:index-roles}
+		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/index"}
+		\caption[Interface consultation des affectations et recherche]{Interface consultation des affectations et recherche}
+		\label{fig:index-affectation}
 	\end{figure}
 	
-	\item Voir un rôle
+	\item Voir une affectation
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{img/screenshots/roles/view}
-		\caption[Interface voir un rôle]{Interface voir un rôle}
-		\label{fig:view-role}
+		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/view"}
+		\caption[Interface voir une affectation]{Interface voir une affectation}
+		\label{fig:view-affectation}
 	\end{figure}
 
-	\item Modifier ou créer un rôle
+	\item Affecter un utilisateur à une boutique
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{img/screenshots/roles/edit}
-		\caption[Interface modifier ou créer un rôle]{Interface modifier ou créer un rôle}
-		\label{fig:modif-role}
+		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/affectation"}
+		\caption[Interface affecter un utilisateur à une boutique]{Interface affecter un utilisateur à une boutique}
+		\label{fig:create-affectation}
 	\end{figure}
 
-	\item Supprimer un rôle
+	\item Résultat d'exportation des affectations
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{img/screenshots/roles/delete}
-		\caption[Interface sSupprimer un rôle]{Interface supprimer un rôle}
-		\label{fig:delete-role}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/affectation users-boutique/export"}
+		\caption[Interface résultat d'exportation des affectations]{Interface résultat d'exportation des affectations}
+		\label{fig:export-affectation}
 	\end{figure}
 \end{itemize}
-
-\subsection{Interfaces de gestion des types de rôles}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des types des rôles.
-\newpage
-\begin{itemize}
-	\item Consultation des types de rôles et recherche
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/index"}
-		\caption[Interface consultation de types des rôles et recherche]{Interface consultation de types des rôles et recherche}
-		\label{fig:index-tr}
-	\end{figure}
-
-	\item Voir les types d'un rôle 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/view"}
-		\caption[Interface voir les types d'un rôle]{Interface voir les types d'un rôle}
-		\label{fig:view-tr}
-	\end{figure}
-	\newpage
-	\item Donner ou modifier des type à un rôle
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/type roles/update"}
-		\caption[Interface donner des type à un rôle]{Interface donner des type à un rôle}
-		\label{fig:create-tr}
-	\end{figure}
-	
-	\item Supprimer les type d'un rôle 
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/type roles/delete"}
-		\caption[Interface supprimer les type d'un rôle]{Interface supprimer les type d'un rôle}
-		\label{fig:delete-tr}
-	\end{figure}
-\end{itemize}
-\subsection{Interfaces de gestion des activations des rôles attribués à un utilisateurs}
-les captures d'écran ci-dessous représentent les différentes IHM de des activations des rôles attribués à un utilisateurs.
-\begin{itemize}
-	\item Consultation des activations et recherche
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/activation des roles/index"}
-		\caption[Interface consultation des activations des rôles aux utilisateurs]{Interface consultation des activations des rôles aux utilisateurs}
-		\label{fig:index-activation}
-	\end{figure}
-	
-	\item Voir une activation de rôle d'un utilisateur
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/activation des roles/view"}
-		\caption[Interface voir une activation de rôle à un utilisateur]{Interface voir une activation de rôle à un utilisateur}
-		\label{fig:view-activation}
-	\end{figure}
-
-	\item Activer/désactiver un rôle d'un utilisateurs
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/activation des roles/edit"}
-		\caption[Interface activer/désactiver un rôle d'un utilisateurs]{Interface activer/désactiver un rôle d'un utilisateurs}
-		\label{fig:view-activation}
-	\end{figure}
-\end{itemize}
+\subsection{Interface de simulation SRCD}
+la capture d'écran ci-dessous représente l’interface de simulation SRCD.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{"img/screenshots/logs + srcd/screencapture-localhost-pano-pfe-panoramix-public-srcd-phtml-2020-06-11-18_18_04"}
+	\caption[Interface de simulation SRCD]{Interface de simulation SRCD}
+	\label{fig:srcd}
+\end{figure}
 
 \section*{Conclusion}
-Au cours de ce chapitre, nous avons réalisé le deuxième sprint qui permet de développer le module «Gestion des utilisateurs » et le module «Gestion des rôles» en rédigeant sa conception et donc la “release 1” est terminée. Dans le chapitre suivant, nous entamons le développement du premier sprint de release 2. 
+Dans ce chapitre, nous avons terminé le troisième sprint, qui a permis l'intégration de “module Boutique” et la gestion des affectations en rédigeant sa conception. Dans le chapitre suivant, nous commençons le sprint final de notre projet.

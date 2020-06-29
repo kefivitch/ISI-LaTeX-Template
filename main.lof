@@ -140,9 +140,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Interface activer/désactiver un rôle d'un utilisateurs}}{53}%
 \defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Sprint 2 – Module Boutique}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 2}}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Cas d’utilisation «affectation utilisateurs aux boutiques»}}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Diagramme de classes de sprint 2}}{60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces Diagramme de séquences système d’ «affecter un utilisateur au boutique»}}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces diagramme de séquences objets d’ «affecter un utilisateur au boutique»}}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {6.5}\else \textLR {5.6}\fi }{\ignorespaces L'algorigramme de «mise à jour des données boutiques»}}{62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {7.5}\else \textLR {5.7}\fi }{\ignorespaces Interface consultation des boutiques et recherche}}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {8.5}\else \textLR {5.8}\fi }{\ignorespaces Interfacevoir les données d'une boutique}}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {9.5}\else \textLR {5.9}\fi }{\ignorespaces Interface consultation des affectations et recherche}}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {10.5}\else \textLR {5.10}\fi }{\ignorespaces Interface voir une affectation}}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {11.5}\else \textLR {5.11}\fi }{\ignorespaces Interface affecter un utilisateur à une boutique}}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {12.5}\else \textLR {5.12}\fi }{\ignorespaces Interface résultat d'exportation des affectations}}{65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.5}\else \textLR {5.13}\fi }{\ignorespaces Interface de simulation SRCD}}{65}%
+\defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{57}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{69}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

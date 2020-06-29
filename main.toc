@@ -172,7 +172,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {\if@rl \I {1.3.4}\else \textLR {4.3.1}\fi }Diagramme de classes}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }diagramme de séquences détaillés}{42}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }Diagrammes de séquences détaillés}{42}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 1}{42}%
 \defcounter {refsection}{0}\relax 
@@ -200,19 +200,67 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion générale}{54}%
+\contentsline {chapter}{\numberline {\textLR {5}}\bgroup \beginL \latintext Sprint 2 – Module Boutique\endL \egroup }{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}1}Backlog sprint}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.5}\else \textLR {5.1.1}\fi }But de sprint}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.5}\else \textLR {5.1.2}\fi }User stories}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}2}Etude de réalisation du sprint 2}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.5}\else \textLR {5.2.1}\fi }Diagramme de cas d’utilisation global sprint 2}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .1}Description textuelle du cas d’utilisation «simulation SRCD»}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .2}Description textuelle du cas d’utilisation «consultation boutiques»}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .3}Cas d’utilisation «affectation utilisateurs aux boutiques»}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .4}Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}3}Conception}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.5}\else \textLR {5.3.1}\fi }Diagramme de classes}{60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi }Diagrammes de séquences détaillés}{60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi .1}Quelques diagrammes de séquences système de Sprint 2}{60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}{61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{L'algorigramme de «mise à jour des données boutiques» }{62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}4}Réalisation}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.5}\else \textLR {5.4.1}\fi }Interfaces de consultation boutique}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.5}\else \textLR {5.4.2}\fi }Interfaces de gestion des affectations}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.5}\else \textLR {5.4.3}\fi }Interface de simulation SRCD}{65}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{55}%
+\contentsline {chapter}{Conclusion générale}{66}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Annexes}{56}%
+\contentsline {chapter}{Bibliographie}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 1.~Exemple d'annexe}{56}%
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 2.~Entreprise}{57}%
+\contentsline {chapter}{Annexes}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 1.~Exemple d'annexe}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 2.~Entreprise}{69}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
