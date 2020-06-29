@@ -98,10 +98,15 @@
     \addtocounter{page}{-1}%
     \newpage}
 
+%================ my commands ================%
+\newcommand{\tabitem}{~~\llap{\textbullet}~~}
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\}
+
 %================ document main language ================%
 %\selectlanguage{english}
 \selectlanguage{french}
-
+\AddThinSpaceBeforeFootnotes % à insérer si on utilise \usepackage[french]{babel}
+\FrenchFootnotes % à insérer si on utilise \usepackage[french]{babel}
 %================== required packages ===================%
 
 \usepackage{tcolorbox}
@@ -115,3 +120,5 @@
 \usepackage{rotating}
 \usepackage{wrapfig}
 \usepackage{caption}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  29 JUN 2020 02:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  29 JUN 2020 22:31
 entering extended mode
 **./main.tex
 (main.tex
@@ -1337,6 +1337,26 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \WF@box=\box81
 \WF@everypar=\toks78
 Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\kefiv\AppData\Roaming\MiKTeX\2.9\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen314
+\lightrulewidth=\dimen315
+\cmidrulewidth=\dimen316
+\belowrulesep=\dimen317
+\belowbottomsep=\dimen318
+\aboverulesep=\dimen319
+\abovetopsep=\dimen320
+\cmidrulesep=\dimen321
+\cmidrulekern=\dimen322
+\defaultaddspace=\dimen323
+\@cmidla=\count494
+\@cmidlb=\count495
+\@aboverulesep=\dimen324
+\@belowrulesep=\dimen325
+\@thisruleclass=\count496
+\@lastruleclass=\count497
+\@thisrulewidth=\dimen326
 ))
 \@indexfile=\write9
 \openout9 = `main.idx'.
@@ -1349,10 +1369,14 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'french'.
 (E:\Softwares\MikTex\tex/latex/l3backend\l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-06-23 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count494
+\l__kernel_color_stack_int=\count498
 \l__pdf_internal_box=\box82
 ) (main.aux
-(tpl/cover_page_black.aux))
+(tpl/cover_page_black.aux)
+
+LaTeX Warning: Label `fig:view-activation' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -1442,16 +1466,16 @@ Package biblatex Info: Reference segment=0 on input line 25.
 
 (E:\Softwares\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count495
-\scratchdimen=\dimen314
+\scratchcounter=\count499
+\scratchdimen=\dimen327
 \scratchbox=\box83
-\nofMPsegments=\count496
-\nofMParguments=\count497
+\nofMPsegments=\count500
+\nofMParguments=\count501
 \everyMPshowfont=\toks79
-\MPscratchCnt=\count498
-\MPscratchDim=\dimen315
-\MPnumerator=\count499
-\makeMPintoPDFobject=\count500
+\MPscratchCnt=\count502
+\MPscratchDim=\dimen328
+\MPnumerator=\count503
+\makeMPintoPDFobject=\count504
 \everyMPtoPDFconversion=\toks80
 ) (E:\Softwares\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1511,11 +1535,11 @@ ABD: EveryShipout initializing macros (global_config.tex) (tpl/cover_page.tex
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<./img/LogoISI.png, id=4, 120.45pt x 75.28125pt>
-File: ./img/LogoISI.png Graphic file (type png)
-<use ./img/LogoISI.png>
-Package pdftex.def Info: ./img/LogoISI.png  used on input line 21.
-(pdftex.def)             Requested size: 106.41226pt x 66.50958pt.
+<img/Enicarthage.png, id=4, 401.5pt x 158.5925pt>
+File: img/Enicarthage.png Graphic file (type png)
+<use img/Enicarthage.png>
+Package pdftex.def Info: img/Enicarthage.png  used on input line 21.
+(pdftex.def)             Requested size: 106.41226pt x 42.03163pt.
 
 Overfull \hbox (9.67438pt too wide) in paragraph at lines 21--22
 [][] 
@@ -1526,11 +1550,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-<./img/Logo_UTM.png, id=6, 426.59375pt x 401.5pt>
-File: ./img/Logo_UTM.png Graphic file (type png)
-<use ./img/Logo_UTM.png>
-Package pdftex.def Info: ./img/Logo_UTM.png  used on input line 42.
-(pdftex.def)             Requested size: 78.35516pt x 73.74333pt.
+<img/UniversitÃ©_Carthage_logo.png, id=6, 140.525pt x 169.63374pt>
+File: img/UniversitÃ©_Carthage_logo.png Graphic file (type png)
+<use img/UniversitÃ©_Carthage_logo.png>
+Package pdftex.def Info: img/UniversitÃ©_Carthage_logo.png  used on input line 
+42.
+(pdftex.def)             Requested size: 78.35516pt x 94.58527pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
@@ -1541,11 +1566,16 @@ Overfull \hbox (22.76517pt too wide) in paragraph at lines 75--84
 []$[]$ 
  []
 
-<./img/Logo_Entreprise.jpg, id=7, 170.6375pt x 90.3375pt>
-File: ./img/Logo_Entreprise.jpg Graphic file (type jpg)
-<use ./img/Logo_Entreprise.jpg>
-Package pdftex.def Info: ./img/Logo_Entreprise.jpg  used on input line 114.
-(pdftex.def)             Requested size: 193.47578pt x 102.43442pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+<img/sofrecom.jpg, id=7, 485.4135pt x 300.6432pt>
+File: img/sofrecom.jpg Graphic file (type jpg)
+<use img/sofrecom.jpg>
+Package pdftex.def Info: img/sofrecom.jpg  used on input line 114.
+(pdftex.def)             Requested size: 193.47578pt x 119.8285pt.
 )
 Overfull \hbox (11.38112pt too wide) has occurred while \output is active
  []| 
@@ -1569,19 +1599,20 @@ Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 
 
-{C:/Users/kefiv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/LogoI
-SI.png> <./img/Logo_UTM.png> <./img/Logo_Entreprise.jpg>] [1
+{C:/Users/kefiv/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img/Enica
+rthage.png> <./img/UniversitÃ©_Carthage_logo.png> <./img/sofrecom.jpg>]
+[1
 
 ]
 \openout2 = `tpl/cover_page_black.aux'.
 
-
-(tpl/cover_page_black.tex
-<./img/Logo_ISI_Black.png, id=24, 120.45pt x 75.28125pt>
-File: ./img/Logo_ISI_Black.png Graphic file (type png)
-<use ./img/Logo_ISI_Black.png>
-Package pdftex.def Info: ./img/Logo_ISI_Black.png  used on input line 20.
-(pdftex.def)             Requested size: 106.41226pt x 66.50958pt.
+ (tpl/cover_page_black.tex
+<img/Enicarthage-ConvertImage.png, id=25, 401.5pt x 158.5925pt>
+File: img/Enicarthage-ConvertImage.png Graphic file (type png)
+<use img/Enicarthage-ConvertImage.png>
+Package pdftex.def Info: img/Enicarthage-ConvertImage.png  used on input line 2
+0.
+(pdftex.def)             Requested size: 106.41226pt x 42.03163pt.
 
 Overfull \hbox (9.67438pt too wide) in paragraph at lines 20--21
 [][] 
@@ -1592,11 +1623,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<./img/Logo_UTM_Black.png, id=25, 426.59375pt x 401.5pt>
-File: ./img/Logo_UTM_Black.png Graphic file (type png)
-<use ./img/Logo_UTM_Black.png>
-Package pdftex.def Info: ./img/Logo_UTM_Black.png  used on input line 41.
-(pdftex.def)             Requested size: 78.35516pt x 73.74333pt.
+<img/Universit_Carthage_logo-ConvertImage.png, id=26, 140.525pt x 169.63374pt>
+File: img/Universit_Carthage_logo-ConvertImage.png Graphic file (type png)
+<use img/Universit_Carthage_logo-ConvertImage.png>
+Package pdftex.def Info: img/Universit_Carthage_logo-ConvertImage.png  used on 
+input line 41.
+(pdftex.def)             Requested size: 78.35516pt x 94.58527pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
@@ -1607,23 +1639,28 @@ Overfull \hbox (22.76517pt too wide) in paragraph at lines 72--81
 []$[]$ 
  []
 
-<./img/Logo_Entreprise_Black.jpg, id=26, 170.6375pt x 90.3375pt>
-File: ./img/Logo_Entreprise_Black.jpg Graphic file (type jpg)
-<use ./img/Logo_Entreprise_Black.jpg>
-Package pdftex.def Info: ./img/Logo_Entreprise_Black.jpg  used on input line 11
-1.
-(pdftex.def)             Requested size: 193.47578pt x 102.43442pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+<img/sofrecom-ConvertImage.jpg, id=27, 485.4135pt x 300.6432pt>
+File: img/sofrecom-ConvertImage.jpg Graphic file (type jpg)
+<use img/sofrecom-ConvertImage.jpg>
+Package pdftex.def Info: img/sofrecom-ConvertImage.jpg  used on input line 111.
+
+(pdftex.def)             Requested size: 193.47578pt x 119.8285pt.
 
 Overfull \hbox (11.38112pt too wide) has occurred while \output is active
  []| 
  []
 
-[2 <./img/Logo_ISI_Black.png> <./img/Logo_UTM_Black.png> <./img/Logo_Entreprise
-_Black.jpg>]) (tpl/signatures.tex) (dedicaces.tex [1
+[2 <./img/Enicarthage-ConvertImage.png> <./img/Universit_Carthage_logo-ConvertI
+mage.png> <./img/sofrecom-ConvertImage.jpg>]) (tpl/signatures.tex)
+(dedicaces.tex [1
 
 
-]) (remerciement.tex
-[2
+]) (remerciement.tex [2
 
 ])
 Package minitoc Info: I0024
@@ -1670,7 +1707,7 @@ Package biblatex Info: ... file 'arabic.lbx' not found.
 
 
 Package biblatex Warning: Language 'arabic' not supported.
-(biblatex)                Using fallback language 'french' on input line 172.
+(biblatex)                Using fallback language 'french' on input line 216.
 
 )
 \tf@toc=\write10
@@ -1678,32 +1715,37 @@ Package biblatex Warning: Language 'arabic' not supported.
 
  [6] (main.lof [7
 
-])
+] [8])
 \tf@lof=\write11
 \openout11 = `main.lof'.
 
- [8] (main.lot)
+ [9] (main.lot)
 \tf@lot=\write12
 \openout12 = `main.lot'.
 
- (acronymes.tex [9
+ (acronymes.tex [10
 
 ]
 \dtldb@list=\toks81
 \dtlkeys@list=\toks82
-\dtlrows@list=\count501
-\dtlcols@list=\count502
+\dtlrows@list=\count505
+\dtlcols@list=\count506
 
-Overfull \hbox (32.22548pt too wide) in paragraph at lines 18--18
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 22--22
 []$[]$ $[]$ $[]$ 
  []
 
 
-Overfull \hbox (32.22548pt too wide) in paragraph at lines 18--18
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 22--22
 []$[]$ $[]$ $[]$ 
  []
 
-) [10
+
+Overfull \hbox (32.22548pt too wide) in paragraph at lines 22--22
+[]$[]$ $[]$ $[]$ 
+ []
+
+) [11
 
 ] (introduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
@@ -1761,14 +1803,14 @@ Overfull \hbox (4.9911pt too wide) in paragraph at lines 9--12
 nts lo-gi-ciels ou ma-té-riels qui in-ter-agissent
  []
 
-<img/conception/usecases/actors.jpg, id=96, 593.21625pt x 129.48375pt>
+<img/conception/usecases/actors.jpg, id=99, 593.21625pt x 129.48375pt>
 File: img/conception/usecases/actors.jpg Graphic file (type jpg)
 <use img/conception/usecases/actors.jpg>
 Package pdftex.def Info: img/conception/usecases/actors.jpg  used on input line
  20.
 (pdftex.def)             Requested size: 330.61958pt x 72.16858pt.
 [8 <./img/conception/usecases/actors.jpg>]
-<img/conception/usecases/UseCaseDiagram-global.jpg, id=100, 1556.81625pt x 742.
+<img/conception/usecases/UseCaseDiagram-global.jpg, id=103, 1556.81625pt x 742.
 775pt>
 File: img/conception/usecases/UseCaseDiagram-global.jpg Graphic file (type jpg)
 
@@ -1789,13 +1831,13 @@ elle per-met d'op-ti-mi-ser la pro-duc-ti-vité
  []
 
 [11]
-<img/scrum.png, id=110, 568.37344pt x 295.1025pt>
+<img/scrum.png, id=114, 568.37344pt x 295.1025pt>
 File: img/scrum.png Graphic file (type png)
 <use img/scrum.png>
 Package pdftex.def Info: img/scrum.png  used on input line 96.
 (pdftex.def)             Requested size: 425.08128pt x 220.71391pt.
  [12 <./img/scrum.png>] [13]
-<img/logos/eclipse.png, id=119, 1284.8pt x 301.125pt>
+<img/logos/eclipse.png, id=122, 1284.8pt x 301.125pt>
 File: img/logos/eclipse.png Graphic file (type png)
 <use img/logos/eclipse.png>
 Package pdftex.def Info: img/logos/eclipse.png  used on input line 179.
@@ -1807,22 +1849,22 @@ pro-gram-ma-tion via des plug-ins, no-tam-ment
  []
 
 [14 <./img/logos/eclipse.png>]
-<img/logos/vscode.png, id=124, 403.5075pt x 210.7875pt>
+<img/logos/vscode.png, id=127, 403.5075pt x 210.7875pt>
 File: img/logos/vscode.png Graphic file (type png)
 <use img/logos/vscode.png>
 Package pdftex.def Info: img/logos/vscode.png  used on input line 187.
 (pdftex.def)             Requested size: 141.69615pt x 74.02116pt.
-<img/logos/laragon.png, id=125, 32.50525pt x 12.96599pt>
+<img/logos/laragon.png, id=128, 32.50525pt x 12.96599pt>
 File: img/logos/laragon.png Graphic file (type png)
 <use img/logos/laragon.png>
 Package pdftex.def Info: img/logos/laragon.png  used on input line 194.
 (pdftex.def)             Requested size: 141.69615pt x 56.52992pt.
-<img/logos/apache.png, id=126, 1204.5pt x 459.7175pt>
+<img/logos/apache.png, id=129, 1204.5pt x 459.7175pt>
 File: img/logos/apache.png Graphic file (type png)
 <use img/logos/apache.png>
 Package pdftex.def Info: img/logos/apache.png  used on input line 201.
 (pdftex.def)             Requested size: 141.69615pt x 54.07643pt.
-<img/logos/mariadb.png, id=127, 501.875pt x 155.58125pt>
+<img/logos/mariadb.png, id=130, 501.875pt x 155.58125pt>
 File: img/logos/mariadb.png Graphic file (type png)
 <use img/logos/mariadb.png>
 Package pdftex.def Info: img/logos/mariadb.png  used on input line 209.
@@ -1833,19 +1875,19 @@ Overfull \hbox (4.09161pt too wide) in paragraph at lines 206--212
  pro-jet est as-su-rée par la Fon-da-tion
  []
 
-<img/logos/HeidiSQL.png, id=128, 487.8225pt x 487.8225pt>
+<img/logos/HeidiSQL.png, id=131, 487.8225pt x 487.8225pt>
 File: img/logos/HeidiSQL.png Graphic file (type png)
 <use img/logos/HeidiSQL.png>
 Package pdftex.def Info: img/logos/HeidiSQL.png  used on input line 217.
 (pdftex.def)             Requested size: 37.78612pt x 37.78351pt.
 [15 <./img/logos/vscode.png> <./img/logos/laragon.png> <./img/logos/apache.png>
  <./img/logos/mariadb.png>]
-<img/logos/selenium.png, id=136, 160.6pt x 160.6pt>
+<img/logos/selenium.png, id=139, 160.6pt x 160.6pt>
 File: img/logos/selenium.png Graphic file (type png)
 <use img/logos/selenium.png>
 Package pdftex.def Info: img/logos/selenium.png  used on input line 229.
 (pdftex.def)             Requested size: 37.78612pt x 37.78511pt.
-<img/logos/robot-framework.png, id=137, 602.25pt x 316.18124pt>
+<img/logos/robot-framework.png, id=140, 602.25pt x 316.18124pt>
 File: img/logos/robot-framework.png Graphic file (type png)
 <use img/logos/robot-framework.png>
 Package pdftex.def Info: img/logos/robot-framework.png  used on input line 237.
@@ -1857,7 +1899,7 @@ Overfull \hbox (25.36266pt too wide) in paragraph at lines 234--240
 ts dis-tri-bués et hé-té-ro-gènes, où l'au-to-ma-ti-sa-tion
  []
 
-<img/logos/jenkins.png, id=138, 798.985pt x 399.4925pt>
+<img/logos/jenkins.png, id=141, 798.985pt x 399.4925pt>
 File: img/logos/jenkins.png Graphic file (type png)
 <use img/logos/jenkins.png>
 Package pdftex.def Info: img/logos/jenkins.png  used on input line 244.
@@ -1869,28 +1911,28 @@ Overfull \hbox (8.58244pt too wide) in paragraph at lines 250--251
 ous per-met de confi-gu-rer tous les as-pects des no-ti-fi-ca-tions
  []
 
-<img/logos/js.png, id=145, 1204.5pt x 1204.5pt>
+<img/logos/js.png, id=148, 1204.5pt x 1204.5pt>
 File: img/logos/js.png Graphic file (type png)
 <use img/logos/js.png>
 Package pdftex.def Info: img/logos/js.png  used on input line 254.
 (pdftex.def)             Requested size: 61.40335pt x 61.38641pt.
-<img/logos/jquery.jpg, id=146, 513.92pt x 136.51pt>
+<img/logos/jquery.jpg, id=149, 513.92pt x 136.51pt>
 File: img/logos/jquery.jpg Graphic file (type jpg)
 <use img/logos/jquery.jpg>
 Package pdftex.def Info: img/logos/jquery.jpg  used on input line 262.
 (pdftex.def)             Requested size: 141.69615pt x 37.63722pt.
 [17 <./img/logos/jenkins.png (PNG copy)> <./img/logos/js.png>]
-<img/logos/axios.png, id=151, 393.47pt x 160.6pt>
+<img/logos/axios.png, id=155, 393.47pt x 160.6pt>
 File: img/logos/axios.png Graphic file (type png)
 <use img/logos/axios.png>
 Package pdftex.def Info: img/logos/axios.png  used on input line 270.
 (pdftex.def)             Requested size: 141.69615pt x 57.8331pt.
-<img/logos/html5.png, id=152, 225.84375pt x 225.84375pt>
+<img/logos/html5.png, id=156, 225.84375pt x 225.84375pt>
 File: img/logos/html5.png Graphic file (type png)
 <use img/logos/html5.png>
 Package pdftex.def Info: img/logos/html5.png  used on input line 278.
 (pdftex.def)             Requested size: 94.4617pt x 94.46431pt.
-<img/logos/php.png, id=153, 1204.5pt x 650.43pt>
+<img/logos/php.png, id=157, 1204.5pt x 650.43pt>
 File: img/logos/php.png Graphic file (type png)
 <use img/logos/php.png>
 Package pdftex.def Info: img/logos/php.png  used on input line 286.
@@ -1907,7 +1949,7 @@ Overfull \hbox (0.49808pt too wide) in paragraph at lines 283--289
  quel lan-gage in-ter-prété lo-ca-le-ment.
  []
 
-<img/logos/oft.png, id=154, 361.35pt x 176.54529pt>
+<img/logos/oft.png, id=158, 361.35pt x 176.54529pt>
 File: img/logos/oft.png Graphic file (type png)
 <use img/logos/oft.png>
 Package pdftex.def Info: img/logos/oft.png  used on input line 295.
@@ -1920,26 +1962,26 @@ u-rité pour ac-com-pa-gner les dé-ve-lop-pe-ments,
 
 [18 <./img/logos/jquery.jpg> <./img/logos/axios.png> <./img/logos/html5.png> <.
 /img/logos/php.png>]
-<img/logos/boosted.png, id=162, 311.95683pt x 231.88791pt>
+<img/logos/boosted.png, id=165, 311.95683pt x 231.88791pt>
 File: img/logos/boosted.png Graphic file (type png)
 <use img/logos/boosted.png>
 Package pdftex.def Info: img/logos/boosted.png  used on input line 304.
 (pdftex.def)             Requested size: 94.4617pt x 70.21442pt.
-<img/jenkins.png, id=163, 302.8113pt x 279.2031pt>
+<img/jenkins.png, id=166, 302.8113pt x 279.2031pt>
 File: img/jenkins.png Graphic file (type png)
 <use img/jenkins.png>
 Package pdftex.def Info: img/jenkins.png  used on input line 317.
 (pdftex.def)             Requested size: 236.15787pt x 217.75197pt.
  [19 <./img/logos/oft.png> <./img/logos/boosted.png>]
 [20 <./img/jenkins.png>]
-<img/architectures-3tiers-web.jpg, id=172, 525.965pt x 142.5325pt>
+<img/architectures-3tiers-web.jpg, id=175, 525.965pt x 142.5325pt>
 File: img/architectures-3tiers-web.jpg Graphic file (type jpg)
 <use img/architectures-3tiers-web.jpg>
 Package pdftex.def Info: img/architectures-3tiers-web.jpg  used on input line 3
 42.
 (pdftex.def)             Requested size: 330.61958pt x 89.59802pt.
  [21 <./img/architectures-3tiers-web.jpg>]
-<img/mvc.png, id=176, 720.6925pt x 453.695pt>
+<img/mvc.png, id=179, 720.6925pt x 453.695pt>
 File: img/mvc.png Graphic file (type png)
 <use img/mvc.png>
 Package pdftex.def Info: img/mvc.png  used on input line 368.
@@ -1964,59 +2006,59 @@ lète d'amé-lio-ra-tions et de fonc-tion-na-li-tés,
  []
 
 [26]
-<img/oft-3.png, id=193, 724.95844pt x 305.64188pt>
+<img/oft-3.png, id=196, 724.95844pt x 305.64188pt>
 File: img/oft-3.png Graphic file (type png)
 <use img/oft-3.png>
 Package pdftex.def Info: img/oft-3.png  used on input line 68.
 (pdftex.def)             Requested size: 330.61958pt x 139.38905pt.
  [27 <./img/oft-3.png (PNG copy)>]
-<img/excel robot.png, id=197, 931.22906pt x 386.94562pt>
+<img/excel robot.png, id=200, 931.22906pt x 386.94562pt>
 File: img/excel robot.png Graphic file (type png)
 <use img/excel robot.png>
 Package pdftex.def Info: img/excel robot.png  used on input line 93.
 (pdftex.def)             Requested size: 472.31575pt x 196.25325pt.
  [28 <./img/excel robot.png>]
-<img/jenkins/creation projet.png, id=202, 1511.6475pt x 333.245pt>
+<img/jenkins/creation projet.png, id=205, 1511.6475pt x 333.245pt>
 File: img/jenkins/creation projet.png Graphic file (type png)
 <use img/jenkins/creation projet.png>
 Package pdftex.def Info: img/jenkins/creation projet.png  used on input line 10
 3.
 (pdftex.def)             Requested size: 425.08128pt x 93.70966pt.
-<img/jenkins/xvfb.png, id=203, 744.53156pt x 131.74219pt>
+<img/jenkins/xvfb.png, id=206, 744.53156pt x 131.74219pt>
 File: img/jenkins/xvfb.png Graphic file (type png)
 <use img/jenkins/xvfb.png>
 Package pdftex.def Info: img/jenkins/xvfb.png  used on input line 114.
 (pdftex.def)             Requested size: 425.08128pt x 75.21844pt.
-<img/jenkins/email.png, id=204, 758.835pt x 67.75313pt>
+<img/jenkins/email.png, id=207, 758.835pt x 67.75313pt>
 File: img/jenkins/email.png Graphic file (type png)
 <use img/jenkins/email.png>
 Package pdftex.def Info: img/jenkins/email.png  used on input line 122.
 (pdftex.def)             Requested size: 425.08128pt x 37.95389pt.
  [29 <./img/jenkins/creation projet.png> <./img/jenkins/xvfb.png> <./img/jenkin
 s/email.png>]
-<img/jenkins/env-build.png, id=211, 658.71094pt x 286.82156pt>
+<img/jenkins/env-build.png, id=215, 658.71094pt x 286.82156pt>
 File: img/jenkins/env-build.png Graphic file (type png)
 <use img/jenkins/env-build.png>
 Package pdftex.def Info: img/jenkins/env-build.png  used on input line 137.
 (pdftex.def)             Requested size: 330.61958pt x 143.96185pt.
-<img/jenkins/source.png, id=212, 1055.945pt x 601.24625pt>
+<img/jenkins/source.png, id=216, 1055.945pt x 601.24625pt>
 File: img/jenkins/source.png Graphic file (type png)
 <use img/jenkins/source.png>
 Package pdftex.def Info: img/jenkins/source.png  used on input line 145.
 (pdftex.def)             Requested size: 330.61958pt x 188.24678pt.
-<img/jenkins/declanchement.png, id=213, 1055.945pt x 475.7775pt>
+<img/jenkins/declanchement.png, id=217, 1055.945pt x 475.7775pt>
 File: img/jenkins/declanchement.png Graphic file (type png)
 <use img/jenkins/declanchement.png>
 Package pdftex.def Info: img/jenkins/declanchement.png  used on input line 155.
 
 (pdftex.def)             Requested size: 377.85403pt x 170.24887pt.
  [30 <./img/jenkins/env-build.png> <./img/jenkins/source.png>]
-<img/jenkins/build.png, id=220, 1055.945pt x 385.44pt>
+<img/jenkins/build.png, id=223, 1055.945pt x 385.44pt>
 File: img/jenkins/build.png Graphic file (type png)
 <use img/jenkins/build.png>
 Package pdftex.def Info: img/jenkins/build.png  used on input line 165.
 (pdftex.def)             Requested size: 377.85403pt x 137.92314pt.
-<img/jenkins/actions after.png, id=221, 1055.945pt x 1077.02374pt>
+<img/jenkins/actions after.png, id=224, 1055.945pt x 1077.02374pt>
 File: img/jenkins/actions after.png Graphic file (type png)
 <use img/jenkins/actions after.png>
 Package pdftex.def Info: img/jenkins/actions after.png  used on input line 174.
@@ -2024,20 +2066,20 @@ Package pdftex.def Info: img/jenkins/actions after.png  used on input line 174.
 (pdftex.def)             Requested size: 472.31575pt x 481.73096pt.
  [31 <./img/jenkins/declanchement.png> <./img/jenkins/build.png>] [32 <./img/je
 nkins/actions after.png>]
-<img/jenkins/exemple console.png, id=231, 984.67876pt x 1122.1925pt>
+<img/jenkins/exemple console.png, id=234, 984.67876pt x 1122.1925pt>
 File: img/jenkins/exemple console.png Graphic file (type png)
 <use img/jenkins/exemple console.png>
 Package pdftex.def Info: img/jenkins/exemple console.png  used on input line 18
 4.
 (pdftex.def)             Requested size: 472.31575pt x 538.2867pt.
  [33 <./img/jenkins/exemple console.png>]
-<img/jenkins/exemple report.png, id=236, 861.2175pt x 894.34125pt>
+<img/jenkins/exemple report.png, id=239, 861.2175pt x 894.34125pt>
 File: img/jenkins/exemple report.png Graphic file (type png)
 <use img/jenkins/exemple report.png>
 Package pdftex.def Info: img/jenkins/exemple report.png  used on input line 193
 .
 (pdftex.def)             Requested size: 259.7751pt x 269.76462pt.
-<img/jenkins/exemple log.png, id=237, 853.1875pt x 744.7825pt>
+<img/jenkins/exemple log.png, id=240, 853.1875pt x 744.7825pt>
 File: img/jenkins/exemple log.png Graphic file (type png)
 <use img/jenkins/exemple log.png>
 Package pdftex.def Info: img/jenkins/exemple log.png  used on input line 200.
@@ -2047,7 +2089,7 @@ Package pdftex.def Info: img/jenkins/exemple log.png  used on input line 200.
 Chapitre \textLR{4}.
 
 LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
-(Font)              using `T1/cmr/bx/it' instead on input line 1.
+(Font)              using `T1/cmr/bx/it' instead on input line 2.
 
 \openout5 = `main.mtc'.
 
@@ -2056,7 +2098,236 @@ LaTeX Font Warning: Font shape `T1/cmr/bx/scit' undefined
 (main.mtc5) [36
 
 
-]) [37] (conclusion.tex
+]
+Overfull \hbox (15.77325pt too wide) in paragraph at lines 10--12
+[]\T1/cmr/m/n/10.95 La pre-mière règle à suivre avant de se lan-cer dans un spr
+int, l'équipe SCRUM doit obli-ga-toi-re-ment
+ []
+
+[37] [38]
+<img/conception/usecases/sprint 1/usecase-Sprint1.jpg, id=260, 886.31125pt x 28
+2.05376pt>
+File: img/conception/usecases/sprint 1/usecase-Sprint1.jpg Graphic file (type j
+pg)
+<use img/conception/usecases/sprint 1/usecase-Sprint1.jpg>
+Package pdftex.def Info: img/conception/usecases/sprint 1/usecase-Sprint1.jpg  
+used on input line 52.
+(pdftex.def)             Requested size: 330.61958pt x 105.2147pt.
+
+Overfull \hbox (25.8839pt too wide) in paragraph at lines 56--56
+ |[]\T1/cmr/bx/n/12 Raffinement et des-crip-tion tex-tuelle des dia-grammes de 
+cas d'uti-li-sa-tion| 
+ []
+
+[39 <./img/conception/usecases/sprint 1/usecase-Sprint1.jpg>]
+<img/conception/usecases/sprint 1/usecase-gestion-users.jpg, id=264, 891.33pt x
+ 386.44376pt>
+File: img/conception/usecases/sprint 1/usecase-gestion-users.jpg Graphic file (
+type jpg)
+<use img/conception/usecases/sprint 1/usecase-gestion-users.jpg>
+Package pdftex.def Info: img/conception/usecases/sprint 1/usecase-gestion-users
+.jpg  used on input line 62.
+(pdftex.def)             Requested size: 330.61958pt x 143.34164pt.
+<img/conception/usecases/sprint 1/usecase-gestion-roles-1.jpg, id=265, 936.4987
+5pt x 309.155pt>
+File: img/conception/usecases/sprint 1/usecase-gestion-roles-1.jpg Graphic file
+ (type jpg)
+<use img/conception/usecases/sprint 1/usecase-gestion-roles-1.jpg>
+Package pdftex.def Info: img/conception/usecases/sprint 1/usecase-gestion-roles
+-1.jpg  used on input line 92.
+(pdftex.def)             Requested size: 472.31575pt x 155.92154pt.
+ [40 <./img/conception/usecases/sprint 1/usecase-gestion-users.jpg>]
+<img/conception/classes/ClassDiag-sprint1.jpg, id=269, 550.055pt x 426.59375pt>
+
+File: img/conception/classes/ClassDiag-sprint1.jpg Graphic file (type jpg)
+<use img/conception/classes/ClassDiag-sprint1.jpg>
+Package pdftex.def Info: img/conception/classes/ClassDiag-sprint1.jpg  used on 
+input line 123.
+(pdftex.def)             Requested size: 330.61958pt x 256.42038pt.
+ [41 <./img/conception/usecases/sprint 1/usecase-gestion-roles-1.jpg>] [42 <./i
+mg/conception/classes/ClassDiag-sprint1.jpg>]
+<img/conception/sequences/add-user.jpg, id=277, 1497.595pt x 1389.19pt>
+File: img/conception/sequences/add-user.jpg Graphic file (type jpg)
+<use img/conception/sequences/add-user.jpg>
+Package pdftex.def Info: img/conception/sequences/add-user.jpg  used on input l
+ine 134.
+(pdftex.def)             Requested size: 307.00235pt x 284.7646pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--137
+
+ []
+
+<img/conception/sequences/delete-user.jpg, id=278, 1774.63pt x 1425.325pt>
+File: img/conception/sequences/delete-user.jpg Graphic file (type jpg)
+<use img/conception/sequences/delete-user.jpg>
+Package pdftex.def Info: img/conception/sequences/delete-user.jpg  used on inpu
+t line 142.
+(pdftex.def)             Requested size: 307.00235pt x 246.56479pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--145
+
+ []
+
+<img/conception/sequences/import.jpg, id=279, 1593.955pt x 1895.08pt>
+File: img/conception/sequences/import.jpg Graphic file (type jpg)
+<use img/conception/sequences/import.jpg>
+Package pdftex.def Info: img/conception/sequences/import.jpg  used on input lin
+e 150.
+(pdftex.def)             Requested size: 307.00235pt x 364.98476pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--153
+
+ []
+
+[43 <./img/conception/sequences/add-user.jpg> <./img/conception/sequences/delet
+e-user.jpg>] [44 <./img/conception/sequences/import.jpg>]
+<img/conception/sequences/add-user-obj.jpg, id=286, 2095.83pt x 1678.27pt>
+File: img/conception/sequences/add-user-obj.jpg Graphic file (type jpg)
+<use img/conception/sequences/add-user-obj.jpg>
+Package pdftex.def Info: img/conception/sequences/add-user-obj.jpg  used on inp
+ut line 161.
+(pdftex.def)             Requested size: 354.2368pt x 283.63759pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
+
+ []
+
+<img/conception/sequences/delete-obj.jpg, id=287, 2268.475pt x 1401.235pt>
+File: img/conception/sequences/delete-obj.jpg Graphic file (type jpg)
+<use img/conception/sequences/delete-obj.jpg>
+Package pdftex.def Info: img/conception/sequences/delete-obj.jpg  used on input
+ line 169.
+(pdftex.def)             Requested size: 354.2368pt x 218.79276pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
+
+ []
+
+[45 <./img/conception/sequences/add-user-obj.jpg> <./img/conception/sequences/d
+elete-obj.jpg>]
+<img/screenshots/users/consultation.png, id=291, 1371.1225pt x 2032.59375pt>
+File: img/screenshots/users/consultation.png Graphic file (type png)
+<use img/screenshots/users/consultation.png>
+Package pdftex.def Info: img/screenshots/users/consultation.png  used on input 
+line 182.
+(pdftex.def)             Requested size: 330.61958pt x 490.12756pt.
+<img/screenshots/users/view.png, id=292, 1371.1225pt x 1170.3725pt>
+File: img/screenshots/users/view.png Graphic file (type png)
+<use img/screenshots/users/view.png>
+Package pdftex.def Info: img/screenshots/users/view.png  used on input line 190
+.
+(pdftex.def)             Requested size: 307.00235pt x 262.0545pt.
+ [46 <./img/screenshots/users/consultation.png>]
+<img/screenshots/users/modif.png, id=297, 1371.1225pt x 1230.5975pt>
+File: img/screenshots/users/modif.png Graphic file (type png)
+<use img/screenshots/users/modif.png>
+Package pdftex.def Info: img/screenshots/users/modif.png  used on input line 19
+8.
+(pdftex.def)             Requested size: 307.00235pt x 275.53929pt.
+ [47 <./img/screenshots/users/view.png> <./img/screenshots/users/modif.png>]
+<img/screenshots/users/delete.png, id=304, 1371.1225pt x 610.28pt>
+File: img/screenshots/users/delete.png Graphic file (type png)
+<use img/screenshots/users/delete.png>
+Package pdftex.def Info: img/screenshots/users/delete.png  used on input line 2
+06.
+(pdftex.def)             Requested size: 307.00235pt x 136.6459pt.
+<img/screenshots/users/import.png, id=305, 1371.1225pt x 1048.91875pt>
+File: img/screenshots/users/import.png Graphic file (type png)
+<use img/screenshots/users/import.png>
+Package pdftex.def Info: img/screenshots/users/import.png  used on input line 2
+14.
+(pdftex.def)             Requested size: 307.00235pt x 234.86017pt.
+<img/screenshots/users/export.png, id=306, 1014.03844pt x 395.97937pt>
+File: img/screenshots/users/export.png Graphic file (type png)
+<use img/screenshots/users/export.png>
+Package pdftex.def Info: img/screenshots/users/export.png  used on input line 2
+22.
+(pdftex.def)             Requested size: 307.00235pt x 119.88231pt.
+ [48 <./img/screenshots/users/delete.png> <./img/screenshots/users/import.png> 
+<./img/screenshots/users/export.png>]
+<img/screenshots/roles/index.png, id=313, 1371.1225pt x 1697.34125pt>
+File: img/screenshots/roles/index.png Graphic file (type png)
+<use img/screenshots/roles/index.png>
+Package pdftex.def Info: img/screenshots/roles/index.png  used on input line 23
+4.
+(pdftex.def)             Requested size: 283.39232pt x 350.80614pt.
+<img/screenshots/roles/view.png, id=314, 1371.1225pt x 809.0225pt>
+File: img/screenshots/roles/view.png Graphic file (type png)
+<use img/screenshots/roles/view.png>
+Package pdftex.def Info: img/screenshots/roles/view.png  used on input line 242
+.
+(pdftex.def)             Requested size: 283.39232pt x 167.2086pt.
+<img/screenshots/roles/edit.png, id=315, 1371.1225pt x 869.2475pt>
+File: img/screenshots/roles/edit.png Graphic file (type png)
+<use img/screenshots/roles/edit.png>
+Package pdftex.def Info: img/screenshots/roles/edit.png  used on input line 250
+.
+(pdftex.def)             Requested size: 330.61958pt x 209.60516pt.
+ [49 <./img/screenshots/roles/index.png> <./img/screenshots/roles/view.png>]
+<img/screenshots/roles/delete.png, id=321, 1371.1225pt x 610.28pt>
+File: img/screenshots/roles/delete.png Graphic file (type png)
+<use img/screenshots/roles/delete.png>
+Package pdftex.def Info: img/screenshots/roles/delete.png  used on input line 2
+58.
+(pdftex.def)             Requested size: 330.61958pt x 147.15929pt.
+ [50 <./img/screenshots/roles/edit.png> <./img/screenshots/roles/delete.png>]
+<img/screenshots/type roles/index.png, id=327, 1371.1225pt x 1305.87875pt>
+File: img/screenshots/type roles/index.png Graphic file (type png)
+<use img/screenshots/type roles/index.png>
+Package pdftex.def Info: img/screenshots/type roles/index.png  used on input li
+ne 271.
+(pdftex.def)             Requested size: 330.61958pt x 314.89183pt.
+<img/screenshots/type roles/view.png, id=328, 1371.1225pt x 659.46375pt>
+File: img/screenshots/type roles/view.png Graphic file (type png)
+<use img/screenshots/type roles/view.png>
+Package pdftex.def Info: img/screenshots/type roles/view.png  used on input lin
+e 279.
+(pdftex.def)             Requested size: 330.61958pt x 159.01917pt.
+ [51 <./img/screenshots/type roles/index.png> <./img/screenshots/type roles/vie
+w.png>]
+<img/screenshots/type roles/update.png, id=334, 1371.1225pt x 659.46375pt>
+File: img/screenshots/type roles/update.png Graphic file (type png)
+<use img/screenshots/type roles/update.png>
+Package pdftex.def Info: img/screenshots/type roles/update.png  used on input l
+ine 287.
+(pdftex.def)             Requested size: 236.15787pt x 113.57649pt.
+<img/screenshots/type roles/delete.png, id=335, 1371.1225pt x 659.46375pt>
+File: img/screenshots/type roles/delete.png Graphic file (type png)
+<use img/screenshots/type roles/delete.png>
+Package pdftex.def Info: img/screenshots/type roles/delete.png  used on input l
+ine 295.
+(pdftex.def)             Requested size: 236.15787pt x 113.57649pt.
+
+Overfull \hbox (22.44861pt too wide) in paragraph at lines 300--300
+ |[]\T1/cmr/bx/n/12 Interfaces de ges-tion des ac-ti-va-tions des rôles at-tri-
+bués à un uti-li-sa-teurs| 
+ []
+
+<img/screenshots/activation des roles/index.png, id=336, 1371.1225pt x 1064.978
+74pt>
+File: img/screenshots/activation des roles/index.png Graphic file (type png)
+<use img/screenshots/activation des roles/index.png>
+Package pdftex.def Info: img/screenshots/activation des roles/index.png  used o
+n input line 306.
+(pdftex.def)             Requested size: 236.15787pt x 183.41652pt.
+<img/screenshots/activation des roles/view.png, id=337, 1371.1225pt x 659.46375
+pt>
+File: img/screenshots/activation des roles/view.png Graphic file (type png)
+<use img/screenshots/activation des roles/view.png>
+Package pdftex.def Info: img/screenshots/activation des roles/view.png  used on
+ input line 314.
+(pdftex.def)             Requested size: 330.61958pt x 159.01917pt.
+[52 <./img/screenshots/type roles/update.png> <./img/screenshots/type roles/del
+ete.png> <./img/screenshots/activation des roles/index.png>]
+<img/screenshots/activation des roles/edit.png, id=344, 1371.1225pt x 615.29875
+pt>
+File: img/screenshots/activation des roles/edit.png Graphic file (type png)
+<use img/screenshots/activation des roles/edit.png>
+Package pdftex.def Info: img/screenshots/activation des roles/edit.png  used on
+ input line 322.
+(pdftex.def)             Requested size: 330.61958pt x 148.36948pt.
+) [53 <./img/screenshots/activation des roles/view.png> <./img/screenshots/acti
+vation des roles/edit.png>] (conclusion.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -2066,7 +2337,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-) [38
+) [54
 
 
 ]
@@ -2074,21 +2345,22 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
 7.
  (E:\Softwares\MikTex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) (annexes.tex [39
+) (annexes.tex [55
 
 
 ]
 Underfull \vbox (badness 10000) detected at line 33
  []
 
-[40
+[56
 
 ]
+<./img/Logo_Entreprise.jpg, id=362, 170.6375pt x 90.3375pt>
 File: ./img/Logo_Entreprise.jpg Graphic file (type jpg)
 <use ./img/Logo_Entreprise.jpg>
 Package pdftex.def Info: ./img/Logo_Entreprise.jpg  used on input line 45.
 (pdftex.def)             Requested size: 212.54063pt x 112.52872pt.
-) [41] (tpl/resume.tex
+) [57 <./img/Logo_Entreprise.jpg>] (tpl/resume.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -2193,32 +2465,35 @@ Make it at least 4.08003pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[42
+[58
 
 
 
 ] (main.aux (tpl/cover_page_black.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30705 strings out of 480790
- 548225 string characters out of 2908936
- 1258995 words of memory out of 3000000
- 45843 multiletter control sequences out of 15000+200000
- 581137 words of font info for 74 fonts, out of 3000000 for 9000
+ 31031 strings out of 480790
+ 558929 string characters out of 2908936
+ 1262561 words of memory out of 3000000
+ 46128 multiletter control sequences out of 15000+200000
+ 581901 words of font info for 75 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,18n,100p,1341b,3744s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,18n,100p,1341b,3742s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecbx1728.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecrm1000.pk>{E:/Softwares/MikTex/fonts/enc/dvips/arabi/ararabeyes.enc
 } <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
 ctt1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
 c/dpi600\eccc1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
-jknappen/ec/dpi600\ecti1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\kefiv\AppData\Loc
+jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\
+2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Users\kefiv\AppData\Loc
 al\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2488.pk> <C:\Users\kefiv\A
 ppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1095.pk> <C:\Use
 rs\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.p
@@ -2228,19 +2503,20 @@ ec/dpi600\ecrm0900.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts
 /pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\kefiv\AppData\Local\MiKTeX
 \2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\kefiv\AppData\Lo
-cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\kefiv\
-AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Us
-ers\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.
+cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\kefiv\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Us
+ers\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.
 pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecrm1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx1200.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\font
-s/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk><E:/Softwares/MikTex/fonts/type1/ara
-bi/arabeyes/ae_almateen.pfb><E:/Softwares/MikTex/fonts/type1/arabi/arabeyes/ae_
-almohanad_bold.pfb>
-Output written on main.pdf (55 pages, 2165791 bytes).
+\ecbx1440.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
+r/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\font
+s/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\kefiv\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk><E:/Softwares/MikTex/fonts
+/type1/arabi/arabeyes/ae_almateen.pfb><E:/Softwares/MikTex/fonts/type1/arabi/ar
+abeyes/ae_almohanad_bold.pfb>
+Output written on main.pdf (72 pages, 3963494 bytes).
 PDF statistics:
- 1009 PDF objects out of 1200 (max. 8388607)
+ 1128 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

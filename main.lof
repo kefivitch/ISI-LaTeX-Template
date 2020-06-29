@@ -86,11 +86,63 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Réalisation}{37}%
+\contentsline {xchapter}{Sprint 1 – Gestion des utilisateurs et les rôles}{37}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 1}}{39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces Cas d’utilisation «Gérer utilisateurs»}}{40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces cas d’utilisation «Gérer rôles»}}{41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Diagramme de classes de sprint 1}}{42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Diagramme de séquences système d’ «Ajouter Utilisateur»}}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Diagramme de séquences système de «Supprimer Utilisateur»}}{43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Diagramme de séquences système d’ «Importer Utilisateur»}}{44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Diagramme de séquences objets d’«Ajouter Utilisateur»}}{45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Diagramme de séquences objets de «Supprimer Utilisateur»}}{45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Interface consultation des utilisateurs et recherche}}{46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Interface voir utilisateur}}{47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Interface modifier ou créer utilisateur}}{47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Interface supprimer utilisateur}}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces Interface importer utilisateurs}}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces Interface résultat d'exportation des utilisateurs}}{48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Interface consultation des rôles}}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {17.4}\else \textLR {4.17}\fi }{\ignorespaces Interface voir un rôle}}{49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {18.4}\else \textLR {4.18}\fi }{\ignorespaces Interface modifier ou créer un rôle}}{50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {19.4}\else \textLR {4.19}\fi }{\ignorespaces Interface sSupprimer un rôle}}{50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {20.4}\else \textLR {4.20}\fi }{\ignorespaces Interface consultation de types des rôles et recherche}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {21.4}\else \textLR {4.21}\fi }{\ignorespaces Interface voir les types d'un rôle}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {22.4}\else \textLR {4.22}\fi }{\ignorespaces Interface donner des type à un rôle}}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {23.4}\else \textLR {4.23}\fi }{\ignorespaces Interface supprimer les type d'un rôle}}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {24.4}\else \textLR {4.24}\fi }{\ignorespaces Interface consultation des activations des rôles aux utilisateurs}}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {25.4}\else \textLR {4.25}\fi }{\ignorespaces Interface voir une activation de rôle à un utilisateur}}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Interface activer/désactiver un rôle d'un utilisateurs}}{53}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{41}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{57}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
