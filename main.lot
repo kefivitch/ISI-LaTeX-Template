@@ -18,15 +18,19 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conception et choix technologiques}{24}%
+\contentsline {xchapter}{Sprint 0 – Migration de Panoramix}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Sprint backlog de sprint 0\relax }}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Comparaison de performance entre PHP 5.6 et PHP 7.2 sur le site journaldunet.com \relax }}{25}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Réalisation}{26}%
+\contentsline {xchapter}{Réalisation}{37}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{29}%
+\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{40}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

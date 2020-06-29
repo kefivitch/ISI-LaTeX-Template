@@ -56,15 +56,41 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conception et choix technologiques}{24}%
+\contentsline {xchapter}{Sprint 0 – Migration de Panoramix}{24}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Comparaison performance entre OFT2 et OFT3}}{27}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Fichier de description des tests}}{28}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Création de projet Jenkins}}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces plugin Xvfb}}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces Email Extension plugin}}{29}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces La configuration de l'environnement de build}}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Gestion de source sous Jenkins}}{30}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }{\ignorespaces Déclanchement de job Jenkins}}{31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }{\ignorespaces Build de job Jenkins}}{31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }{\ignorespaces Actions à la suite du build de job Jenkins}}{32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }{\ignorespaces Extrait de sortie de console}}{33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {12.3}\else \textLR {3.12}\fi }{\ignorespaces Extrait de rapport Jenkins}}{34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.3}\else \textLR {3.13}\fi }{\ignorespaces Extrait de log Jenkins}}{34}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Réalisation}{26}%
+\contentsline {xchapter}{Réalisation}{37}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{30}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{41}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
