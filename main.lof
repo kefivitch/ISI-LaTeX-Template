@@ -170,9 +170,67 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {13.5}\else \textLR {5.13}\fi }{\ignorespaces Interface de simulation SRCD}}{65}%
 \defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Sprint 3 – Gestion des PEF}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 3}}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Cas d’utilisation «gestion des catégories»}}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Cas d’utilisation «gestion des PEF»}}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Diagramme de classes sprint 3}}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Diagramme de séquences système de «visibilité des PEF au boutique»}}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces Diagramme de séquences d’objets de «consultation logs API»}}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Diagramme de séquences d’objets de «fiche client»}}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {8.6}\else \textLR {6.8}\fi }{\ignorespaces Interface consultation des catégories et recherche}}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {9.6}\else \textLR {6.9}\fi }{\ignorespaces Interface modifier une catégorie}}{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {10.6}\else \textLR {6.10}\fi }{\ignorespaces Interface supprimer une catégorie}}{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {11.6}\else \textLR {6.11}\fi }{\ignorespaces Interface consultation des types des catégories}}{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {12.6}\else \textLR {6.12}\fi }{\ignorespaces Interface voir un type des catégories}}{79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.6}\else \textLR {6.13}\fi }{\ignorespaces Interface modifier un type des catégories}}{79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {14.6}\else \textLR {6.14}\fi }{\ignorespaces Interface supprimer un type des catégories}}{79}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {15.6}\else \textLR {6.15}\fi }{\ignorespaces Interface consultation des PEF et recherche}}{80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {16.6}\else \textLR {6.16}\fi }{\ignorespaces Interface voir les données d'un PEF}}{80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {17.6}\else \textLR {6.17}\fi }{\ignorespaces Interface modifier ou créer un PEF}}{81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {18.6}\else \textLR {6.18}\fi }{\ignorespaces Interface supprimer un PEF}}{81}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {19.6}\else \textLR {6.19}\fi }{\ignorespaces Interface consultation des types de PEF et recherche}}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {20.6}\else \textLR {6.20}\fi }{\ignorespaces Interface voir un type de PEF }}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {21.6}\else \textLR {6.21}\fi }{\ignorespaces Interface consultation des visibilités et recherche}}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {22.6}\else \textLR {6.22}\fi }{\ignorespaces Interface voir une visibilité}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {23.6}\else \textLR {6.23}\fi }{\ignorespaces Interface modifier ou créer une visibilité}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {24.6}\else \textLR {6.24}\fi }{\ignorespaces Interface supprimer une visibilité}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {25.6}\else \textLR {6.25}\fi }{\ignorespaces Interface de consultation des PEF au fiche client}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {26.6}\else \textLR {6.26}\fi }{\ignorespaces Interface de consultation des log API}}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {27.6}\else \textLR {6.27}\fi }{\ignorespaces Capture de fichier de logs d’application Panoramix}}{84}%
+\defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{69}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{88}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

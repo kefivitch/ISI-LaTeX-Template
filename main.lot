@@ -48,9 +48,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces Description textuelle du cas d’utilisation «mettre à jour les données boutiques»\relax }}{59}%
 \defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Sprint 3 – Gestion des PEF}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces User stories de sprint 3\relax }}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Description textuelle du cas d’utilisation «gestion des catégories»\relax }}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Description textuelle du cas d’utilisation «gestion des PEF»\relax }}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Description textuelle du cas d’utilisation «visibilité des PEF au boutique»\relax }}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Description textuelle du cas d’utilisation «consultation fiche client»\relax }}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces Description textuelle du cas d’utilisation «consultation des logs API»\relax }}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Description textuelle du cas d’utilisation «élaboration des logs Panoramix»\relax }}{74}%
+\defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{68}%
+\contentsline {table}{Annexe 1.1~~~Exemple tableau dans l'annexe}{87}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

@@ -248,19 +248,85 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion générale}{66}%
+\contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Sprint 3 – Gestion des PEF\endL \egroup }{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}1}Backlog sprint}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.6}\else \textLR {6.1.1}\fi }But de sprint}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.6}\else \textLR {6.1.2}\fi }User stories}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}2}Etude de réalisation du sprint 3}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }Diagramme de cas d’utilisation global sprint 3}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .1}Cas d’utilisation «gestion des catégories»}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des catégories»}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .2}Cas d’utilisation «gestion des PEF»}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des PEF»}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .3}Description textuelle du cas d’utilisation «visibilité des PEF au boutique»}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .4}Description textuelle du cas d’utilisation «consultation fiche client»}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .5}Description textuelle du cas d’utilisation «consultation des logs API»}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}{73}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}3}Conception}{74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.6}\else \textLR {6.3.1}\fi }Diagramme de classes}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi }Diagrammes de séquences détaillés}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 3}{75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences système de «visibilité des PEF au boutique»}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .2}Quelques diagramme de séquences objets de Sprint 3}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences d’objets de «consultation logs API»}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences d’objets de «fiche client»}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}4}Réalisation}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.6}\else \textLR {6.4.1}\fi }Interfaces de gestion des catégories}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.6}\else \textLR {6.4.2}\fi }Interfaces de gestion des type de catégories}{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.6}\else \textLR {6.4.3}\fi }Interfaces de gestion des PEF}{80}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {4.4.6}\else \textLR {6.4.4}\fi }Interfaces de consultation des types de PEF}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {5.4.6}\else \textLR {6.4.5}\fi }Interfaces de visibilité des PEF aux boutiques}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {6.4.6}\else \textLR {6.4.6}\fi }Interfaces de consultation des PEF au fiche client}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {7.4.6}\else \textLR {6.4.7}\fi }Interface de consultation des log API}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {8.4.6}\else \textLR {6.4.8}\fi }Capture de fichier de logs d’application Panoramix}{84}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{67}%
+\contentsline {chapter}{Conclusion générale}{85}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Annexes}{68}%
+\contentsline {chapter}{Bibliographie}{86}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 1.~Exemple d'annexe}{68}%
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 2.~Entreprise}{69}%
+\contentsline {chapter}{Annexes}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 1.~Exemple d'annexe}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 2.~Entreprise}{88}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
