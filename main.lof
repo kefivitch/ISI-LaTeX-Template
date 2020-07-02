@@ -56,181 +56,183 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Sprint 0 – Migration de Panoramix}{24}%
+\contentsline {xchapter}{Sprint 0 – Migration de Panoramix}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Comparaison performance entre OFT2 et OFT3}}{27}%
+\contentsline {figure}{\numberline {\if@rl \I {1.3}\else \textLR {3.1}\fi }{\ignorespaces Comparaison performance entre OFT2 et OFT3}}{28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Fichier de description des tests}}{28}%
+\contentsline {figure}{\numberline {\if@rl \I {2.3}\else \textLR {3.2}\fi }{\ignorespaces Fichier de description des tests}}{29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Création de projet Jenkins}}{29}%
+\contentsline {figure}{\numberline {\if@rl \I {3.3}\else \textLR {3.3}\fi }{\ignorespaces Création de projet Jenkins}}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces plugin Xvfb}}{29}%
+\contentsline {figure}{\numberline {\if@rl \I {4.3}\else \textLR {3.4}\fi }{\ignorespaces plugin Xvfb}}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces Email Extension plugin}}{29}%
+\contentsline {figure}{\numberline {\if@rl \I {5.3}\else \textLR {3.5}\fi }{\ignorespaces Email Extension plugin}}{30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces La configuration de l'environnement de build}}{30}%
+\contentsline {figure}{\numberline {\if@rl \I {6.3}\else \textLR {3.6}\fi }{\ignorespaces La configuration de l'environnement de build}}{31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Gestion de source sous Jenkins}}{30}%
+\contentsline {figure}{\numberline {\if@rl \I {7.3}\else \textLR {3.7}\fi }{\ignorespaces Gestion de source sous Jenkins}}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }{\ignorespaces Déclanchement de job Jenkins}}{31}%
+\contentsline {figure}{\numberline {\if@rl \I {8.3}\else \textLR {3.8}\fi }{\ignorespaces Déclanchement de job Jenkins}}{32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }{\ignorespaces Build de job Jenkins}}{31}%
+\contentsline {figure}{\numberline {\if@rl \I {9.3}\else \textLR {3.9}\fi }{\ignorespaces Build de job Jenkins}}{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }{\ignorespaces Actions à la suite du build de job Jenkins}}{32}%
+\contentsline {figure}{\numberline {\if@rl \I {10.3}\else \textLR {3.10}\fi }{\ignorespaces Actions à la suite du build de job Jenkins}}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }{\ignorespaces Extrait de sortie de console}}{33}%
+\contentsline {figure}{\numberline {\if@rl \I {11.3}\else \textLR {3.11}\fi }{\ignorespaces Extrait de sortie de console}}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {12.3}\else \textLR {3.12}\fi }{\ignorespaces Extrait de rapport Jenkins}}{34}%
+\contentsline {figure}{\numberline {\if@rl \I {12.3}\else \textLR {3.12}\fi }{\ignorespaces Extrait de rapport Jenkins}}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {13.3}\else \textLR {3.13}\fi }{\ignorespaces Extrait de log Jenkins}}{34}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Sprint 1 – Gestion des utilisateurs et les rôles}{37}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 1}}{39}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces Cas d’utilisation «Gérer utilisateurs»}}{40}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces cas d’utilisation «Gérer rôles»}}{41}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Diagramme de classes de sprint 1}}{42}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Diagramme de séquences système d’ «Ajouter Utilisateur»}}{43}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Diagramme de séquences système de «Supprimer Utilisateur»}}{43}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Diagramme de séquences système d’ «Importer Utilisateur»}}{44}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Diagramme de séquences objets d’«Ajouter Utilisateur»}}{45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Diagramme de séquences objets de «Supprimer Utilisateur»}}{45}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Interface consultation des utilisateurs et recherche}}{46}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Interface voir utilisateur}}{47}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Interface modifier ou créer utilisateur}}{47}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Interface supprimer utilisateur}}{48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces Interface importer utilisateurs}}{48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces Interface résultat d'exportation des utilisateurs}}{48}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Interface consultation des rôles}}{49}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {17.4}\else \textLR {4.17}\fi }{\ignorespaces Interface voir un rôle}}{49}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {18.4}\else \textLR {4.18}\fi }{\ignorespaces Interface modifier ou créer un rôle}}{50}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {19.4}\else \textLR {4.19}\fi }{\ignorespaces Interface sSupprimer un rôle}}{50}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {20.4}\else \textLR {4.20}\fi }{\ignorespaces Interface consultation de types des rôles et recherche}}{51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {21.4}\else \textLR {4.21}\fi }{\ignorespaces Interface voir les types d'un rôle}}{51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {22.4}\else \textLR {4.22}\fi }{\ignorespaces Interface donner des type à un rôle}}{52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {23.4}\else \textLR {4.23}\fi }{\ignorespaces Interface supprimer les type d'un rôle}}{52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {24.4}\else \textLR {4.24}\fi }{\ignorespaces Interface consultation des activations des rôles aux utilisateurs}}{52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {25.4}\else \textLR {4.25}\fi }{\ignorespaces Interface voir une activation de rôle à un utilisateur}}{53}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Interface activer/désactiver un rôle d'un utilisateurs}}{53}%
+\contentsline {figure}{\numberline {\if@rl \I {13.3}\else \textLR {3.13}\fi }{\ignorespaces Extrait de log Jenkins}}{36}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Sprint 2 – Module Boutique}{55}%
+\contentsline {xchapter}{Sprint 1 – Gestion des utilisateurs et les rôles}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 2}}{56}%
+\contentsline {figure}{\numberline {\if@rl \I {1.4}\else \textLR {4.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 1}}{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Cas d’utilisation «affectation utilisateurs aux boutiques»}}{58}%
+\contentsline {figure}{\numberline {\if@rl \I {2.4}\else \textLR {4.2}\fi }{\ignorespaces Cas d’utilisation «Gérer utilisateurs»}}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Diagramme de classes de sprint 2}}{60}%
+\contentsline {figure}{\numberline {\if@rl \I {3.4}\else \textLR {4.3}\fi }{\ignorespaces cas d’utilisation «Gérer rôles»}}{43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces Diagramme de séquences système d’ «affecter un utilisateur au boutique»}}{61}%
+\contentsline {figure}{\numberline {\if@rl \I {4.4}\else \textLR {4.4}\fi }{\ignorespaces Diagramme de classes de sprint 1}}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces diagramme de séquences objets d’ «affecter un utilisateur au boutique»}}{61}%
+\contentsline {figure}{\numberline {\if@rl \I {5.4}\else \textLR {4.5}\fi }{\ignorespaces Diagramme de séquences système d’ «Ajouter Utilisateur»}}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {6.5}\else \textLR {5.6}\fi }{\ignorespaces L'algorigramme de «mise à jour des données boutiques»}}{62}%
+\contentsline {figure}{\numberline {\if@rl \I {6.4}\else \textLR {4.6}\fi }{\ignorespaces Diagramme de séquences système de «Supprimer Utilisateur»}}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {7.5}\else \textLR {5.7}\fi }{\ignorespaces Interface consultation des boutiques et recherche}}{63}%
+\contentsline {figure}{\numberline {\if@rl \I {7.4}\else \textLR {4.7}\fi }{\ignorespaces Diagramme de séquences système d’ «Importer Utilisateur»}}{47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {8.5}\else \textLR {5.8}\fi }{\ignorespaces Interfacevoir les données d'une boutique}}{63}%
+\contentsline {figure}{\numberline {\if@rl \I {8.4}\else \textLR {4.8}\fi }{\ignorespaces Diagramme de séquences objets d’«Ajouter Utilisateur»}}{48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {9.5}\else \textLR {5.9}\fi }{\ignorespaces Interface consultation des affectations et recherche}}{64}%
+\contentsline {figure}{\numberline {\if@rl \I {9.4}\else \textLR {4.9}\fi }{\ignorespaces Diagramme de séquences objets de «Supprimer Utilisateur»}}{48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {10.5}\else \textLR {5.10}\fi }{\ignorespaces Interface voir une affectation}}{64}%
+\contentsline {figure}{\numberline {\if@rl \I {10.4}\else \textLR {4.10}\fi }{\ignorespaces Interface consultation des utilisateurs et recherche}}{49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {11.5}\else \textLR {5.11}\fi }{\ignorespaces Interface affecter un utilisateur à une boutique}}{64}%
+\contentsline {figure}{\numberline {\if@rl \I {11.4}\else \textLR {4.11}\fi }{\ignorespaces Interface voir utilisateur}}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {12.5}\else \textLR {5.12}\fi }{\ignorespaces Interface résultat d'exportation des affectations}}{65}%
+\contentsline {figure}{\numberline {\if@rl \I {12.4}\else \textLR {4.12}\fi }{\ignorespaces Interface modifier ou créer utilisateur}}{50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {13.5}\else \textLR {5.13}\fi }{\ignorespaces Interface de simulation SRCD}}{65}%
+\contentsline {figure}{\numberline {\if@rl \I {13.4}\else \textLR {4.13}\fi }{\ignorespaces Interface supprimer utilisateur}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {14.4}\else \textLR {4.14}\fi }{\ignorespaces Interface importer utilisateurs}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {15.4}\else \textLR {4.15}\fi }{\ignorespaces Interface résultat d'exportation des utilisateurs}}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {16.4}\else \textLR {4.16}\fi }{\ignorespaces Interface consultation des rôles}}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {17.4}\else \textLR {4.17}\fi }{\ignorespaces Interface voir un rôle}}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {18.4}\else \textLR {4.18}\fi }{\ignorespaces Interface modifier ou créer un rôle}}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {19.4}\else \textLR {4.19}\fi }{\ignorespaces Interface sSupprimer un rôle}}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {20.4}\else \textLR {4.20}\fi }{\ignorespaces Interface consultation de types des rôles et recherche}}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {21.4}\else \textLR {4.21}\fi }{\ignorespaces Interface voir les types d'un rôle}}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {22.4}\else \textLR {4.22}\fi }{\ignorespaces Interface donner des type à un rôle}}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {23.4}\else \textLR {4.23}\fi }{\ignorespaces Interface supprimer les type d'un rôle}}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {24.4}\else \textLR {4.24}\fi }{\ignorespaces Interface consultation des activations des rôles aux utilisateurs}}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {25.4}\else \textLR {4.25}\fi }{\ignorespaces Interface voir une activation de rôle à un utilisateur}}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {26.4}\else \textLR {4.26}\fi }{\ignorespaces Interface activer/désactiver un rôle d'un utilisateurs}}{56}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Sprint 3 – Gestion des PEF}{67}%
+\contentsline {xchapter}{Sprint 2 – Module Boutique}{58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 3}}{69}%
+\contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 2}}{59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Cas d’utilisation «gestion des catégories»}}{70}%
+\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Cas d’utilisation «affectation utilisateurs aux boutiques»}}{61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Cas d’utilisation «gestion des PEF»}}{71}%
+\contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Diagramme de classes de sprint 2}}{63}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Diagramme de classes sprint 3}}{75}%
+\contentsline {figure}{\numberline {\if@rl \I {4.5}\else \textLR {5.4}\fi }{\ignorespaces Diagramme de séquences système d’ «affecter un utilisateur au boutique»}}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Diagramme de séquences système de «visibilité des PEF au boutique»}}{76}%
+\contentsline {figure}{\numberline {\if@rl \I {5.5}\else \textLR {5.5}\fi }{\ignorespaces diagramme de séquences objets d’ «affecter un utilisateur au boutique»}}{64}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces Diagramme de séquences d’objets de «consultation logs API»}}{76}%
+\contentsline {figure}{\numberline {\if@rl \I {6.5}\else \textLR {5.6}\fi }{\ignorespaces L'algorigramme de «mise à jour des données boutiques»}}{65}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Diagramme de séquences d’objets de «fiche client»}}{77}%
+\contentsline {figure}{\numberline {\if@rl \I {7.5}\else \textLR {5.7}\fi }{\ignorespaces Interface consultation des boutiques et recherche}}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {8.6}\else \textLR {6.8}\fi }{\ignorespaces Interface consultation des catégories et recherche}}{77}%
+\contentsline {figure}{\numberline {\if@rl \I {8.5}\else \textLR {5.8}\fi }{\ignorespaces Interfacevoir les données d'une boutique}}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {9.6}\else \textLR {6.9}\fi }{\ignorespaces Interface modifier une catégorie}}{78}%
+\contentsline {figure}{\numberline {\if@rl \I {9.5}\else \textLR {5.9}\fi }{\ignorespaces Interface consultation des affectations et recherche}}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {10.6}\else \textLR {6.10}\fi }{\ignorespaces Interface supprimer une catégorie}}{78}%
+\contentsline {figure}{\numberline {\if@rl \I {10.5}\else \textLR {5.10}\fi }{\ignorespaces Interface voir une affectation}}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {11.6}\else \textLR {6.11}\fi }{\ignorespaces Interface consultation des types des catégories}}{78}%
+\contentsline {figure}{\numberline {\if@rl \I {11.5}\else \textLR {5.11}\fi }{\ignorespaces Interface affecter un utilisateur à une boutique}}{67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {12.6}\else \textLR {6.12}\fi }{\ignorespaces Interface voir un type des catégories}}{79}%
+\contentsline {figure}{\numberline {\if@rl \I {12.5}\else \textLR {5.12}\fi }{\ignorespaces Interface résultat d'exportation des affectations}}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {13.6}\else \textLR {6.13}\fi }{\ignorespaces Interface modifier un type des catégories}}{79}%
+\contentsline {figure}{\numberline {\if@rl \I {13.5}\else \textLR {5.13}\fi }{\ignorespaces Interface de simulation SRCD}}{68}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {14.6}\else \textLR {6.14}\fi }{\ignorespaces Interface supprimer un type des catégories}}{79}%
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {15.6}\else \textLR {6.15}\fi }{\ignorespaces Interface consultation des PEF et recherche}}{80}%
+\contentsline {xchapter}{Sprint 3 – Gestion des PEF}{70}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {16.6}\else \textLR {6.16}\fi }{\ignorespaces Interface voir les données d'un PEF}}{80}%
+\contentsline {figure}{\numberline {\if@rl \I {1.6}\else \textLR {6.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 3}}{72}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {17.6}\else \textLR {6.17}\fi }{\ignorespaces Interface modifier ou créer un PEF}}{81}%
+\contentsline {figure}{\numberline {\if@rl \I {2.6}\else \textLR {6.2}\fi }{\ignorespaces Cas d’utilisation «gestion des catégories»}}{73}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {18.6}\else \textLR {6.18}\fi }{\ignorespaces Interface supprimer un PEF}}{81}%
+\contentsline {figure}{\numberline {\if@rl \I {3.6}\else \textLR {6.3}\fi }{\ignorespaces Cas d’utilisation «gestion des PEF»}}{74}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {19.6}\else \textLR {6.19}\fi }{\ignorespaces Interface consultation des types de PEF et recherche}}{82}%
+\contentsline {figure}{\numberline {\if@rl \I {4.6}\else \textLR {6.4}\fi }{\ignorespaces Cas d’utilisation «visibilité des PEF au boutique»}}{75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {20.6}\else \textLR {6.20}\fi }{\ignorespaces Interface voir un type de PEF }}{82}%
+\contentsline {figure}{\numberline {\if@rl \I {5.6}\else \textLR {6.5}\fi }{\ignorespaces Diagramme de classes sprint 3}}{79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {21.6}\else \textLR {6.21}\fi }{\ignorespaces Interface consultation des visibilités et recherche}}{82}%
+\contentsline {figure}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces Diagramme de séquences système de «visibilité des PEF au boutique»}}{80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {22.6}\else \textLR {6.22}\fi }{\ignorespaces Interface voir une visibilité}}{83}%
+\contentsline {figure}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Diagramme de séquences d’objets de «consultation logs API»}}{80}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {23.6}\else \textLR {6.23}\fi }{\ignorespaces Interface modifier ou créer une visibilité}}{83}%
+\contentsline {figure}{\numberline {\if@rl \I {8.6}\else \textLR {6.8}\fi }{\ignorespaces Diagramme de séquences d’objets de «fiche client»}}{81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {24.6}\else \textLR {6.24}\fi }{\ignorespaces Interface supprimer une visibilité}}{83}%
+\contentsline {figure}{\numberline {\if@rl \I {9.6}\else \textLR {6.9}\fi }{\ignorespaces Interface consultation des catégories et recherche}}{81}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {25.6}\else \textLR {6.25}\fi }{\ignorespaces Interface de consultation des PEF au fiche client}}{83}%
+\contentsline {figure}{\numberline {\if@rl \I {10.6}\else \textLR {6.10}\fi }{\ignorespaces Interface modifier une catégorie}}{82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {26.6}\else \textLR {6.26}\fi }{\ignorespaces Interface de consultation des log API}}{84}%
+\contentsline {figure}{\numberline {\if@rl \I {11.6}\else \textLR {6.11}\fi }{\ignorespaces Interface supprimer une catégorie}}{82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {27.6}\else \textLR {6.27}\fi }{\ignorespaces Capture de fichier de logs d’application Panoramix}}{84}%
+\contentsline {figure}{\numberline {\if@rl \I {12.6}\else \textLR {6.12}\fi }{\ignorespaces Interface consultation des types des catégories}}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {13.6}\else \textLR {6.13}\fi }{\ignorespaces Interface voir un type des catégories}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {14.6}\else \textLR {6.14}\fi }{\ignorespaces Interface modifier un type des catégories}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {15.6}\else \textLR {6.15}\fi }{\ignorespaces Interface supprimer un type des catégories}}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {16.6}\else \textLR {6.16}\fi }{\ignorespaces Interface consultation des PEF et recherche}}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {17.6}\else \textLR {6.17}\fi }{\ignorespaces Interface voir les données d'un PEF}}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {18.6}\else \textLR {6.18}\fi }{\ignorespaces Interface modifier ou créer un PEF}}{85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {19.6}\else \textLR {6.19}\fi }{\ignorespaces Interface supprimer un PEF}}{85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {20.6}\else \textLR {6.20}\fi }{\ignorespaces Interface consultation des types de PEF et recherche}}{86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {21.6}\else \textLR {6.21}\fi }{\ignorespaces Interface voir un type de PEF }}{86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {22.6}\else \textLR {6.22}\fi }{\ignorespaces Interface consultation des visibilités et recherche}}{86}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {23.6}\else \textLR {6.23}\fi }{\ignorespaces Interface voir une visibilité}}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {24.6}\else \textLR {6.24}\fi }{\ignorespaces Interface modifier ou créer une visibilité}}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {25.6}\else \textLR {6.25}\fi }{\ignorespaces Interface supprimer une visibilité}}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {26.6}\else \textLR {6.26}\fi }{\ignorespaces Interface de consultation des PEF au fiche client}}{87}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {27.6}\else \textLR {6.27}\fi }{\ignorespaces Interface de consultation des log API}}{88}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {\if@rl \I {28.6}\else \textLR {6.28}\fi }{\ignorespaces Capture de fichier de logs d’application Panoramix}}{88}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{88}%
+\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{93}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

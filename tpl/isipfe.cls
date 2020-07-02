@@ -319,7 +319,6 @@
         \makebox[\textwidth][c]{\rule{1.03\columnwidth}{1pt}}
         \makebox[\textwidth][c]{
         	\small\textLR{\@companyEmail} \footnotesize{\textAR{البريد الالكتروني :}}
-        	\footnotesize{\textLR{\@companyFax}\textAR{الفاكس : }}
         	\footnotesize{\textLR{\@companyTel}\textAR{الهاتف : }}
         	\footnotesize{\textAR{\@companyAddressAR}}
         }
@@ -334,14 +333,12 @@
     \makebox[\textwidth][c]{\rule[2mm]{1.03\columnwidth}{1pt}}
     \makebox[\textwidth][c]{
     	\small\textLR{isi@isim.rnu.tn} \footnotesize{\textAR{البريد الالكتروني : }}
-    	~~~~~\footnotesize{\textLR{71 706 698}\textAR{الفاكس : }}
     	~~~~~\footnotesize{\textLR{71 706 164}\textAR{الهاتف : }}
     	~~~~~\footnotesize{\textAR{ أريانة }}\textLR{2080}\textAR{ نهج أبو الريحان الباروني }\textLR{2}
     }
     \makebox[\textwidth][c]{
     	\small\textLR{2, Abou Raihane Bayrouni 2080 l'Ariana}
     	~~~~~~~~\small\textLR{\textbf{Tél} : 71 706 164}
-    	~~~~~~~~\small\textLR{\textbf{Fax} : 71 706 698}
     	~~~~~~~~\small\textLR{\textbf{Email} : isi@isim.rnu.tn}
     }
   }

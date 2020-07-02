@@ -1,12 +1,12 @@
 \chapter{Contexte général}
 \section*{Introduction}
-Dans ce premier chapitre introductif, nous présentons l’organisme d’accueil Sofrecom et sa filiale Sofrecom Tunisie. Ensuite, nous introduisons le contexte du sujet, la problématique et un diagnostic technique de la solution existante. Enfin, nous présentons la méthode de développement choisie pour la réalisation de notre solution.
+Dans ce premier chapitre, nous allons présenter l’organisme d’accueil, ensuite nous allons présenter le contexte du sujet, la problématique et un diagnostic technique de la solution existante. Enfin, nous allons présenter la méthode de développement choisie pour la réalisation de notre travail.
 
 \section[Présentation de l’entreprise]{Présentation de l’entreprise}
 
-\subsection[Le groupe Sofrecom]{Le groupe Sofrecom}
+\subsection[Le groupe Sofrecom]{Le groupe Sofrecom \cite{sofrecom}}
 Sofrecom, filiale d’Orange, développe depuis 50 ans un savoir-faire unique dans les métiers de l’opérateur, ce qui en fait un leader mondial du conseil et de l’ingénierie télécom. Ces dernières années, plus de 200 acteurs majeurs, dans plus de 100 pays, ont confié à Sofrecom la conduite de leurs projets stratégiques et opérationnels. Le Know-How Network de Sofrecom, c’est aussi la garantie d’un transfert de savoir-faire, de compétences et d’expertises pour une transformation durable s’appuyant sur des méthodologies certifiées au niveau international.
-\subsection{Sofrecom Tunisie}
+\subsection{Sofrecom Tunisie \cite{sofrecomTun}}
 Sofrecom Tunisie créée en Octobre 2012, considérée comme la filière la plus jeune et la plus importante du groupe Sofrecom en zone Afrique et Moyen Orient. Au court de 5 ans, elle a pu se positionner en tant qu’un acteur majeur  d’ingénierie en télécommunications et du conseil.\\
 Sofrecom Tunisie compte aujourd’hui plus que 560 experts, et deux clients majeurs qui font partie du groupe Orange : DSI France et OLS. Sofrecom Tunisie propose à ses clients une large  gamme des services autour de huit spécialités:
 \begin{itemize}
@@ -19,13 +19,14 @@ Sofrecom Tunisie compte aujourd’hui plus que 560 experts, et deux clients maje
 	\item Innovation 
 	\item Consulting
 \end{itemize}
+
 Notre projet concerne le métier du \textbf{développement}.
 \section[Contexte du projet]{Contexte du projet}
-Dans cette section, nous commencerons, dans un premier temps, par présenter l’application Panoramix. Nous citerons les différents manques, les points faibles et les problèmes, puis nous allons proposer notre solution.
-\subsection[Présentation de l’application Panoramix]{Présentation de l’application Panoramix}
-\textbf{Panoramix} est une application web, développé par Sofrecom depuis 2016, qui servira de point d'entrée unique pour les positions de travail de la vente sur le segment Pro PME (entreprise de taille inférieure à 100 employées).\\
-Ce portail adapté à chaque position de travail, permettra de traiter toutes les demandes client en simplifiant et fluidifiant le parcours des conseillers.\\
-L’introduction de parcours guidés, là où il y avait des applications et des process à mémoriser, facilitera la montée en compétence d’une nouvelle recrue et masquera la complexité afin de se concentrer sur comment répondre au mieux à la demande client. Le conseiller réactif pourra lui aussi organiser son activité, grâce à une meilleure visibilité sur les dossiers client qu’il gère ou qui lui sont affectés. Au centre du portail, sera la vue 360 du client avec ses interlocuteurs, son parc, son historique…. 
+Dans cette section, nous allons commencer, dans un premier temps, par présenter l’application \textbf{Panoramix}. Nous allons citer les différents manques, les points faibles et les problèmes, puis nous allons proposer notre solution.
+\subsection[Présentation de l’application Panoramix]{Présentation de l’application Panoramix \cite{panoramix}}
+\textbf{Panoramix} est une application web, développé par Sofrecom depuis 2016, qui servira de point d'entrée unique pour les positions de travail de la vente sur le segment Pro PME\footnote{entreprises de taille inférieure à 100 employées}.\\
+Ce portail adapté à chaque position de travail, permettra de traiter toutes les demandes et les réclamations client en simplifiant et fluidifiant le parcours des conseillers.\\
+L’introduction de parcours guidés, là où il y a des applications et des process à mémoriser, facilitera la montée en compétence d’une nouvelle recrue et masquera la complexité afin de se concentrer sur comment répondre au mieux à la demande client. Le conseiller réactif pourra lui aussi organiser son activité, grâce à une meilleure visibilité sur les dossiers client qu’il gère ou qui lui sont affectés. Au centre du portail, sera la vue 360 du client avec ses interlocuteurs, son parc, son historique…. 
 Enfin, Panoramix est un moyen sûr d’être dans la posture adéquat pour respecter les règles de saine concurrence.
 \subsection[Limites et critiques de l’existant]{Limites et critiques de l’existant}
 Après chaque itération le projet Panoramix, subit des améliorations. Des fonctionnalités s’ajoutent pour s’aligner plus au besoin du client. Le projet a commencé depuis des années, et selon son plan d’évolution, il continuera à évoluer encore pour quelques années. Ceci a généré plusieurs défis. Et parmi les nouveaux défis, la fusion entre deux métiers différents dans le  même socle :
@@ -35,19 +36,18 @@ Après chaque itération le projet Panoramix, subit des améliorations. Des fonc
 		\subitem \textbullet Boutique GDT ( générale de téléphone)
 		\subitem \textbullet Boutique AD (Boutique Orange)
 \end{itemize}
-qui sont deux métiers séparés mais ils ont des grandes parties communes et ils ont le même client cible(Pro PME).\\
-Cette différence ne concerne pas seulement le niveau d’interaction avec le client mais la différence au niveau métier aussi tel que les boutiques ne peuvent pas accéder aux mêmes applications que centre d’appel : l’accès aux applications est limité selon le type et l’emplacement de la boutique, par contre le centre d’appel à l’accès à toutes les applications.\\
-Cette mise à jour permet à Panoramix d’ajouter entre 9000 et 12000 utilisateurs aux 2650 utilisateurs existants déjà et  de maintenir environ 2500 utilisateurs actifs mais la solution actuelle n’est pas assez performante et l’infrastructure actuelle ne peut pas supporter ce nombre des utilisateurs. Et par conséquence, certains problèmes s’imposent. En premier lieu, nous remarquons que les informations ne sont pas centralisées, en deuxième lieu il y’a une différence d’interprétation de la fiche client et des applications et en plus le centre d’appel et les boutiques n’ont pas la même historique des réclamations de clients.\\
+Ils sont deux métiers séparés ayant le même client cible (Pro PME) et d'importantes parties communes comme l'utilisation des applications et l'accés au données client.\\
+La différence entre le métier CPRO et le métier 3901 ne concerne pas seulement le niveau d’interaction avec le client, l'exigence d'une présente physique au boutique dans le cas de CPRO ou d'appel téléphonique au centre d'appel 3901, mais la différence au niveau métier aussi d'où les boutiques ne peuvent pas accéder aux mêmes applications que centre d’appel : l’accès aux applications est limité selon le type et l’emplacement de la boutique, par contre le centre d’appel a l’accès à toutes les applications.\\
+Cette mise à jour permet à Panoramix d’ajouter entre 9000 et 12000 utilisateurs aux 2650 utilisateurs existants déjà et  de maintenir environ 2500 utilisateurs actifs mais la solution actuelle n’est pas assez performante et l’infrastructure actuelle ne peut pas supporter ce nombre des utilisateurs. Et par conséquence, nous remarquons que les informations ne sont pas centralisées, et qu'il y’a une différence d’interprétation de la fiche client et des applications, en plus le centre d’appel et les boutiques n’ont pas le même historique des réclamations de clients.
 \section[Solution proposée]{Solution proposée}
 Dans le souci d’apporter une valeur ajoutée et un meilleur service technologique aux clients et au groupe lui-même, nous envisageons de :
 \begin{itemize}
-	\item Fournir \textbf{un point d’accès unique aux outils et aux informations} du quotidien permettant de traiter toutes les demandes client inhérentes à une position de travail pour les deux types des utilisateurs (Boutique et centre d’appel)
-	\item Assurer \textbf{une ergonomie optimisée et homogène}
-	\item \textbf{Interconnecter les outils} pour supprimer les ressaisies et les ruptures de processus
-	\item \textbf{Personnaliser et filtrer les informations} dont l’utilisateur métier a besoin
-	\item \textbf{Un niveau de performance optimal} : l’application doit être rapide, sans temps de latence
-	\item Un accès aux informations et outils \textbf{dont l’utilisateur a besoin}, et \textbf{uniquement celles nécessaires}, pour assurer son métier au quotidien
-	\item \textbf{Haute disponibilité} même avec la différence horaire avec les pays DOM-TOM
+	\item \textbf{Mettre ajouter l'infrastructure ou migrer vers des nouvelles outils} afin d'optimiser la performance et garantir la haute disponibilité de la solution.
+	\item Fournir \textbf{un point d’accès unique aux outils et aux informations} du quotidien permettant de traiter toutes les demandes client inhérentes à une position de travail pour les deux types d'utilisateurs (Boutique et centre d’appel).
+	\item \textbf{Interconnecter les outils} pour supprimer les ressaisies et les ruptures de processus comme les applications CPRO et les applications 3901.
+	\item \textbf{Personnaliser et filtrer les informations} dont l’utilisateur métier a besoin.
+	\item Un accès aux informations et outils \textbf{dont l’utilisateur a besoin}, et \textbf{uniquement celles nécessaires}, pour assurer son métier au quotidien.
+	
 \end{itemize}
 Ces promesses seront bénéfiques pour :
 \begin{itemize}

@@ -17,49 +17,393 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
-  \entry{webArticle2}{online}{}
+  \entry{sofrecom}{online}{}
+    \list{organization}{1}{%
+      {Sofrecom}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 30-06-2020]}
+    \field{title}{Présentation de Sofrecom}
+    \verb{url}
+    \verb https://www.sofrecom.com/fr/a-propos-de-nous/notre-entreprise
+    \endverb
+    \field{year}{Jul. 2019}
+  \endentry
+
+  \entry{sofrecomTun}{online}{}
+    \list{organization}{1}{%
+      {Sofrecom Tunisie}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 30-06-2020]}
+    \field{title}{Présentation de Sofrecom Tunisie}
+    \verb{url}
+    \verb https://www.keejob.com/offres-emploi/companies/2241/sofrecom-tunisie/
+    \endverb
+    \field{year}{Fév. 2018}
+  \endentry
+
+  \entry{panoramix}{report}{}
     \name{author}{1}{}{%
-      {{hash=AN}{%
-         family={Auteur},
-         familyi={A\bibinitperiod},
-         given={NOM},
+      {{hash=DY}{%
+         family={DAMMAK},
+         familyi={D\bibinitperiod},
+         given={Yassine},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DY1}
+    \strng{fullhash}{DY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01/07/2020]}
+    \field{title}{Projet « PANORAMIX» Version  G1R 1}
+    \list{institution}{1}{%
+      {Sofrecom}%
+    }
+    \field{type}{techreport}
+    \field{year}{2017}
+  \endentry
+
+  \entry{eclipse}{online}{}
+    \list{organization}{1}{%
+      {Eclipse Foundation}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Eclipse IDE}
+    \verb{url}
+    \verb https://www.eclipse.org/ide
+    \endverb
+    \field{year}{Fév. 2018}
+  \endentry
+
+  \entry{vscode}{online}{}
+    \list{organization}{1}{%
+      {Visual studio Code}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Visual studio Code}
+    \verb{url}
+    \verb https://code.visualstudio.com/docs
+    \endverb
+    \field{year}{Jui. 2019}
+  \endentry
+
+  \entry{laragon}{online}{}
+    \list{organization}{1}{%
+      {Laragon}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Laragon}
+    \verb{url}
+    \verb https://laragon.org/why-laragon/
+    \endverb
+    \field{year}{Nov. 2019}
+  \endentry
+
+  \entry{apache}{online}{}
+    \list{organization}{1}{%
+      {Apache}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Apache}
+    \verb{url}
+    \verb https://httpd.apache.org/ABOUT\_APACHE.html
+    \endverb
+    \field{year}{Fév. 2012}
+  \endentry
+
+  \entry{mariadb}{online}{}
+    \list{organization}{1}{%
+      {MariaDB Foundation}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil MariaDB}
+    \verb{url}
+    \verb https://mariadb.org/documentation/
+    \endverb
+    \field{year}{Fév. 2016}
+  \endentry
+
+  \entry{heidisql}{online}{}
+    \list{organization}{1}{%
+      {HeidiSQL}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil HeidiSQL}
+    \verb{url}
+    \verb https://www.heidisql.com/
+    \endverb
+    \field{year}{Avr. 2019}
+  \endentry
+
+  \entry{seleniumlib}{online}{}
+    \list{organization}{1}{%
+      {Robot Framework}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil SeleniumLibrary}
+    \verb{url}
+    \verb https://robotframework.org/SeleniumLibrary/SeleniumLibrary.html
+    \endverb
+    \field{year}{Jui. 2018}
+  \endentry
+
+  \entry{robotframework}{online}{}
+    \list{organization}{1}{%
+      {Robot Framework}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Robot Framework}
+    \verb{url}
+    \verb https://robotframework.org/
+    \endverb
+    \field{year}{Jui. 2018}
+  \endentry
+
+  \entry{jenkins}{online}{}
+    \list{organization}{1}{%
+      {Jenkins}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Jenkins}
+    \verb{url}
+    \verb https://www.jenkins.io/
+    \endverb
+    \field{year}{Oct. 2018}
+  \endentry
+
+  \entry{geckodrive}{online}{}
+    \name{author}{1}{}{%
+      {{hash=VN}{%
+         family={Vaidya},
+         familyi={V\bibinitperiod},
+         given={Neha},
          giveni={N\bibinitperiod},
       }}%
     }
     \list{organization}{1}{%
-      {Organisme}%
+      {Edureka}%
     }
-    \strng{namehash}{AN1}
-    \strng{fullhash}{AN1}
+    \strng{namehash}{VN1}
+    \strng{fullhash}{VN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{[Accès le 19-Janvier-2016]}
-    \field{title}{titre de l'article}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Geckodriver}
     \verb{url}
-    \verb http://www.exemple-lien.org/article/?id\_art=124
+    \verb https://www.edureka.co/blog/selenium-chromedriver-and-geckodriver/
     \endverb
-    \field{year}{Jan. 2015}
+    \field{year}{Mai 2020}
   \endentry
 
-  \entry{webArticle1}{online}{}
+  \entry{emailextension}{online}{}
+    \list{organization}{1}{%
+      {Jenkins}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Email Extension}
+    \verb{url}
+    \verb https://plugins.jenkins.io/email-ext/
+    \endverb
+    \field{year}{Mars 2020}
+  \endentry
+
+  \entry{js}{online}{}
+    \list{organization}{1}{%
+      {Mozilla}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Javascript}
+    \verb{url}
+    \verb https://developer.mozilla.org/fr/docs/Web/JavaScript
+    \endverb
+    \field{year}{Juin 2020}
+  \endentry
+
+  \entry{jquery}{online}{}
+    \list{organization}{1}{%
+      {JQuery}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil JQuery}
+    \verb{url}
+    \verb https://jquery.com/
+    \endverb
+    \field{year}{Sept. 2020}
+  \endentry
+
+  \entry{axios}{online}{}
+    \list{organization}{1}{%
+      {npmjs}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Axios}
+    \verb{url}
+    \verb https://www.npmjs.com/package/axios
+    \endverb
+    \field{year}{Fév. 2020}
+  \endentry
+
+  \entry{html}{online}{}
+    \list{organization}{1}{%
+      {w3schools}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil HTML5}
+    \verb{url}
+    \verb https://www.w3schools.com/html/html_intro.asp
+    \endverb
+    \field{year}{Sept. 2015}
+  \endentry
+
+  \entry{php}{online}{}
+    \list{organization}{1}{%
+      {PHP}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil PHP}
+    \verb{url}
+    \verb https://www.php.net/docs.php
+    \endverb
+    \field{year}{Août 2015}
+  \endentry
+
+  \entry{oft}{online}{}
+    \list{organization}{1}{%
+      {Orange}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 23-04-2020]}
+    \field{title}{Définition d'outil OFT}
+    \verb{url}
+    \verb https://oft.itn.intraorange
+    \endverb
+    \field{year}{Janv. 2017}
+  \endentry
+
+  \entry{boosted}{online}{}
+    \list{organization}{1}{%
+      {Orange}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{Définition d'outil Boosted}
+    \verb{url}
+    \verb https://boosted.orange.com/docs/4.5/getting-started/introduction/
+    \endverb
+    \field{year}{Fév. 2018}
+  \endentry
+
+  \entry{php-perf}{online}{}
     \name{author}{1}{}{%
-      {{hash=SM}{%
-         family={Shell},
-         familyi={S\bibinitperiod},
-         given={Michael},
-         giveni={M\bibinitperiod},
+      {{hash=CDA}{%
+         family={Crochet-Damais},
+         familyi={C\bibinithyphendelim D\bibinitperiod},
+         given={Antoine},
+         giveni={A\bibinitperiod},
       }}%
     }
-    \strng{namehash}{SM1}
-    \strng{fullhash}{SM1}
+    \list{organization}{1}{%
+      {Journal du Net}%
+    }
+    \strng{namehash}{CDA1}
+    \strng{fullhash}{CDA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{note}{[Accès le 5-Février-2016]}
-    \field{title}{{IEEE}tran Homepage}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{PHP 7 vs PHP 5.6 : le comparatif de performance du JDN}
     \verb{url}
-    \verb http://www.michaelshell.org/tex/ieeetran/
+    \verb https://www.journaldunet.com/web-tech/developpeur/1164015-php-7-le-te
+    \verb st-du-jdn/
     \endverb
-    \field{year}{Jan. 2007}
+    \field{year}{Oct. 2015}
+  \endentry
+
+  \entry{php-quora}{online}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Raza},
+         familyi={R\bibinitperiod},
+         given={Asif},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Quora}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{What are the major difference between PHP 5 and PHP 7?}
+    \verb{url}
+    \verb https://www.quora.com/What-are-the-major-difference-between-PHP-5-and
+    \verb -PHP-7
+    \endverb
+    \field{year}{Janv. 2017}
+  \endentry
+
+  \entry{mysql-maria}{online}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={Potter},
+         familyi={P\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{organization}{1}{%
+      {Liquid Web}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 01-07-2020]}
+    \field{title}{MySQL Performance: MySQL vs. MariaDB}
+    \verb{url}
+    \verb https://www.liquidweb.com/kb/mysql-performance-mysql-vs-mariadb/
+    \endverb
+    \field{year}{Oct. 2018}
+  \endentry
+
+  \entry{oft-doc}{report}{}
+    \name{author}{1}{}{%
+      {{hash=HJ}{%
+         family={Huser},
+         familyi={H\bibinitperiod},
+         given={Julien},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJ1}
+    \strng{fullhash}{HJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 10/05/2020]}
+    \field{title}{L'IT WEBINAR sur le framework PHP interne dans sa version 3}
+    \list{institution}{1}{%
+      {Orange}%
+    }
+    \field{type}{techreport}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

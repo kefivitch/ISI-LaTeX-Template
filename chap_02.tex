@@ -1,3 +1,4 @@
+% !TeX spellcheck = <none>
 \chapter{Analyse préliminaire}
 
 \section*{Introduction}
@@ -7,14 +8,14 @@ Dans ce chapitre, nous ferons référence aux objectifs de notre application, ce
 Dans cette partie du rapport, nous présenterons les différents acteurs du système, les besoins fonctionnels ainsi que les besoins non-fonctionnels.
 \subsection[La présentation des acteurs ]{La présentation des acteurs }
 Les acteurs représentent les personnes ou des composants logiciels ou matériels qui interagissent directement avec le système.\\
-Dans notre projet, il y’a 4 acteurs principaux qui manipulent notre site comme l'indique la figure suivant :
+Dans notre projet, il y’a 4 acteurs principaux qui manipulent notre site comme l'indique la figure \ref{fig:actors} :
 \begin{itemize}
 	\item Conseiller client réactif (Soit conseiller client de centre d’appel ou conseiller client de boutique)
 	\item Administrateur des habilitations
 	\item Administrateur
 	\item Système
 \end{itemize}
-% TODO: \usepackage{graphicx} required
+
 \begin{figure}[tbph]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/conception/usecases/actors}
@@ -24,35 +25,35 @@ Dans notre projet, il y’a 4 acteurs principaux qui manipulent notre site comme
 \newpage
 La table \ref{tab:my-table} représent les tâches de chaque acteur de notre système
 \begin{table}[H]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			\rowcolor[HTML]{C0C0C0} 
-			Acteur                           & Rôle                                                                                              \\ \hline
-			Conseiller client réactif        & \begin{tabular}[c]{@{}l@{}}Accès à l’application\\ Consulter les PEF au fiche client\end{tabular} \\ \hline
-			Administrateur des habilitations & \begin{tabular}[c]{@{}l@{}}Accès à l'application\\ Gestion des utilisateurs\end{tabular}          \\ \hline
-			Administrateur & \begin{tabular}[c]{@{}l@{}}Accès à l’application\\ Consulter les PEF au fiche client\\ Gérer toute la partie opérationnelle du projet\end{tabular} \\ \hline
-			Système                          & Assure le déclenchement des tâches automatiques de l’application                                  \\ \hline
-		\end{tabular}%
-	}
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		Acteur                           & Rôle                                                             \\ \hline
+		Conseiller client réactif        & Consulter les PEF au fiche client                                \\ \hline
+		Administrateur des habilitations & Gestion des utilisateurs                                         \\ \hline
+		Administrateur & \begin{tabular}[c]{@{}l@{}}Consulter les PEF au fiche client\\ gérer toute la partie opérationnelle du projet\end{tabular} \\ \hline
+		Système                          & Assure le déclenchement des tâches automatiques de l’application \\ \hline
+	\end{tabular}
 	\captionsetup{justification=centering}
-	\caption[Les tâches des acteurs de système]{Les tâches des acteurs de système}
+	\caption{Les tâches des acteurs de système}
 	\label{tab:my-table}
 \end{table}
+
 \subsection[Les besoins fonctionnels]{Les besoins fonctionnels}
-Notre application doit fournir un ensemble de fonctionnalités qui répondent aux exigences des acteurs. Les principales exigences fonctionnelles de notre outil peuvent être résumées comme suit le suivant:
+Notre application doit fournir un ensemble de fonctionnalités qui répondent aux exigences des acteurs. Les principales exigences fonctionnelles sont:
 \begin{itemize}
-	\item Recevoir des rapports hebdomadaires des tests de non régression
-	\item Gestion les utilisateurs
-	\item Gestion les rôles
-	\item Consultation des données boutiques
-	\item Affectation des utilisateurs aux boutiques
-	\item Gestion des catégories 
-	\item Gestion des pefs
-	\item Visibilité des PEF aux boutiques
-	\item Simulation SRCD
-	\item Consultation log
-	\item Traçabilité 
+	\item \textbf{Recevoir des rapports quotidiens des tests de non régression :} Chaque jour, les tests de non régression doivent être exécutés pour garantir que l'intégration de nouvelles fonctionalités n'affecte pas le déroulement de notre système et envoyer un rapport complet au personnes concernées.
+	\item \textbf{Gestion les utilisateurs :} L'administrateur des habilitations ou l'administrateur peuvent gérer les utilisateurs(ajouter, modifier, supprimer, consulter et rechercher) sur l'application
+	\item \textbf{Gestion les rôles :} L'administrateur peut gérer les rôles (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
+	\item \textbf{Consultation des données boutiques :} Consulter les informations des boutiques en détails.
+	\item \textbf{Affectation des utilisateurs aux boutiques :} Affecter un utilisateur à une boutique, et par conséquence, cet utilisateur aura la possibilité d'accéder aux PEF de cette boutique. 
+	\item \textbf{Gestion des catégories :} L'administrateur doit gérer les catégories de PEF (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
+	\item \textbf{Gestion des PEF :} L'administrateur doit gérer les PEF (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
+	\item \textbf{Visibilité des PEF aux boutiques :} Donner l'autorisation aux boutiques pour utiliser un ensemble défini des PEF
+	\item \textbf{Simulation SRCD :} Simuler la page bouchon SRCD du boutique
+	\item \textbf{Consultation les logs des API :} Afficher des statistiques sur les requêtes des API et afficher en détails les erreurs.
+	\item \textbf{Traçabilité :} Tracer toutes actions prise lors l'utilisation de Panoramix.
 \end{itemize}
 \subsection[Diagramme de cas d’utilisation global]{Diagramme de cas d’utilisation global}
 Dans cette sous-section, nous exposons le diagramme de cas d’utilisation global qui permet de donner donner une vision globale du comportement fonctionnel de notre système.\\
@@ -173,29 +174,29 @@ Lors de la réalisation de notre application, nous avons utilisé un seul ordina
 \end{itemize}
 \subsection[Environnement de développement]{Environnement de développement}
 \begin{itemize}
-	\item \textbf{Eclipse :} est un environnement de développement intégré (IDE) utilisé dans la programmation informatique. Il contient un espace de travail de base et un système de plugin extensible pour personnaliser l'environnement.Eclipse est principalement écrit en Java et son utilisation principale est le développement d'applications Java, mais il peut également être utilisé pour développer des applications dans d'autres langages de programmation via des plug-ins, notamment C, C++, C\#, JavaScript, PHP, Python et autres.
+	\item \textbf{Eclipse\cite{eclipse} :} est un environnement de développement intégré (IDE) utilisé dans la programmation informatique. Il contient un espace de travail de base et un système de plugin extensible pour personnaliser l'environnement.Eclipse est principalement écrit en Java et son utilisation principale est le développement d'applications Java, mais il peut également être utilisé pour développer des applications dans d'autres langages de programmation via des plug-ins, notamment C, C++, C\#, JavaScript, PHP, Python et autres.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{img/logos/eclipse}
+		\includegraphics[width=0.3\linewidth]{img/logos/eclipse}
 		\caption[Logo Eclipse IDE]{Logo Eclipse IDE}
 		\label{fig:eclipse}
 	\end{figure}
-	\newpage
-	\item \textbf{Visual studio Code : } est un éditeur de code redéfini et optimisé pour la création et le débogage d'applications web et cloud modernes.  Visual Studio Code est gratuit et disponible sur votre plateforme favorite Linux, macOS et Windows.
+
+	\item \textbf{Visual studio Code\cite{vscode} :} est un éditeur de code redéfini et optimisé pour la création et le débogage d'applications web et cloud modernes.  Visual Studio Code est gratuit et disponible sur votre plateforme favorite Linux, macOS et Windows.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/vscode}
 		\caption[Logo Visual studio Code]{Logo Visual studio Code}
 		\label{fig:vscode}
 	\end{figure}
-	\item \textbf{Laragon :} est un environnement de développement universel, portable, isolé, rapide et puissant pour PHP, Node.js, Python, Java, Go, Ruby. Il est rapide, léger, facile à utiliser et facile à étendre. Laragon est idéal pour construire et gérer des applications web modernes. Il est axé sur la performance, conçu autour de la stabilité, de la simplicité, de la flexibilité et de la liberté.
+	\item \textbf{Laragon\cite{laragon} :} est un environnement de développement universel, portable, isolé, rapide et puissant pour PHP, Node.js, Python, Java, Go, Ruby. Il est rapide, léger, facile à utiliser et facile à étendre. Laragon est idéal pour construire et gérer des applications web modernes. Il est axé sur la performance, conçu autour de la stabilité, de la simplicité, de la flexibilité et de la liberté.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/laragon}
 		\caption[Logo Laragon]{Logo Laragon}
 		\label{fig:laragon}
 	\end{figure}
-	\item \textbf{Apache :} Un serveur HTTP créé et maintenu sur la fondation d'Apache. Jusqu'en avril 2019, c'était le serveur HTTP le plus populaire sur le World Wide Web. Il est distribué sous les termes de la licence Apache.
+	\item \textbf{Apache\cite{apache} :} Un serveur HTTP créé et maintenu sur la fondation d'Apache. Jusqu'en avril 2019, c'était le serveur HTTP le plus populaire sur le World Wide Web. Il est distribué sous les termes de la licence Apache.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/apache}
@@ -203,7 +204,7 @@ Lors de la réalisation de notre application, nous avons utilisé un seul ordina
 		\label{fig:apache}
 	\end{figure}
 	
-	\item \textbf{MariaDB :} est un système de gestion de base de données publié sous licence GPL. Il s'agit d'une branche communautaire de MySQL: la gouvernance du projet est assurée par la Fondation MariaDB, et sa maintenance est assurée par Monty Program AB, le créateur du projet.
+	\item \textbf{MariaDB\cite{mariadb} :} est un système de gestion de base de données publié sous licence GPL. Il s'agit d'une branche communautaire de MySQL: la gouvernance du projet est assurée par la Fondation MariaDB, et sa maintenance est assurée par Monty Program AB, le créateur du projet.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/mariadb}
@@ -211,7 +212,7 @@ Lors de la réalisation de notre application, nous avons utilisé un seul ordina
 		\label{fig:mariadb}
 	\end{figure}
 	
-	\item \textbf{HeidiSQL :} est un outil de gestion de base de données avec éditeur SQL et générateur de requêtes.  Il a été développé et optimisé pour une utilisation avec le SGBD relationnel MySQL/MariaDB.
+	\item \textbf{HeidiSQL\cite{heidisql} :} est un outil de gestion de base de données avec éditeur SQL et générateur de requêtes.  Il a été développé et optimisé pour une utilisation avec le SGBD relationnel MySQL/MariaDB.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.08\linewidth]{img/logos/HeidiSQL}
@@ -223,7 +224,7 @@ Lors de la réalisation de notre application, nous avons utilisé un seul ordina
 \subsection[Environnement logiciel]{Environnement logiciel}
 Dans cette partie, nous allons présenter les différents logiciels, framework et technologies web utilisés pour la réalisation des applications.
 \begin{itemize}
-	\item \textbf{SeleniumLibrary based on Python :} SeleniumLibrary est une bibliothèque de test web pour Robot Framework qui utilise l'outil Selenium en interne. SeleniumLibrary fonctionne avec Selenium 3 et 4. Elle supporte Python 2.7 ainsi que Python 3.6 ou plus récent. En plus de l'interpréteur Python normal, elle fonctionne également avec PyPy et Jython. 
+	\item \textbf{SeleniumLibrary based on Python\cite{seleniumlib} :} est une bibliothèque de test web pour Robot Framework qui utilise l'outil Selenium en interne. SeleniumLibrary fonctionne avec Selenium 3 et 4. Elle supporte Python 2.7 ainsi que Python 3.6 ou plus récent. En plus de l'interpréteur Python normal, elle fonctionne également avec PyPy et Jython. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.08\linewidth]{img/logos/selenium}
@@ -231,24 +232,24 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:selenium}
 	\end{figure}
 
-	\item \textbf{Robot Framework :} Robot Framework est un framework d'automatisation basé sur Python et extensible par mot-clé pour les tests d'acceptation, le développement piloté par les tests d'acceptation, le développement piloté par le comportement et l'automatisation des processus robotiques. Il peut être utilisé dans des environnements distribués et hétérogènes, où l'automatisation nécessite l'utilisation de différentes technologies et interfaces.	Le cadre est entouré d'un riche écosystème constitué de diverses bibliothèques et outils génériques qui sont développés dans le cadre de projets distincts. 
+	\item \textbf{Robot Framework\cite{robotframework} :} Robot Framework est un framework d'automatisation basé sur Python et extensible par mot-clé pour les tests d'acceptation, le développement piloté par les tests d'acceptation, le développement piloté par le comportement et l'automatisation des processus robotiques. Il peut être utilisé dans des environnements distribués et hétérogènes, où l'automatisation nécessite l'utilisation de différentes technologies et interfaces.	Le cadre est entouré d'un riche écosystème constitué de diverses bibliothèques et outils génériques qui sont développés dans le cadre de projets distincts. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.4\linewidth]{img/logos/robot-framework}
 		\caption[Logo Robot Framework]{Logo Robot Framework}
 		\label{fig:robot-framework}
 	\end{figure}
-	\item \textbf{Jenkins :} Jenkins est un outil d'intégration continue open source. Après les différends entre son auteur \textit{Kohsuke Kawaguchi} et Oracle, Jenkins devient une branche des outils Hudson. Jenkins est écrit en Java et il peut fonctionner dans un conteneur de servlet (comme Apache Tomcat), ou il peut être utiliser un serveur Web intégré en mode autonome.
+	\item \textbf{Jenkins\cite{jenkins} :} Jenkins est un outil d'intégration continue open source. Après les différends entre son auteur \textit{Kohsuke Kawaguchi} et Oracle, Jenkins devient une branche des outils Hudson. Jenkins est écrit en Java et il peut fonctionner dans un conteneur de servlet (comme Apache Tomcat), ou il peut être utiliser un serveur Web intégré en mode autonome.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/jenkins}
 		\caption[Logo Jenkins]{Logo Jenkins}
 		\label{fig:jenkins}
 	\end{figure}
-	\item \textbf{GeckDriver : }Proxy pour l'utilisation de clients compatibles avec le W3C WebDriver pour interagir avec les navigateurs basés sur Gecko. Ce programme fournit l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, tels que Firefox. Il traduit les appels dans le protocole Marionnette à distance en agissant comme un proxy entre les extrémités locale et distante. 
-	\item \textbf{Xvfb plugin :} Xvfb ou X virtual framebuffer est un serveur d'affichage mettant en œuvre le protocole de serveur d'affichage X11. Contrairement aux autres serveurs d'affichage, Xvfb effectue toutes les opérations graphiques en mémoire sans afficher de sortie d'écran. C'est très utile si votre compilation nécessite un accès X11, par exemple pour effectuer des tests qui nécessitent une interface graphique.
-	\item \textbf{Email Extension plugin : }Ce plugin vous permet de configurer tous les aspects des notifications par courrier électronique. Vous pouvez personnaliser le moment où un courriel est envoyé, qui doit le recevoir et ce que le courriel dit.
-	\item \textbf{Javascript  : }est un langage de script utilisé pour créer et contrôler le contenu dynamique d'un site web, c'est-à-dire tout ce qui bouge, rafraîchit ou change de quelque manière que ce soit sur votre écran sans vous obligez à recharger manuellement une page web. Des choses comme : des graphiques animés, des diaporamas de photos, des suggestions de texte à remplir automatiquement, des formulaires interactifs.
+	\item \textbf{GeckDriver\cite{geckodrive} :} Proxy pour l'utilisation de clients compatibles avec le W3C WebDriver pour interagir avec les navigateurs basés sur Gecko. Ce programme fournit l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, tels que Firefox. Il traduit les appels dans le protocole Marionnette à distance en agissant comme un proxy entre les extrémités locale et distante. 
+	\item \textbf{Xvfb plugin\cite{emailextension} :} Xvfb ou X virtual framebuffer est un serveur d'affichage mettant en œuvre le protocole de serveur d'affichage X11. Contrairement aux autres serveurs d'affichage, Xvfb effectue toutes les opérations graphiques en mémoire sans afficher de sortie d'écran. C'est très utile si votre compilation nécessite un accès X11, par exemple pour effectuer des tests qui nécessitent une interface graphique.
+	\item \textbf{Email Extension plugin :\cite{emailextension}} Ce plugin vous permet de configurer tous les aspects des notifications par courrier électronique. Vous pouvez personnaliser le moment où un courriel est envoyé, qui doit le recevoir et ce que le courriel dit.
+	\item \textbf{Javascript\cite{js} :} est un langage de script utilisé pour créer et contrôler le contenu dynamique d'un site web, c'est-à-dire tout ce qui bouge, rafraîchit ou change de quelque manière que ce soit sur votre écran sans vous obligez à recharger manuellement une page web. Des choses comme : des graphiques animés, des diaporamas de photos, des suggestions de texte à remplir automatiquement, des formulaires interactifs.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.13\linewidth]{img/logos/js}
@@ -256,7 +257,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:js}
 	\end{figure}
 	
-	\item \textbf{jQuery :}  est une bibliothèque JavaScript multiplateforme gratuite, qui a été créée pour faciliter l'écriture de scripts côté client avec du code HTML sur les pages Web.
+	\item \textbf{jQuery\cite{jquery} :} est une bibliothèque JavaScript multiplateforme gratuite, qui a été créée pour faciliter l'écriture de scripts côté client avec du code HTML sur les pages Web.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/jquery}
@@ -264,7 +265,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:jquery}
 	\end{figure}
 	
-	\item \textbf{Axios :} Axios est un client HTTP populaire, basé sur la promesse, qui comporte une API facile à utiliser et peut être utilisé à la fois dans le navigateur et dans Node.js. Effectuer des requêtes HTTP pour récupérer ou enregistrer des données est l'une des tâches les plus courantes qu'une application JavaScript côté client devra effectuer.
+	\item \textbf{Axios\cite{axios} :} est un client HTTP populaire, basé sur la promesse, qui comporte une API facile à utiliser et peut être utilisé à la fois dans le navigateur et dans Node.js. Effectuer des requêtes HTTP pour récupérer ou enregistrer des données est l'une des tâches les plus courantes qu'une application JavaScript côté client devra effectuer.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/axios}
@@ -272,7 +273,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:axios}
 	\end{figure}
 	
-	\textbf{HTML5 :} est un langage de balisage utilisé pour structurer et présenter le contenu sur le World Wide Web. Elle est la dernière révision majeure d'HTML. HTML5 spécifie deux syntaxes pour le modèle abstrait défini par le DOM: HTML5 et XHTML5
+	\textbf{HTML5\cite{html} :} est un langage de balisage utilisé pour structurer et présenter le contenu sur le World Wide Web. Elle est la dernière révision majeure d'HTML. HTML5 spécifie deux syntaxes pour le modèle abstrait défini par le DOM: HTML5 et XHTML5
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\linewidth]{img/logos/html5}
@@ -280,7 +281,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:html5}
 	\end{figure}
 	
-	\item \textbf{PHP :} préprocesseur hypertexte, connu sous son acronyme PHP, est un "langage de programmation" gratuit qui est principalement utilisé pour générer des pages Web dynamiques via un serveur HTTP, mais il peut également fonctionner comme n'importe quel langage interprété localement. PHP est un langage impératif orienté.
+	\item \textbf{PHP\cite{php} :} préprocesseur hypertexte, connu sous son acronyme PHP, est un "langage de programmation" gratuit qui est principalement utilisé pour générer des pages Web dynamiques via un serveur HTTP, mais il peut également fonctionner comme n'importe quel langage interprété localement. PHP est un langage impératif orienté.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\linewidth]{img/logos/php}
@@ -288,7 +289,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:php}
 	\end{figure}
 	
-	\item \textbf{Orange Framework \& Tools : } est un squelette d'application PHP/MySQL prêt-à-l'emploi. Ce framework PHP est sécurisé et équipé d'outils de sécurité pour accompagner les développements, charté et respectueux de l'identité du Groupe \#Boosted, performant et compatible avec toutes les offres d'hébergement \#12factor, souple et adapté à la construction d'interfaces REST et HTML, équipé d'outils pour accélérer les développements et gérer les spécificités d'Orange et adapté aux débutants comme aux experts.\\
+	\item \textbf{Orange Framework \& Tools\cite{oft} :} est un squelette d'application PHP/MySQL prêt-à-l'emploi. Ce framework PHP est sécurisé et équipé d'outils de sécurité pour accompagner les développements, charté et respectueux de l'identité du Groupe \#Boosted, performant et compatible avec toutes les offres d'hébergement \#12factor, souple et adapté à la construction d'interfaces REST et HTML, équipé d'outils pour accélérer les développements et gérer les spécificités d'Orange et adapté aux débutants comme aux experts.\\
 	L'OFT est surtout un framework basé sur Symfony et Zend PHP, produit de réflexions sur ce qui est jugé le plus pertinent pour les projets du Groupe Orange puisqu'il est taillé selon les besoins de la communauté PHP d'Orange et qui suit les standards et réutilise les composants reconnus.
 	\begin{figure}[H]
 		\centering
@@ -298,7 +299,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 	\end{figure}
 	
 	
-	\item \textbf{Boosted : } est répresenté comme la bibliothèque HTML, CSS et JS d'Orange basée sur Bootstrap 4.5.0, la boîte à outils open source frontale la plus populaire au monde.
+	\item \textbf{Boosted\cite{boosted} :} est répresenté comme la bibliothèque HTML, CSS et JS d'Orange basée sur Bootstrap 4.5.0, la boîte à outils open source frontale la plus populaire au monde.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\linewidth]{img/logos/boosted}
@@ -311,6 +312,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 Dans cette partie, nous présenterons l'architecture logicielle et matérielle utilisée lors du développement de notre application.
 \subsection[L'architecture logique]{L'architecture logique}
 \subsubsection{L'architecture logique des tests de non régression}
+Les tests de non régression permettent de valider que la mise en ligne d’une nouvelle fonctionnalité sur un logiciel n’impactera pas les fonctions déjà existantes. Ces tests ont pour but de s’assurer que les modifications et évolutions effectuées par les développeurs lors du dernier sprint n’ont pas entrainé d’effet de bord, en altérant les parties du code non modifiées.\\
 Nous présentons dans ce qui est suit l'enchaînement des tests de non régression de notre application. La figure \ref{fig:jenkins-schema} illustre la procédure des tests.
 \begin{figure}[H]
 	\centering
@@ -319,19 +321,19 @@ Nous présentons dans ce qui est suit l'enchaînement des tests de non régressi
 	\label{fig:jenkins-schema}
 \end{figure}
 \begin{enumerate}
-	\item[1 -] Le développeur de l’équipe Panoramix fait un « push » de code de robot Framework vers le repo git de « Orange Forge ».
-	\item[2+3 -] Jenkins va cloner ce repo dans une VM Linux et prépare l’environnement pour lancer les tests
-	\item[4 -] les 54 tests de non régression s’exécutent test par test et chaque test simule un scénario d’utilisation de notre portail.
-	\item[5 -] A la fin des tests, Robot Framework génère 3 fichiers dont le fichier report.html et log.html sont les plus importants :
+	\item[Étape 1 -] Le développeur de l’équipe Panoramix fait un « push » de code de robot Framework vers le repo git de « Orange Forge ».
+	\item[Étape 2 et 3 -] Jenkins va cloner ce repo dans une VM Linux et prépare l’environnement pour lancer les tests
+	\item[Étape 4 -] les 54 tests de non régression s’exécutent test par test et chaque test simule un scénario d’utilisation de notre portail.
+	\item[Étape 5 -] A la fin des tests, Robot Framework génère 3 fichiers dont le fichier report.html et log.html sont les plus importants :
 	\begin{itemize}
 		\item\textbf{ Log.html :} Les fichiers journaux contiennent des détails sur les cas de tests exécutés au format HTML. Ils ont une structure hiérarchique indiquant la suite de tests, le scénario de test et les détails des mots clés. Les fichiers journaux sont nécessaires presque à chaque fois que les résultats des tests doivent être examinés en détail. Même si les fichiers journaux contiennent également des statistiques, les rapports sont plus utiles pour obtenir une vue d'ensemble de haut niveau.
 		\item \textbf{Report.html :} Les fichiers de rapport contiennent un aperçu des résultats de l'exécution des tests au format HTML. Ils contiennent des statistiques basées sur les balises et les suites de tests exécutés, ainsi qu'une liste de tous les cas de tests exécutés. Lorsque les rapports et les journaux sont générés, le rapport comporte des liens vers le fichier journal pour faciliter la navigation vers des informations plus détaillées. Il est facile de voir l'état général de l'exécution des tests à partir du rapport, car sa couleur de fond est verte, si tous les tests critiques réussissent, et rouge vif dans le cas contraire.
 	\end{itemize}
-	\item[6+7 -]  Jenkins récupère les fichiers générés par robot Framework et les envoyer en email vers les personnes concernés.
+	\item[Étape 6 et 7 -]  Jenkins récupère les fichiers générés par robot Framework et les envoyer en email vers les personnes concernés.
 \end{enumerate}
 
 \subsubsection{L'architecture logique de l’application}
-Dans notre application que nous avons effectuée, nous envisageons d’utiliser une architecture 3-tiers qui sera réparti en trois couches comme suit :
+Dans notre application, nous envisageons d’utiliser une architecture 3-tiers qui sera réparti en trois couches comme suit :
 \begin{itemize}
 	\item\textbf{ Couche 1 (Site) :} Cette couche contient les interfaces côté utilisateurs qui interagissent souvent avec l’application Panoramix.
 	\item\textbf{ Couche 2 (Serveur) : }Cette couche représente la partie traitement qui contient toutes nos APIs, cette partie sera réalisée avec Apache qui est un serveur HTTP.
@@ -362,7 +364,7 @@ L’organisation du code source est assuré par le biais du modèle MVC. Mais so
 	\item Vue(V) : Cette partie inclut juste les fichiers html et CSS mais aussi quelques boucles et conditions PHP très simples qui se focalisent sur l’affichage. 
 	\item Contrôleur(C) : Ce dernier est assimilable à une passerelle entre les vues et le modèle. Il contient exclusivement que du PHP et gère notamment les droits d’accès de chaque utilisateurs. 
 \end{itemize}
-La figure suivante schématise l’échange d’informations entre les éléments de l’architecture MVC
+La figure \ref{fig:mvc} schématise l’échange d’informations entre les éléments de l’architecture MVC
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/mvc}
