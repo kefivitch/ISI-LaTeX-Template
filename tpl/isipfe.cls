@@ -146,9 +146,9 @@
 %\renewcommand*{\bibfont}{\small\raggedright}
 %\DefineBibliographyExtras{french}{\renewcommand*\mkbibnamelast[1]{#1}}
 \addbibresource{biblio.bib}
-%\DefineBibliographyStrings{french}{%
-%  bibliography = {Bibliographie},
-%}
+\DefineBibliographyStrings{french}{%
+  bibliography = {Bibliographie \& Netographie},
+}
 
 %============== To Enable List Customization ==============%
 \usepackage{enumitem}

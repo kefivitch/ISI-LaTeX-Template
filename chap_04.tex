@@ -64,26 +64,28 @@ La figure \ref{fig:usecase-gestion-users} décrit le raffinement du cas d’util
 	\label{fig:usecase-gestion-users}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs} contient la description textuelle du cas d’utilisation« Gérer Utilisateurs»
+Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs} contient la description textuelle du cas d’utilisation« Gérer Utilisateurs»\\
 
-\begin{table}[H]
-	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{|l|l|}
-			\hline
-			\rowcolor[HTML]{C0C0C0} 
-			Cas d’utilisation & Gérer utilisateurs                                                                 \\ \hline
-			Acteurs           & Administrateur, Administrateur Habilitation                                        \\ \hline
-			Résumé            & L’administrateur des habilitations ou l’administrateur peut gérer les utilisateurs \\ \hline
-			Pré-condition     & L’acteur doit être authentifié                                                     \\ \hline
-			Scénario principal &
-			\begin{tabular}[c]{@{}l@{}}Pour gérer les utilisateurs, l’acteur peut :\\ Ajouter un utilisateur\\ Modifier un utilisateur\\ Supprimer un utilisateur\\ Consulter les utilisateurs\\ Import des utilisateurs ou les supprimer en masse en\\ basant sur le champs action ( soit ADD, soit DEL)\\ Exporter les utilisateurs dans un fichier csv\end{tabular} \\ \hline
-			Post-condition    & Mettre à jour la liste des utilisateurs                                            \\ \hline
-		\end{tabular}%
-	}
+\begin{longtable}[c]{|l|l|}
+	\hline
+	\rowcolor[HTML]{9B9B9B} 
+	Cas d’utilisation & Gérer utilisateurs                                                                 \\ \hline
+	\endfirsthead
+	%
+	\multicolumn{2}{c}%
+	{{\bfseries La table \thetable\ continuante de la page précédente }} \\
+	\endhead
+	%
+	Acteurs           & Administrateur, Administrateur Habilitation                                        \\ \hline
+	Résumé            & L’administrateur des habilitations ou l’administrateur peut gérer les utilisateurs \\ \hline
+	Pré-condition     & L’acteur doit être authentifié                                                     \\ \hline
+	Scénario principal &
+	\begin{tabular}[c]{@{}l@{}}Pour gérer les utilisateurs, l’acteur peut :\\ Ajouter un utilisateur\\ Modifier un utilisateur\\ Supprimer un utilisateur\\ Consulter les utilisateurs\\ Import des utilisateurs ou les supprimer en masse en\\ basant sur le champs action ( soit ADD, soit DEL)\\ Exporter les utilisateurs dans un fichier csv\end{tabular} \\ \hline
+	Post-condition    & Mettre à jour la liste des utilisateurs                                            \\ \hline
 	\captionsetup{justification=centering}
 	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-	\label{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}
-\end{table}
+	\label{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}\\
+\end{longtable}
 
 \subsubsection{Cas d’utilisation «Gérer rôles»}
 La figure \ref{fig:usecase-gestion-roles-1} illustre le raffinement du cas d’utilisation «Gérer rôles»
@@ -96,28 +98,37 @@ La figure \ref{fig:usecase-gestion-roles-1} illustre le raffinement du cas d’u
 \myparagraph{Description textuelle du cas d’utilisation «Gérer rôles»}
 Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-roles} contient la description textuelle du cas d’utilisation «Gérer rôles».
 
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		\rowcolor[HTML]{C0C0C0} 
-		Cas d’utilisation & Gérer rôles                            \\ \hline
-		Acteurs           & Administrateur                         \\ \hline
-		Résumé            & L’administrateur peut gérer les rôles  \\ \hline
-		Pré-condition     & L'administrateur doit être authentifié \\ \hline
-		Scénario principal &
-		\begin{tabular}[c]{@{}l@{}}Pour gérer les rôles, l’administrateur peut :\\ Ajouter un rôle\\ Modifier un rôle\\ Supprimer un rôle\\ Consulter les rôles\\ gestion des types de rôles\\ activation des rôles attribué à un utilisateur\end{tabular} \\ \hline
-		Post-condition    & Mettre à jour la liste des rôles       \\ \hline
-	\end{tabular}
+\begin{longtable}[c]{|l|l|}
+	\hline
+	\rowcolor[HTML]{9B9B9B} 
+	Cas d’utilisation & Gérer rôles                            \\ \hline
+	\endfirsthead
+	%
+	\multicolumn{2}{c}%
+	{{\bfseries La table \thetable\ continuante de la page précédente}} \\
+	\endhead
+	%
+	Acteurs           & Administrateur                         \\ \hline
+	Résumé            & L’administrateur peut gérer les rôles  \\ \hline
+	Pré-condition     & L'administrateur doit être authentifié \\ \hline
+	Scénario principal &
+	\begin{tabular}[c]{@{}l@{}}Pour gérer les rôles, l’administrateur peut :\\ Ajouter un rôle\\ Modifier un rôle\\ Supprimer un rôle\\ Consulter les rôles\\ Gestion des types de rôles\\ Activation des rôles attribué à un utilisateur\end{tabular} \\ \hline
+	Post-condition    & Mettre à jour la liste des rôles       \\ \hline
 	\captionsetup{justification=centering}
-	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-	\label{tab:Description-textuelle-du-cas-utilisation-gerer-roles}
-\end{table}
+	\caption{Description textuelle du cas d’utilisation «Gérer rôles»}
+	\label{tab:Description-textuelle-du-cas-utilisation-gerer-roles}\\
+\end{longtable}
 
 \section{Conception}
 Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.
 \subsection{Diagramme de classes}
-la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale.
+la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale. Ce diagramme est composé de 4 classes d'où :
+\begin{itemize}
+	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.
+	\item \textbf{La classe Type :} permet de représenter les deux métiers de notre application : CPRO pour la boutique et 3901 pour le centre d'appel.
+	\item \textbf{La classe Roles :} permet de représenter les rôles dans notre application. Ces rôles peuvent être limités par une periode du temps connue à l'avance et ils peuvent être activés ou désactivés aussi. Chaque rôle doit avoir au moins un rôle.
+	\item \textbf{La classe associative user-role :} permet d'attribuer à un utilisateur un ou plusieur rôles. L'affectation un rôle à un utilisateur peut être activée ou désactivée.
+\end{itemize}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/conception/classes/ClassDiag-sprint1}

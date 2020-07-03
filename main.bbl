@@ -17,6 +17,21 @@
 \endgroup
 
 \datalist[entry]{none/global//global/global}
+  \entry{essentiels2020}{online}{}
+    \list{organization}{1}{%
+      {Orange}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 02-07-2020]}
+    \field{title}{Qu’est-ce qu’une expérience client de qualité à
+  l’ère digitale ?}
+    \verb{url}
+    \verb https://www.orange.com/fr/content/download/37398/1148540/version/3/fi
+    \verb le/Chapitre%204.pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
   \entry{sofrecom}{online}{}
     \list{organization}{1}{%
       {Sofrecom}%
@@ -204,6 +219,19 @@
     \verb https://www.edureka.co/blog/selenium-chromedriver-and-geckodriver/
     \endverb
     \field{year}{Mai 2020}
+  \endentry
+
+  \entry{xvfb}{online}{}
+    \list{organization}{1}{%
+      {X.org}%
+    }
+    \field{labeltitlesource}{title}
+    \field{note}{[Accès le 02-07-2020]}
+    \field{title}{Définition d'outil Xvfb}
+    \verb{url}
+    \verb https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml
+    \endverb
+    \field{year}{Janv. 2007}
   \endentry
 
   \entry{emailextension}{online}{}

@@ -26,7 +26,7 @@ Le tableau \ref{tab:sprint-backlog-sprint0}, qui représente une liste de tâche
 Dans cette section, nous comparons les critères le plus intéressants pour notre projet telque la performance, traitement des exceptions et le support de 64 bits entre les deux versions de PHP : version actuelle php5.3 et la version cible php7.2.
 
 \subsection[Performance]{Performance}
-Les performances de PHP 7 sont bien meilleures que celles de PHP 5. PHP 4 utilise le moteur Zend et PHP 5 utilise le moteur Zend II. Cependant, avec PHP 7, vient un tout nouveau moteur appelé PHPNG. Le "NG" signifie "Next Generation". Le moteur PHPNG améliore les performances du double avec une utilisation optimisée de la mémoire.\cite{php-perf}
+Les performances de PHP 7 sont bien meilleures que celles de PHP 5. PHP 4 utilise le moteur Zend et PHP 5 utilise le moteur Zend II. Cependant, avec PHP 7, vient un tout nouveau moteur appelé PHPNG. Le "NG" signifie "Next Generation". Le moteur PHPNG améliore les performances du double avec une utilisation optimisée de la mémoire.
 \begin{table}[H]
 	\centering
 	\begin{tabular}{l|l|l|}
@@ -36,33 +36,31 @@ Les performances de PHP 7 sont bien meilleures que celles de PHP 5. PHP 4 utilis
 		\multicolumn{1}{|l|}{\cellcolor[HTML]{C0C0C0}temps d'exécution CPU (seconde)} & 0.8                            & 0.35 (-44\%)                   \\ \hline
 	\end{tabular}
 \captionsetup{justification=centering}
-	\caption{Comparaison de performance entre PHP 5.6 et PHP 7.2 sur le site journaldunet.com }
+	\caption{Comparaison de performance entre PHP 5.6 et PHP 7.2 sur le site journaldunet.com\cite{php-perf} }
 	\label{tab:perf-php}
 \end{table}
-\subsection[Traitement des exceptions]{Traitement des exceptions}
-Le traitement des erreurs fatales dans le PHP 5 est assez compliqué. Le PHP 7 a remplacé plusieurs erreurs majeures avec des exceptions qui peuvent être traitées facilement. Cela est dû à l'introduction des nouveaux objets d'exception du moteur.\cite{php-quora}
-\subsection[Support de 64 bits ]{Support de 64 bits }
-PHP 5 ne prend pas en charge les entiers 64 bits ni les fichiers volumineux, alors que le PHP 7 supporte le 64 bits, ce qui permet d'utiliser des entiers 64 bits natifs et des fichiers volumineux.\cite{php-quora}
+\subsection[Traitement des exceptions]{Traitement des exceptions \cite{php-quora}}
+Le traitement des erreurs fatales dans le PHP 5 est assez compliqué. Le PHP 7 a remplacé plusieurs erreurs majeures avec des exceptions qui peuvent être traitées facilement. Cela est dû à l'introduction des nouveaux objets d'exception du moteur.
+\subsection[Support de 64 bits ]{Support de 64 bits \cite{php-quora}}
+PHP 5 ne prend pas en charge les entiers 64 bits ni les fichiers volumineux, alors que le PHP 7 supporte le 64 bits, ce qui permet d'utiliser des entiers 64 bits natifs et des fichiers volumineux.
 \section[Migration de MySQL vers MariaDB]{Migration de MySQL vers MariaDB}
 Dans cette partie du rapport, nous comparons le système de gestion de base de données actuel et le système de gestion de base de données cible. Nous examinerons les aspects liés aux performances, à la sécurité et aux principales caractéristiques, et nous énumérerons tous les aspects à prendre en compte avant de choisir la base de données qui répondra à nos besoins.
-\subsection{Plus d'options pour les moteurs de stockage}
- y a 12 nouveaux moteurs de stockage intégrés dans MariaDB. Parmi ceux-ci, on trouve CONNECT, Spider et SphinxSE. Visitez leur page Moteurs de stockage pour une liste complète de ces moteurs, comment ils fonctionnent et comment les exploiter pour optimiser votre base de données.\cite{mysql-maria}
-\subsection{Améliorations de la vitesse}
-MariaDB présente de nombreuses nouvelles améliorations de vitesse par rapport à MySQL standard. Ces performances améliorées permettent à MariaDB de se différencier des performances de base des serveurs MySQL traditionnels. Comme MySQL, MariaDB possède des dizaines de fonctionnalités pour l'optimisation de la vitesse, y compris l'accès au disque, les améliorations de JOIN et EXPLAIN, la sous-requête, les tables/vues dérivées, le contrôle de l'exécution et le contrôle de l'optimiseur.\cite{mysql-maria}
-\subsection{Indexes/Cache plus rapides}
-En utilisant le moteur de stockage MEMORY, MariaDB peut compléter les instructions INSERT jusqu'à 24\% plus vite que les serveurs MySQL traditionnels, avec CHECKSUM TABLE et MyISAM Segment Key Cache étant 4x plus rapide.\cite{mysql-maria}
-\subsection{Un pool de connexion plus rapide et plus grand}
-MariaDB bénéficie d'un pool de threads amélioré qui fonctionne plus rapide et prend en charge plus de 200 000 connexions là où MySQL standard ne supporte pas ce nombre.\cite{mysql-maria}
-\subsection{Réplication améliorée}
-MariaDB bénéficie d'une réplication plus rapide et plus sûre, les mises à jour étant jusqu'à 2 fois plus rapides qu'avec les configurations de réplication MySQL traditionnelles. Désormais possible, la réplication parallèle assure l'existence de configurations Active/Active ou Master/Master. La réplication de MariaDB est rétrocompatible avec les serveurs MySQL, de sorte que la migration de votre cluster vers MariaDB est possible en utilisant un nœud à la fois.\cite{mysql-maria}
-\subsection{Nouvelles extensions/caractéristiques}
-Il y a plusieurs nouvelles extensions et fonctionnalités, pour en nommer quelques-unes, les déclarations WITH, JSON et KILL. DECIMAL augmente de 30 à 38 décimales, tandis que KILL ALL permet d'effectuer des requêtes pour un utilisateur spécifique.\cite{mysql-maria}
-\subsection{Liste des fonctionnalités et la documentation}
-Le site web MariaDB disponible présente une liste complète d'améliorations et de fonctionnalités, ainsi qu’une documentation bien détaillée.\cite{mysql-maria}
+\subsection{Plus d'options pour les moteurs de stockage \cite{mysql-maria}}
+ y a 12 nouveaux moteurs de stockage intégrés dans MariaDB. Parmi ceux-ci, on trouve CONNECT, Spider et SphinxSE. Visitez leur page Moteurs de stockage pour une liste complète de ces moteurs, comment ils fonctionnent et comment les exploiter pour optimiser votre base de données.
+\subsection{Améliorations de la vitesse \cite{mysql-maria}}
+MariaDB présente de nombreuses nouvelles améliorations de vitesse par rapport à MySQL standard. Ces performances améliorées permettent à MariaDB de se différencier des performances de base des serveurs MySQL traditionnels. Comme MySQL, MariaDB possède des dizaines de fonctionnalités pour l'optimisation de la vitesse, y compris l'accès au disque, les améliorations de JOIN et EXPLAIN, la sous-requête, les tables/vues dérivées, le contrôle de l'exécution et le contrôle de l'optimiseur.
+\subsection{Indexes/Cache plus rapides \cite{mysql-maria}}
+En utilisant le moteur de stockage MEMORY, MariaDB peut compléter les instructions INSERT jusqu'à 24\% plus vite que les serveurs MySQL traditionnels, avec CHECKSUM TABLE et MyISAM Segment Key Cache étant 4x plus rapide.
+\subsection{Un pool de connexion plus rapide et plus grand \cite{mysql-maria}}
+MariaDB bénéficie d'un pool de threads amélioré qui fonctionne plus rapide et prend en charge plus de 200 000 connexions là où MySQL standard ne supporte pas ce nombre.
+\subsection{Nouvelles extensions/caractéristiques \cite{mysql-maria}}
+Il y a plusieurs nouvelles extensions et fonctionnalités, pour en nommer quelques-unes, les déclarations WITH, JSON et KILL. DECIMAL augmente de 30 à 38 décimales, tandis que KILL ALL permet d'effectuer des requêtes pour un utilisateur spécifique.
+\subsection{Liste des fonctionnalités et la documentation \cite{mysql-maria}}
+Le site web MariaDB disponible présente une liste complète d'améliorations et de fonctionnalités, ainsi qu’une documentation bien détaillée.
 \section{Migration d’OFT2 vers OFT3}
 Dans cette section, nous présentons l’outil principal de développement de notre application OFT ( Orange Framework \& Tools ) et nous comparons les deux versions : version actuelle 2.2 et la version cible 3.
-\subsection{Points forts d’OFT 3}
-Parmi les principales raisons de migration, le support de PHP 7 d’où les versions précédentes  d’OFT ne sont pas compatibles avec PHP7. Un autre atout pour notre projet est la redirection simple des sorties des logs. En plus, les dépendances du framework ont été mises à jour et la performance de la framework est améliorée comme l'illustre la figure \ref{fig:oft-3} :
+\subsection{Points forts d’OFT 3 \ref{fig:oft-3}}
+Parmi les principales raisons de migration, le support de PHP 7 d’où les versions précédentes  d’OFT ne sont pas compatibles avec PHP7. Un autre atout pour notre projet est la redirection simple des sorties des logs. En plus, les dépendances du framework ont été mises à jour et la performance de la framework est améliorée comme l'illustre la figure  :
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/oft-3}
@@ -93,7 +91,7 @@ Nos 54 tests peuvent être présentés comme illustre le tableau \ref{fig:excel-
 	\label{fig:excel-robot}
 \end{figure}
 \subsection{Réalisation}
-Lors de cette partie, nous présenterons les différentes étapes de réalisation en spécifiant les étapes de configuration de Jenkins.\newpage
+Lors de cette partie, nous présenterons les différentes étapes de réalisation en spécifiant les étapes de configuration de Jenkins.
 \subsubsection{Création de projet Jenkins}
 La permière étape d'automatisation des tests consiste à créer un projet free-style sur Jenkins comme illustre la figure \ref{fig:creation-projet}
 \begin{figure}[H]
@@ -106,7 +104,7 @@ La permière étape d'automatisation des tests consiste à créer un projet free
 \subsubsection{Configuration du plugins}
 Le projet est maintenant prêt, nous préparons les configurations nécessaires pour l'exécution des tests Cases de Robot Framework tels que les configurations du plugins :
 \begin{itemize}
-	\item Nous commencons par installer le plugin \textbf{Xvfb plugin} qui assure l'éxecution des opérations graphiques dans la mémoire.
+	\item Nous commencons par installer le plugin \textbf{Xvfb plugin} qui assure l'éxecution des opérations graphiques dans la mémoire. La figure \ref{fig:xvfb} représente l'interface d'installation de ce plugin.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.9\linewidth]{img/jenkins/xvfb}
@@ -123,7 +121,6 @@ Le projet est maintenant prêt, nous préparons les configurations nécessaires 
 	\end{figure}
 	
 \end{itemize}
-\newpage
 La dernière étape de configuration est la configuration de l'environnement de build qui sert à installer :
 \begin{itemize}
 	\item GeckoDriver : qui est le responsable pour l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, comme Firefox
@@ -140,7 +137,7 @@ La dernière étape de configuration est la configuration de l'environnement de 
 Dans cette partie, nous configurons Jenkins de façon à récupérer les tests cases de Robot Framework. Nous choisissons la gestion de code avec Git et nous déclarons les dépôts distants hébergé chez Orange Forge avec la branche /develop. Chaque projet Jenkins possède un dépôt distant pour importer les tests. Lorsque le job est exécuté, Jenkins s’assure à chaque fois d’importer la dernière version des tests. Pour la configuration, il suffit de renseigner l’URL https de dépôts distants et fournir le nom d’utilisateur et le mot de passe. Un champ nous permet aussi de spécifier la branche du dépôt à utiliser comme l'illustre la figure \ref{fig:source-jenkins}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/jenkins/source}
+	\includegraphics[width=0.9\linewidth]{img/jenkins/source}
 	\caption[Gestion de source sous Jenkins]{Gestion de source sous Jenkins}
 	\label{fig:source-jenkins}
 \end{figure}
@@ -148,6 +145,7 @@ Dans cette partie, nous configurons Jenkins de façon à récupérer les tests c
 \subsection{Déclenchement de build }
 Dans cette étape nous configurons la façon avec laquelle le job est lancé, plusieurs choix sont disponibles : soit périodiquement, soit par un déclencheur manuel.\\
 Pour le premier choix, nous configurons la section “Ce qui déclenche le build” dans la configuration de job pour assurer que le build s'exécute de lundi à vendredi à 07:30 du matin.
+La figure \ref{fig:declanchement} représente la configuration nécessaire pour le déclanchement de nos tests.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\linewidth]{img/jenkins/declanchement}
@@ -157,45 +155,45 @@ Pour le premier choix, nous configurons la section “Ce qui déclenche le build
 
 \subsection{L’environnement de build}
 \subsubsection{Build}
-Dans cette étape, nous précisons l’action principale du job. Pour le job de tests, nous invoquons robot framework pour exécuter tous les tests cases dans le repo. Jenkins nous offre la possibilité de spécifier le chemin du test ainsi que le fichier robot. La figure présente notre configuration de déploiement.
+Dans cette étape, nous précisons l’action principale du job. Pour le job de tests, nous invoquons robot framework pour exécuter tous les tests cases dans le repo. Jenkins nous offre la possibilité de spécifier le chemin du test ainsi que le fichier robot.\newpage La figure \ref{fig:build} présente notre configuration de déploiement.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\linewidth]{img/jenkins/build}
+	\includegraphics[width=01\linewidth]{img/jenkins/build}
 	\caption[Build de job Jenkins]{Build de job Jenkins}
 	\label{fig:build}
 \end{figure}
 
 \subsubsection{Actions à la suite du build}
-Dans cette étape, nous activons la notification par mail, en attachant les  deux fichiers report.html et log.html, et en précisant à qui l'email sera envoyé, par qui, le contenu et le sujet d'email.\\La figure \ref{fig:actions-after} présenté cette configuration :
+Dans cette étape, nous activons la notification par mail, en attachant les  deux fichiers report.html et log.html, et en précisant à qui l'email sera envoyé, par qui, le contenu et le sujet d'email.La figure \ref{fig:actions-after} présenté cette configuration :
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/jenkins/actions after"}
 	\caption[Actions à la suite du build de job Jenkins]{Actions à la suite du build de job Jenkins}
 	\label{fig:actions-after}
 \end{figure}
-\newpage
+
 \subsection{Exécution de job}
-Dans cette partie, nous présentons l’exécution du job. Jenkins offre la possibilité d’avoir une sortie console pour les commandes qu’il exécute.\\
+Dans cette partie, nous présentons l’exécution du job. Jenkins offre la possibilité d’avoir une sortie console pour les commandes qu’il exécute.\newpage
 La figure \ref{fig:exemple-console} représente la sortie de tous les outils du pipeline, ceci permet de garder une trace de l’exécution du job.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{"img/jenkins/exemple console"}
+	\includegraphics[width=1.1\linewidth]{"img/jenkins/exemple console"}
 	\caption[Extrait de sortie de console]{Extrait de sortie de console}
 	\label{fig:exemple-console}
 \end{figure}
 l’exécution de robot framework génère deux fichiers qui résument les résultats de tests en basant sur des éléments graphiques facilitant la compréhension et la navigation.
 \begin{itemize}
-	\item Le rapport des tests :
-	\begin{figure}[H]
+	\item Le rapport des tests : Ce fichier HTML contient les statistiques basées sur les balises et les suites de tests exécutés. Dans notre cas 240 tests suites de tests sont valides  et 41 suites de tests sont échoués de 281 en total pour cela la couleur de l'arriéré plan de ficher est en rouge.
+\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.55\linewidth]{"img/jenkins/exemple report"}
+		\includegraphics[width=0.575\linewidth]{"img/jenkins/exemple report"}
 		\caption[Extrait de rapport Jenkins]{Extrait de rapport Jenkins}
 		\label{fig:exemple-report}
 	\end{figure}
-	\item Les logs :
+	\item Les logs : Comme le fichier de rapport, ce fichier contient plus de détails sur les suites des tests.
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.55\linewidth]{"img/jenkins/exemple log"}
+		\includegraphics[width=0.575\linewidth]{"img/jenkins/exemple log"}
 		\caption[Extrait de log Jenkins]{Extrait de log Jenkins}
 		\label{fig:exemple-log}
 	\end{figure}

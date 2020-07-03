@@ -8,12 +8,12 @@ Dans ce chapitre, nous ferons référence aux objectifs de notre application, ce
 Dans cette partie du rapport, nous présenterons les différents acteurs du système, les besoins fonctionnels ainsi que les besoins non-fonctionnels.
 \subsection[La présentation des acteurs ]{La présentation des acteurs }
 Les acteurs représentent les personnes ou des composants logiciels ou matériels qui interagissent directement avec le système.\\
-Dans notre projet, il y’a 4 acteurs principaux qui manipulent notre site comme l'indique la figure \ref{fig:actors} :
+Dans notre projet, il y’a 5 acteurs principaux qui manipulent notre site comme l'indique la figure \ref{fig:actors} :
 \begin{itemize}
+	\item Visiteur
 	\item Conseiller client réactif (Soit conseiller client de centre d’appel ou conseiller client de boutique)
 	\item Administrateur des habilitations
 	\item Administrateur
-	\item Système
 \end{itemize}
 
 \begin{figure}[tbph]
@@ -22,37 +22,44 @@ Dans notre projet, il y’a 4 acteurs principaux qui manipulent notre site comme
 	\caption[Les acteurs de système]{Les acteurs de système}
 	\label{fig:actors}
 \end{figure}
-\newpage
+
 La table \ref{tab:my-table} représent les tâches de chaque acteur de notre système
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		\rowcolor[HTML]{C0C0C0} 
-		Acteur                           & Rôle                                                             \\ \hline
-		Conseiller client réactif        & Consulter les PEF au fiche client                                \\ \hline
-		Administrateur des habilitations & Gestion des utilisateurs                                         \\ \hline
-		Administrateur & \begin{tabular}[c]{@{}l@{}}Consulter les PEF au fiche client\\ gérer toute la partie opérationnelle du projet\end{tabular} \\ \hline
-		Système                          & Assure le déclenchement des tâches automatiques de l’application \\ \hline
-	\end{tabular}
+
+\begin{longtable}[c]{|l|l|}
+	\hline
+	\rowcolor[HTML]{C0C0C0} 
+	Acteurs &
+	Tâches \\ \hline
+	\endhead
+	%
+	Guest &
+	\begin{tabular}[c]{@{}l@{}}Consulter la page de simulation SRCD qui\\ permet de simuler l’inscription de client en\\ entrant à la boutique\end{tabular} \\ \hline
+	Conseiller client réactif &
+	\begin{tabular}[c]{@{}l@{}}L’utilisation des PEF lors l’ouverture de\\ fiche client pour utiliser une certaine \\ application tel que la consultation de \\ facture, gestion de la boites email \\ professionnelle, gestion des lignes \\ téléphoniques d’une entreprise, etc ….\end{tabular} \\ \hline
+	Administrateur Habilitations &
+	\begin{tabular}[c]{@{}l@{}}Gestion des utilisateurs(consultation, ajout,\\ modification, suppression, export, import,\\ recheche).\end{tabular} \\ \hline
+	Administrateur &
+	\begin{tabular}[c]{@{}l@{}}Gestion des utilisateurs(consultation, ajout,\\ modification, suppression, export, import,\\ recheche, affectation aux boutiques, export\\ des affectations).\\ Gestion des rôles(consultation, ajout,\\ modification, suppression).\\ Consultation des données boutiques.\\ Gestion des catégories des PEF(consultation,\\ ajout, modification, suppression).\\ Gestion des PEF(consultation, ajout,\\ modification, suppression, visibilité des PEF\\ aux boutiques).\\ Consultation des statistiques des logs des API\\ utilisées dans l’application.\\ Consulter la page de simulation SRCD qui\\ permet de simuler l’inscription de client en\\ entrant à la boutique.\\ L’utilisation des PEF lors l’ouverture de fiche\\ client pour utiliser une certaine application\\ tel que la consultation de facture, gestion de\\ la boites email professionnelle, gestion des\\ lignes téléphoniques d’une entreprise, etc ….\end{tabular} \\ \hline
 	\captionsetup{justification=centering}
 	\caption{Les tâches des acteurs de système}
-	\label{tab:my-table}
-\end{table}
+	\label{tab:my-table}\\
+\end{longtable}
+
 
 \subsection[Les besoins fonctionnels]{Les besoins fonctionnels}
 Notre application doit fournir un ensemble de fonctionnalités qui répondent aux exigences des acteurs. Les principales exigences fonctionnelles sont:
 \begin{itemize}
 	\item \textbf{Recevoir des rapports quotidiens des tests de non régression :} Chaque jour, les tests de non régression doivent être exécutés pour garantir que l'intégration de nouvelles fonctionalités n'affecte pas le déroulement de notre système et envoyer un rapport complet au personnes concernées.
-	\item \textbf{Gestion les utilisateurs :} L'administrateur des habilitations ou l'administrateur peuvent gérer les utilisateurs(ajouter, modifier, supprimer, consulter et rechercher) sur l'application
-	\item \textbf{Gestion les rôles :} L'administrateur peut gérer les rôles (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
+	\item \textbf{Gestion les utilisateurs :} sert à ajouter, modifier, supprimer, consulter et rechercher les utilisateurs.
+	\item \textbf{Gestion les rôles :}  permet d'ajouter, modifier, supprimer, consulter et rechercher les rôles.
 	\item \textbf{Consultation des données boutiques :} Consulter les informations des boutiques en détails.
 	\item \textbf{Affectation des utilisateurs aux boutiques :} Affecter un utilisateur à une boutique, et par conséquence, cet utilisateur aura la possibilité d'accéder aux PEF de cette boutique. 
-	\item \textbf{Gestion des catégories :} L'administrateur doit gérer les catégories de PEF (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
-	\item \textbf{Gestion des PEF :} L'administrateur doit gérer les PEF (ajouter, modifier, supprimer, consulter et rechercher) sur l'application
-	\item \textbf{Visibilité des PEF aux boutiques :} Donner l'autorisation aux boutiques pour utiliser un ensemble défini des PEF
-	\item \textbf{Simulation SRCD :} Simuler la page bouchon SRCD du boutique
-	\item \textbf{Consultation les logs des API :} Afficher des statistiques sur les requêtes des API et afficher en détails les erreurs.
+	\item \textbf{Gestion des catégories :} sert à ajouter, modifier, supprimer, consulter et rechercher les catégories.
+	\item \textbf{Gestion des PEF :} L'administrateur doit gérer les PEF (ajouter, modifier, supprimer, consulter et rechercher) sur l'application.
+	\item \textbf{Visibilité des PEF aux boutiques :} Donner l'autorisation aux boutiques pour utiliser un ensemble défini des PEF.
+	\item \textbf{L’utilisation des PEF lors l’ouverture de fiche client :} pour utiliser une certaine application tel que la consultation de facture, gestion de la boites email professionnelle, gestion des lignes téléphoniques d’une entreprise, etc. Les applications seront filter selon leur catégorie, le type de catégorie\footnote{Soit de type boutique ou de type centre d'appel} et de type d'utilisateur.
+	\item \textbf{Simulation SRCD :} Simuler le mécanisme d'inscription de client en entrant à la boutique.
+	\item \textbf{Consultation les logs des API :} Afficher des statistiques sur les requêtes des API et afficher les détails des causes des erreurs.
 	\item \textbf{Traçabilité :} Tracer toutes actions prise lors l'utilisation de Panoramix.
 \end{itemize}
 \subsection[Diagramme de cas d’utilisation global]{Diagramme de cas d’utilisation global}
@@ -60,7 +67,7 @@ Dans cette sous-section, nous exposons le diagramme de cas d’utilisation globa
 La figure \ref{fig:usecasediagram-global} représente le diagramme de cas d’utilisation global.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\linewidth]{img/conception/usecases/UseCaseDiagram-global}
+	\includegraphics[width=1.1\linewidth]{img/conception/usecases/UseCaseDiagram-global}
 	\caption[Diagramme de cas d'utilisation générale]{Diagramme de cas d'utilisation générale}
 	\label{fig:usecasediagram-global}
 \end{figure}
@@ -79,9 +86,22 @@ Outre des besoins fonctionnels, le futur système doit également répondre aux 
 Nous présentons, dans la suite, les différents intervenants dans notre projet ainsi que le cycle de vie de la méthode Scrum et nous finissons par la présentation de notre product backlog.
 \subsection[Identification des rôles dans l’équipe SCRUM]{Identification des rôles dans l’équipe SCRUM}
 Dans un projet SCRUM, l’équipe a un rôle fondamental : elle permet d’optimiser la productivité et la flexibilité. En effet, elle doit être auto organisée et multifonctionnelle.\\
-Cette méthode agile intègre généralement la participation de plusieurs acteurs, dans notre contexte nous avons le "Product owner" qui  est la personne qui porte la vision du produit à réaliser, et qui est responsable de la gestion du "backlog produit" et de l'interaction avec l'équipe de développement. Il est généralement un expert du domaine métier du projet. Mme « Nisrine ZIADIA » est le "Product owner" et Mme « Meriem OUEDERNI »  joue le rôle de "Product owner Proxi. ".\\
-Le "Scrum master" est la personne qui doit maîtriser la méthodologie SCRUM et s’assurer qu'elle est bien comprise et appliquée. M. « Mohamed Aymen FEKIRI » est le "Scrum master".\\
-L'équipe traduit les exigences en fonctionnalités pour obtenir des incréments utilisables et livrables à la fin de chaque itération. Notre équipe est pluridisciplinaire et auto-organisée. Cette dernière comporte un seul stagiaire, moi-même, Lassad KEFI, étudiant en Ingénierie des systèmes intelligents à L'Ecole Nationale des Ingénieurs de Carthage, qui joue le rôle d’un développeur au sein de l’équipe Panoramix.
+Le tableau \ref{tab:comp-scrum} représente la décomposition de l'équipe SCRUM de Panoramix\\
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|}
+		\hline
+		\rowcolor[HTML]{C0C0C0} 
+		Nom \& prénom        & Rôle dans l'équipe   \\ \hline
+		Nesrine ZIADIA       & Product owner        \\ \hline
+		Meriem OUEDERNI      & Product owner Proxi. \\ \hline
+		Mohamed Aymen FEKIRI & Scrum master         \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Nabila OUNI\\ Hichem BEN SAID\\ Lassad KEFI\end{tabular} & Développeurs \\ \hline
+	\end{tabular}
+	\captionsetup{justification=centering}
+	\caption{Composition de l'équipe Scrum}
+	\label{tab:comp-scrum}
+\end{table}
 \subsection[Planification d’un projet par Scrum]{Planification d’un projet par Scrum}
 Pour appliquer correctement SCRUM, il faut comprendre le cycle de vie d’un sprint pendant un processus SCRUM. Le processus, illustré dans la figure \ref{fig:scrum}, est décrit ci-dessous: 
 \begin{enumerate}[label=\arabic*.]
@@ -125,43 +145,36 @@ La table \ref{tab:product-backlog} représente notre backlog de produit :
 \subsection[Planification des sprints]{Planification des sprints}
 Notre travail est divisé sur deux releases, le premier release contient la partie de migration de l’environnement, l’élaboration des tests de non régression et la gestion des utilisateurs et leurs rôles.\\
 Le deuxième release contient la consultation des boutiques, l’affectation des utilisateurs, la gestion des pefs, la simulation SRCD et la consultation des logs.\\
+\newpage
 Le tableau \ref{tab:plan-sprints} montre la répartition des sprints relative à notre système.
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-% \usepackage{longtable}
-% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
-\begin{longtable}{|c|l|l|}
-	\hline
-	\rowcolor[HTML]{C0C0C0} 
-	\multicolumn{3}{|c|}{\cellcolor[HTML]{C0C0C0}Répartition des sprints}                                                                 \\ \hline
-	\endfirsthead
-	%
-	\endhead
-	%
-	\rowcolor[HTML]{EFEFEF} 
-	\multicolumn{1}{|l|}{\cellcolor[HTML]{EFEFEF}Les Releases} & Les sprints                & Les tâches                                  \\ \hline
-	&                            & Migration PHP                               \\ \cline{3-3} 
-	&                            & Migration SGBD                              \\ \cline{3-3} 
-	&                            & Migration Framework                         \\ \cline{3-3} 
-	&                            & Développement des tests de non régressions  \\ \cline{3-3} 
-	& \multirow{-5}{*}{Sprint 0} & Automatisation des tests de non régressions \\ \cline{2-3} 
-	&                            & Gestion des utilisateurs                    \\ \cline{3-3} 
-	\multirow{-7}{*}{Release 1}                                & \multirow{-2}{*}{Sprint 1} & Gestion des rôles                           \\ \hline
-	&                            & Intégration de module Boutique              \\ \cline{3-3} 
-	&                            & Affectation des utilisateurs aux boutiques  \\ \cline{3-3} 
-	& \multirow{-3}{*}{Sprint 2} & Simulation SRCD                             \\ \cline{2-3} 
-	&                            & Gestion des catégories                      \\ \cline{3-3} 
-	&                            & Gestion des pefs    \\ \cline{3-3} 
-	\multirow{-6}{*}{Release 2}                                & \multirow{-3}{*}{Sprint 3} & Visibilité pef boutique                     \\ \hline
-	\multicolumn{1}{|l|}{}                                     &                            & Accès aux pef via la fiche client           \\ \cline{3-3} 
-	\multicolumn{1}{|l|}{}                                     &                            & Consultation des logs API                   \\ \cline{3-3} 
-	\multicolumn{1}{|l|}{\multirow{-3}{*}{Release 2}} & \multirow{-3}{*}{Sprint 3} & Elaboration des logs d’application Panoramix \\ \hline
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|l|l|l|}
+		\hline
+		\rowcolor[HTML]{9B9B9B} 
+		\multicolumn{3}{|c|}{Répartition des sprints}                                           \\ \hline
+		\rowcolor[HTML]{C0C0C0} 
+		Les Releases & Les sprints               & Les tâches                                   \\ \hline
+		\multirow{6}{*}{Release 1} & \multirow{4}{*}{Sprint 0} & Migration PHP                  \\ \cline{3-3} 
+		&                           & Migration SGBD                               \\ \cline{3-3} 
+		&                           & Migration Orange Framework \& Tools          \\ \cline{3-3} 
+		&                           & Automatisation des tests de non régressions  \\ \cline{2-3} 
+		& \multirow{2}{*}{Sprint 1} & Gestion des utilisateurs                     \\ \cline{3-3} 
+		&                           & Gestion des rôles                            \\ \hline
+		\multirow{9}{*}{Release 2} & \multirow{3}{*}{Sprint 2} & Intégration de module Boutique \\ \cline{3-3} 
+		&                           & Affectation des utilisateurs aux boutiques   \\ \cline{3-3} 
+		&                           & Simulation SRCD                              \\ \cline{2-3} 
+		& \multirow{6}{*}{Sprint 3} & Gestion des catégories                       \\ \cline{3-3} 
+		&                           & Gestion des PEF                              \\ \cline{3-3} 
+		&                           & Visibilité des PEF à la boutique             \\ \cline{3-3} 
+		&                           & Utilisation des PEF via la fiche client      \\ \cline{3-3} 
+		&                           & Consultation des logs API                    \\ \cline{3-3} 
+		&                           & Elaboration des logs d’application Panoramix \\ \hline
+	\end{tabular}
 	\captionsetup{justification=centering}
 	\caption{Planification des sprints}
-	\label{tab:plan-sprints}\\
-\end{longtable}
+	\label{tab:plan-sprints}
+\end{table}
 \section[Environnement de travail]{Environnement de travail}
 Dans cette partie, nous présenterons l’environnement de travail lors de la conception et la réalisation des tâches du projet.
 \subsection[Environnement matériel]{Environnement matériel}
@@ -224,7 +237,7 @@ Lors de la réalisation de notre application, nous avons utilisé un seul ordina
 \subsection[Environnement logiciel]{Environnement logiciel}
 Dans cette partie, nous allons présenter les différents logiciels, framework et technologies web utilisés pour la réalisation des applications.
 \begin{itemize}
-	\item \textbf{SeleniumLibrary based on Python\cite{seleniumlib} :} est une bibliothèque de test web pour Robot Framework qui utilise l'outil Selenium en interne. SeleniumLibrary fonctionne avec Selenium 3 et 4. Elle supporte Python 2.7 ainsi que Python 3.6 ou plus récent. En plus de l'interpréteur Python normal, elle fonctionne également avec PyPy et Jython. 
+	\item \textbf{SeleniumLibrary based on Python\cite{seleniumlib} :} est une bibliothèque de test web pour Robot Framework qui utilise l'outil Selenium en interne. SeleniumLibrary fonctionne avec Selenium 3 et 4. Elle supporte Python 2.7 ainsi que Python 3.6 ou plus récent. En plus de l'interpréteur Python normal, elle fonctionne également avec PyPy et Jython.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.08\linewidth]{img/logos/selenium}
@@ -232,23 +245,23 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:selenium}
 	\end{figure}
 
-	\item \textbf{Robot Framework\cite{robotframework} :} Robot Framework est un framework d'automatisation basé sur Python et extensible par mot-clé pour les tests d'acceptation, le développement piloté par les tests d'acceptation, le développement piloté par le comportement et l'automatisation des processus robotiques. Il peut être utilisé dans des environnements distribués et hétérogènes, où l'automatisation nécessite l'utilisation de différentes technologies et interfaces.	Le cadre est entouré d'un riche écosystème constitué de diverses bibliothèques et outils génériques qui sont développés dans le cadre de projets distincts. 
+	\item \textbf{Robot Framework\cite{robotframework} :} est un framework d'automatisation basé sur Python et extensible par mot-clé pour les tests d'acceptation, le développement piloté par les tests d'acceptation, le développement piloté par le comportement et l'automatisation des processus robotiques. Il peut être utilisé dans des environnements distribués et hétérogènes, où l'automatisation nécessite l'utilisation de différentes technologies et interfaces. Le cadre est entouré d'un riche écosystème constitué de diverses bibliothèques et outils génériques qui sont développés dans le cadre de projets distincts.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.4\linewidth]{img/logos/robot-framework}
 		\caption[Logo Robot Framework]{Logo Robot Framework}
 		\label{fig:robot-framework}
 	\end{figure}
-	\item \textbf{Jenkins\cite{jenkins} :} Jenkins est un outil d'intégration continue open source. Après les différends entre son auteur \textit{Kohsuke Kawaguchi} et Oracle, Jenkins devient une branche des outils Hudson. Jenkins est écrit en Java et il peut fonctionner dans un conteneur de servlet (comme Apache Tomcat), ou il peut être utiliser un serveur Web intégré en mode autonome.
+	\item \textbf{Jenkins\cite{jenkins} :} est un outil d'intégration continue open source. Après les différends entre son auteur \textit{Kohsuke Kawaguchi} et Oracle, Jenkins devient une branche des outils Hudson. Jenkins est écrit en Java et il peut fonctionner dans un conteneur de servlet (comme Apache Tomcat), ou il peut être utiliser un serveur Web intégré en mode autonome.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.3\linewidth]{img/logos/jenkins}
 		\caption[Logo Jenkins]{Logo Jenkins}
 		\label{fig:jenkins}
 	\end{figure}
-	\item \textbf{GeckDriver\cite{geckodrive} :} Proxy pour l'utilisation de clients compatibles avec le W3C WebDriver pour interagir avec les navigateurs basés sur Gecko. Ce programme fournit l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, tels que Firefox. Il traduit les appels dans le protocole Marionnette à distance en agissant comme un proxy entre les extrémités locale et distante. 
-	\item \textbf{Xvfb plugin\cite{emailextension} :} Xvfb ou X virtual framebuffer est un serveur d'affichage mettant en œuvre le protocole de serveur d'affichage X11. Contrairement aux autres serveurs d'affichage, Xvfb effectue toutes les opérations graphiques en mémoire sans afficher de sortie d'écran. C'est très utile si votre compilation nécessite un accès X11, par exemple pour effectuer des tests qui nécessitent une interface graphique.
-	\item \textbf{Email Extension plugin :\cite{emailextension}} Ce plugin vous permet de configurer tous les aspects des notifications par courrier électronique. Vous pouvez personnaliser le moment où un courriel est envoyé, qui doit le recevoir et ce que le courriel dit.
+	\item \textbf{GeckDriver\cite{geckodrive} :} est proxy pour l'utilisation de clients compatibles avec le W3C WebDriver pour interagir avec les navigateurs basés sur Gecko. Ce programme fournit l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, tels que Firefox. Il traduit les appels dans le protocole Marionnette à distance en agissant comme un proxy entre les extrémités locale et distante.
+	\item \textbf{Xvfb plugin\cite{xvfb} : } Xvfb ou X virtual framebuffer est un serveur d'affichage mettant en œuvre le protocole de serveur d'affichage X11. Contrairement aux autres serveurs d'affichage, Xvfb effectue toutes les opérations graphiques en mémoire sans afficher de sortie d'écran. C'est très utile si votre compilation nécessite un accès X11, par exemple pour effectuer des tests qui nécessitent une interface graphique.
+	\item \textbf{Email Extension plugin\cite{emailextension} :} Ce plugin vous permet de configurer tous les aspects des notifications par courrier électronique. Vous pouvez personnaliser le moment où un courriel est envoyé, qui doit le recevoir et ce que le courriel dit.
 	\item \textbf{Javascript\cite{js} :} est un langage de script utilisé pour créer et contrôler le contenu dynamique d'un site web, c'est-à-dire tout ce qui bouge, rafraîchit ou change de quelque manière que ce soit sur votre écran sans vous obligez à recharger manuellement une page web. Des choses comme : des graphiques animés, des diaporamas de photos, des suggestions de texte à remplir automatiquement, des formulaires interactifs.
 	\begin{figure}[H]
 		\centering
@@ -273,7 +286,7 @@ Dans cette partie, nous allons présenter les différents logiciels, framework e
 		\label{fig:axios}
 	\end{figure}
 	
-	\textbf{HTML5\cite{html} :} est un langage de balisage utilisé pour structurer et présenter le contenu sur le World Wide Web. Elle est la dernière révision majeure d'HTML. HTML5 spécifie deux syntaxes pour le modèle abstrait défini par le DOM: HTML5 et XHTML5
+	\textbf{HTML5\cite{html} :} est un langage de balisage utilisé pour structurer et présenter le contenu sur le World Wide Web. Elle est la dernière révision majeure d'HTML. HTML5 spécifie deux syntaxes pour le modèle abstrait défini par le DOM: HTML5 et XHTML5.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.2\linewidth]{img/logos/html5}
@@ -342,7 +355,7 @@ Dans notre application, nous envisageons d’utiliser une architecture 3-tiers q
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/architectures-3tiers-web}
-	\caption[L'architectures 3 tiers du Web]{L'architectures 3 tiers du Web}
+	\caption[L'architectures 3 tiers du Web]{L'architecture 3 tiers du Web}
 	\label{fig:architectures-3tiers-web}
 \end{figure}
 

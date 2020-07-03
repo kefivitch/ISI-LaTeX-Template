@@ -20,19 +20,19 @@
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\textLR {1}}\bgroup \beginL \latintext Contexte général\endL \egroup }{2}%
+\contentsline {chapter}{\numberline {\textLR {1}}\bgroup \beginL \latintext Contexte général\endL \egroup }{3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {1.}1}Présentation de l’entreprise}{3}%
+\contentsline {section}{\numberline {\filterminitoc {1.}1}Présentation de l’entreprise}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.1}\else \textLR {1.1.1}\fi }Le groupe Sofrecom}{3}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.1}\else \textLR {1.1.1}\fi }Le groupe Sofrecom}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.1}\else \textLR {1.1.2}\fi }Sofrecom Tunisie \cite {sofrecomTun}}{3}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.1}\else \textLR {1.1.2}\fi }Sofrecom Tunisie \cite {sofrecomTun}}{4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\filterminitoc {1.}2}Contexte du projet}{4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {\if@rl \I {1.2.1}\else \textLR {1.2.1}\fi }Présentation de l’application Panoramix}{4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.1}\else \textLR {1.2.2}\fi }Limites et critiques de l’existant}{4}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.1}\else \textLR {1.2.2}\fi }Limites et critiques de l’existant}{5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\filterminitoc {1.}3}Solution proposée}{5}%
 \defcounter {refsection}{0}\relax 
@@ -60,273 +60,271 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {\if@rl \I {3.2.2}\else \textLR {2.2.3}\fi }Le Product Backlog du produit}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }Planification des sprints}{13}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.2.2}\else \textLR {2.2.4}\fi }Planification des sprints}{12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {2.}3}Environnement de travail}{14}%
+\contentsline {section}{\numberline {\filterminitoc {2.}3}Environnement de travail}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Environnement matériel}{14}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Environnement matériel}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }Environnement de développement}{14}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }Environnement de développement}{13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }Environnement logiciel}{16}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }Environnement logiciel}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {2.}4}L'architecture de la solution}{19}%
+\contentsline {section}{\numberline {\filterminitoc {2.}4}L'architecture de la solution}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{19}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{19}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .2}L'architecture logique de l’application}{21}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .2}L'architecture logique de l’application}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi }L'architecture logicielle}{21}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi }L'architecture logicielle}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi .1}L'architecture logicielle des tests de non régression}{21}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi .1}L'architecture logicielle des tests de non régression}{19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi .2}L'architecture logicielle de l’application}{22}%
-\defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\textLR {3}}\bgroup \beginL \latintext Sprint 0 – Migration de Panoramix\endL \egroup }{24}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {3.}1}Sprint Backlog}{25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {3.}2}Migration de PHP 5.6 vers PHP 7.2}{25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Performance}{25}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }Traitement des exceptions}{26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }Support de 64 bits }{26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {3.}3}Migration de MySQL vers MariaDB}{26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }Plus d'options pour les moteurs de stockage}{26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }Améliorations de la vitesse}{26}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }Indexes/Cache plus rapides}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {4.3.3}\else \textLR {3.3.4}\fi }Un pool de connexion plus rapide et plus grand}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {5.3.3}\else \textLR {3.3.5}\fi }Réplication améliorée}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {6.3.3}\else \textLR {3.3.6}\fi }Nouvelles extensions/caractéristiques}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {7.3.3}\else \textLR {3.3.7}\fi }Liste des fonctionnalités et la documentation}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {3.}4}Migration d’OFT2 vers OFT3}{27}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.3}\else \textLR {3.4.1}\fi }Points forts d’OFT 3}{28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {3.}5}Automatisation des tests de non régression}{28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.5.3}\else \textLR {3.5.1}\fi }Objectifs des tests}{28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.5.3}\else \textLR {3.5.2}\fi }Définition des tests}{28}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi }Réalisation}{29}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi .1}Création de projet Jenkins}{30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi .2}Configuration du plugins}{30}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {4.5.3}\else \textLR {3.5.4}\fi }Gestion de code source}{31}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {5.5.3}\else \textLR {3.5.5}\fi }Déclenchement de build }{32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi }L’environnement de build}{32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi .1}Build}{32}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi .2}Actions à la suite du build}{33}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {7.5.3}\else \textLR {3.5.7}\fi }Exécution de job}{35}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi .2}L'architecture logicielle de l’application}{19}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\textLR {4}}\bgroup \beginL \latintext Sprint 1 – Gestion des utilisateurs et les rôles\endL \egroup }{38}%
+\contentsline {chapter}{\numberline {\textLR {3}}\bgroup \beginL \latintext Sprint 0 – Migration de Panoramix\endL \egroup }{21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {4.}1}Sprint Backlog}{39}%
+\contentsline {section}{\numberline {\filterminitoc {3.}1}Sprint Backlog}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.4}\else \textLR {4.1.1}\fi }But du sprint}{39}%
+\contentsline {section}{\numberline {\filterminitoc {3.}2}Migration de PHP 5.6 vers PHP 7.2}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.4}\else \textLR {4.1.2}\fi }User stories}{39}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.3}\else \textLR {3.2.1}\fi }Performance}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {4.}2}Etude et réalisation du sprint 1}{41}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.3}\else \textLR {3.2.2}\fi }Traitement des exceptions}{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Diagramme de cas d’utilisation global sprint 1}{41}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.2.3}\else \textLR {3.2.3}\fi }Support de 64 bits }{22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{42}%
+\contentsline {section}{\numberline {\filterminitoc {3.}3}Migration de MySQL vers MariaDB}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .1}Cas d’utilisation «Gérer utilisateurs»}{42}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.3}\else \textLR {3.3.1}\fi }Plus d'options pour les moteurs de stockage \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «Gérer utilisateurs»}{42}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.3}\else \textLR {3.3.2}\fi }Améliorations de la vitesse \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .2}Cas d’utilisation «Gérer rôles»}{43}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.3.3}\else \textLR {3.3.3}\fi }Indexes/Cache plus rapides \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «Gérer rôles»}{43}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.3.3}\else \textLR {3.3.4}\fi }Un pool de connexion plus rapide et plus grand \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {4.}3}Conception}{44}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.3.3}\else \textLR {3.3.5}\fi }Nouvelles extensions/caractéristiques \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.4}\else \textLR {4.3.1}\fi }Diagramme de classes}{44}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.3.3}\else \textLR {3.3.6}\fi }Liste des fonctionnalités et la documentation \cite {mysql-maria}}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }Diagrammes de séquences détaillés}{45}%
+\contentsline {section}{\numberline {\filterminitoc {3.}4}Migration d’OFT2 vers OFT3}{23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 1}{45}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.3}\else \textLR {3.4.1}\fi }Points forts d’OFT 3 \ref {fig:oft-3}}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences système d’«Ajouter Utilisateur»}{46}%
+\contentsline {section}{\numberline {\filterminitoc {3.}5}Automatisation des tests de non régression}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences système de «Supprimer Utilisateur»}{46}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.5.3}\else \textLR {3.5.1}\fi }Objectifs des tests}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences système d’«Importer Utilisateurs»}{47}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.5.3}\else \textLR {3.5.2}\fi }Définition des tests}{24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .2}Diagramme de séquences objets de Sprint 1}{47}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi }Réalisation}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences objets d’«Ajouter Utilisateur» }{48}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi .1}Création de projet Jenkins}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences objets de «Supprimer Utilisateur» }{48}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {3.5.3}\else \textLR {3.5.3}\fi .2}Configuration du plugins}{25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {4.}4}Réalisation}{49}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.5.3}\else \textLR {3.5.4}\fi }Gestion de code source}{26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.4}\else \textLR {4.4.1}\fi }Interfaces de gestion des utilisateurs}{49}%
+\contentsline {subsection}{\numberline {\if@rl \I {5.5.3}\else \textLR {3.5.5}\fi }Déclenchement de build }{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.4}\else \textLR {4.4.2}\fi }Interfaces de gestion des rôles}{52}%
+\contentsline {subsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi }L’environnement de build}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.4.4}\else \textLR {4.4.3}\fi }Interfaces de gestion des types de rôles}{53}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi .1}Build}{27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {4.4.4}\else \textLR {4.4.4}\fi }Interfaces de gestion des activations des rôles attribués à un utilisateurs}{55}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {6.5.3}\else \textLR {3.5.6}\fi .2}Actions à la suite du build}{28}%
 \defcounter {refsection}{0}\relax 
-\select@language {french}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\textLR {5}}\bgroup \beginL \latintext Sprint 2 – Module Boutique\endL \egroup }{57}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {5.}1}Backlog sprint}{58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.5}\else \textLR {5.1.1}\fi }But du sprint}{58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.5}\else \textLR {5.1.2}\fi }User stories}{58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {5.}2}Etude de réalisation du sprint 2}{59}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.5}\else \textLR {5.2.1}\fi }Diagramme de cas d’utilisation global sprint 2}{59}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{59}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .1}Description textuelle du cas d’utilisation «simulation SRCD»}{60}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .2}Description textuelle du cas d’utilisation «consultation boutiques»}{60}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .3}Cas d’utilisation «affectation utilisateurs aux boutiques»}{61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»}{61}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .4}Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}{62}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {5.}3}Conception}{62}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.5}\else \textLR {5.3.1}\fi }Diagramme de classes}{63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi }Diagrammes de séquences détaillés}{63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi .1}Quelques diagrammes de séquences système de Sprint 2}{63}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}{64}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}{64}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{L'algorigramme de «mise à jour des données boutiques» }{65}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {5.}4}Réalisation}{66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.5}\else \textLR {5.4.1}\fi }Interfaces de consultation boutique}{66}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.5}\else \textLR {5.4.2}\fi }Interfaces de gestion des affectations}{67}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.4.5}\else \textLR {5.4.3}\fi }Interface de simulation SRCD}{68}%
+\contentsline {subsection}{\numberline {\if@rl \I {7.5.3}\else \textLR {3.5.7}\fi }Exécution de job}{29}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Sprint 3 – Gestion des PEF\endL \egroup }{69}%
+\contentsline {chapter}{\numberline {\textLR {4}}\bgroup \beginL \latintext Sprint 1 – Gestion des utilisateurs et les rôles\endL \egroup }{33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {6.}1}Backlog sprint}{70}%
+\contentsline {section}{\numberline {\filterminitoc {4.}1}Sprint Backlog}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.1.6}\else \textLR {6.1.1}\fi }But de sprint}{70}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.4}\else \textLR {4.1.1}\fi }But du sprint}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.1.6}\else \textLR {6.1.2}\fi }User stories}{70}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.4}\else \textLR {4.1.2}\fi }User stories}{34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {6.}2}Etude de réalisation du sprint 3}{72}%
+\contentsline {section}{\numberline {\filterminitoc {4.}2}Etude et réalisation du sprint 1}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }Diagramme de cas d’utilisation global sprint 3}{72}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Diagramme de cas d’utilisation global sprint 1}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{73}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .1}Cas d’utilisation «gestion des catégories»}{73}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .1}Cas d’utilisation «Gérer utilisateurs»}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des catégories»}{73}%
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «Gérer utilisateurs»}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .2}Cas d’utilisation «gestion des PEF»}{73}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .2}Cas d’utilisation «Gérer rôles»}{36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des PEF»}{74}%
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «Gérer rôles»}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .3}Cas d’utilisation «visibilité des PEF au boutique»}{74}%
+\contentsline {section}{\numberline {\filterminitoc {4.}3}Conception}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Description textuelle du cas d’utilisation «visibilité des PEF au boutique»}{75}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.4}\else \textLR {4.3.1}\fi }Diagramme de classes}{37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .4}Description textuelle du cas d’utilisation «consultation fiche client»}{75}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }Diagrammes de séquences détaillés}{38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .5}Description textuelle du cas d’utilisation «consultation des logs API»}{76}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 1}{38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}{77}%
+\contentsline {paragraph}{Diagramme de séquences système d’«Ajouter Utilisateur»}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {6.}3}Conception}{78}%
+\contentsline {paragraph}{Diagramme de séquences système de «Supprimer Utilisateur»}{39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.3.6}\else \textLR {6.3.1}\fi }Diagramme de classes}{79}%
+\contentsline {paragraph}{Diagramme de séquences système d’«Importer Utilisateurs»}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi }Diagrammes de séquences détaillés}{79}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .2}Diagramme de séquences objets de Sprint 1}{40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 3}{79}%
+\contentsline {paragraph}{Diagramme de séquences objets d’«Ajouter Utilisateur» }{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences système de «visibilité des PEF au boutique»}{80}%
+\contentsline {paragraph}{Diagramme de séquences objets de «Supprimer Utilisateur» }{41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .2}Quelques diagramme de séquences objets de Sprint 3}{80}%
+\contentsline {section}{\numberline {\filterminitoc {4.}4}Réalisation}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences d’objets de «consultation logs API»}{80}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.4}\else \textLR {4.4.1}\fi }Interfaces de gestion des utilisateurs}{42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diagramme de séquences d’objets de «fiche client»}{81}%
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.4}\else \textLR {4.4.2}\fi }Interfaces de gestion des rôles}{45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {6.}4}Réalisation}{81}%
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.4}\else \textLR {4.4.3}\fi }Interfaces de gestion des types de rôles}{46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.6}\else \textLR {6.4.1}\fi }Interfaces de gestion des catégories}{81}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {2.4.6}\else \textLR {6.4.2}\fi }Interfaces de gestion des type de catégories}{82}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {3.4.6}\else \textLR {6.4.3}\fi }Interfaces de gestion des PEF}{84}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {4.4.6}\else \textLR {6.4.4}\fi }Interfaces de consultation des types de PEF}{86}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {5.4.6}\else \textLR {6.4.5}\fi }Interfaces de visibilité des PEF aux boutiques}{86}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {6.4.6}\else \textLR {6.4.6}\fi }Interfaces de consultation des PEF au fiche client}{87}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {7.4.6}\else \textLR {6.4.7}\fi }Interface de consultation des log API}{88}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {8.4.6}\else \textLR {6.4.8}\fi }Capture de fichier de logs d’application Panoramix}{88}%
+\contentsline {subsection}{\numberline {\if@rl \I {4.4.4}\else \textLR {4.4.4}\fi }Interfaces de gestion des activations des rôles attribués à un utilisateurs}{48}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Conclusion générale}{89}%
+\contentsline {chapter}{\numberline {\textLR {5}}\bgroup \beginL \latintext Sprint 2 – Module Boutique\endL \egroup }{50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}1}Backlog sprint}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.5}\else \textLR {5.1.1}\fi }But du sprint}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.5}\else \textLR {5.1.2}\fi }User stories}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}2}Etude de réalisation du sprint 2}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.5}\else \textLR {5.2.1}\fi }Diagramme de cas d’utilisation global sprint 2}{51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .1}Description textuelle du cas d’utilisation «simulation SRCD»}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .2}Description textuelle du cas d’utilisation «consultation boutiques»}{53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .3}Cas d’utilisation «affectation utilisateurs aux boutiques»}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»}{54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.5}\else \textLR {5.2.2}\fi .4}Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}3}Conception}{55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.5}\else \textLR {5.3.1}\fi }Diagramme de classes}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi }Diagrammes de séquences détaillés}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.5}\else \textLR {5.3.2}\fi .1}Quelques diagrammes de séquences système de Sprint 2}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}{56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{L'algorigramme de «mise à jour des données boutiques» }{57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {5.}4}Réalisation}{58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.5}\else \textLR {5.4.1}\fi }Interfaces de consultation boutique}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.5}\else \textLR {5.4.2}\fi }Interfaces de gestion des affectations}{59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.5}\else \textLR {5.4.3}\fi }Interface de simulation SRCD}{61}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliographie}{90}%
+\contentsline {chapter}{\numberline {\textLR {6}}\bgroup \beginL \latintext Sprint 3 – Gestion des PEF\endL \egroup }{62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}1}Backlog sprint}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.1.6}\else \textLR {6.1.1}\fi }But de sprint}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.1.6}\else \textLR {6.1.2}\fi }User stories}{63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}2}Etude de réalisation du sprint 3}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.2.6}\else \textLR {6.2.1}\fi }Diagramme de cas d’utilisation global sprint 3}{64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .1}Cas d’utilisation «gestion des catégories»}{65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des catégories»}{65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .2}Cas d’utilisation «gestion des PEF»}{65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «gestion des PEF»}{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .3}Cas d’utilisation «visibilité des PEF au boutique»}{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Description textuelle du cas d’utilisation «visibilité des PEF au boutique»}{66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .4}Description textuelle du cas d’utilisation «consultation fiche client»}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .5}Description textuelle du cas d’utilisation «consultation des logs API»}{67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}3}Conception}{68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.3.6}\else \textLR {6.3.1}\fi }Diagramme de classes}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi }Diagrammes de séquences détaillés}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 3}{69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences système de «visibilité des PEF au boutique»}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi .2}Quelques diagramme de séquences objets de Sprint 3}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences d’objets de «consultation logs API»}{70}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diagramme de séquences d’objets de «fiche client»}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {\filterminitoc {6.}4}Réalisation}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.6}\else \textLR {6.4.1}\fi }Interfaces de gestion des catégories}{71}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {2.4.6}\else \textLR {6.4.2}\fi }Interfaces de gestion des type de catégories}{72}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {3.4.6}\else \textLR {6.4.3}\fi }Interfaces de gestion des PEF}{74}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {4.4.6}\else \textLR {6.4.4}\fi }Interfaces de consultation des types de PEF}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {5.4.6}\else \textLR {6.4.5}\fi }Interfaces de visibilité des PEF aux boutiques}{76}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {6.4.6}\else \textLR {6.4.6}\fi }Interfaces de consultation des PEF au fiche client}{77}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {7.4.6}\else \textLR {6.4.7}\fi }Interface de consultation des log API}{78}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {\if@rl \I {8.4.6}\else \textLR {6.4.8}\fi }Capture de fichier de logs d’application Panoramix}{78}%
 \defcounter {refsection}{0}\relax 
 \select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Annexes}{92}%
+\contentsline {chapter}{Conclusion générale}{79}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 1.~Exemple d'annexe}{92}%
+\select@language {french}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 2.~Entreprise}{93}%
+\contentsline {chapter}{Bibliographie \& Netographie}{80}%
+\defcounter {refsection}{0}\relax 
+\select@language {french}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Annexes}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 1.~Exemple d'annexe}{82}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 2.~Entreprise}{83}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
