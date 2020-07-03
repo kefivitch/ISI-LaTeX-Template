@@ -40,17 +40,17 @@ La table \ref{tab:user-stories-sprint-2} représente notre backlog de Sprint 2.
 
 \section{Etude de réalisation du sprint 2}
 Cette section de notre projet présente les différents diagrammes de cas d’utilisation avec leurs raffinements
+\newpage
 \subsection{Diagramme de cas d’utilisation global sprint 2}
 La figure \ref{fig:usecase-sprint2} décrit le diagramme de cas d’utilisation global du sprint 2
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 2/UseCase-sprint2"}
+	\includegraphics[width=0.75\linewidth]{"img/conception/usecases/sprint 2/UseCase-sprint2"}
 	\caption[Diagramme de cas d’utilisation global sprint 2]{Diagramme de cas d’utilisation global sprint 2}
 	\label{fig:usecase-sprint2}
 \end{figure}
 \subsection{Raffinement et description textuelle des diagrammes de cas d’utilisation}
 Dans cette section, nous présentons les diagrammes des cas d’utilisation détaillés et leurs descriptions textuelles.
-\newpage
 \subsubsection{Description textuelle du cas d’utilisation «simulation SRCD»}
 Le tableau \ref{tab:descrip-text-sim-srcd} contient la description textuelle du cas d’utilisation «simulation SRCD»
 \begin{table}[H]
@@ -95,7 +95,7 @@ Le tableau \ref{tab:descrip-text-consult-boutique} contient la description textu
 La figure \ref{fig:usecase-affectation} illustre le raffinement du cas d’utilisation «affectation utilisateurs aux boutiques»
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 2/UseCase-affectation"}
+	\includegraphics[width=1\linewidth]{"img/conception/usecases/sprint 2/UseCase-affectation"}
 	\caption[Cas d’utilisation «affectation utilisateurs aux boutiques»]{Cas d’utilisation «affectation utilisateurs aux boutiques»}
 	\label{fig:usecase-affectation}
 \end{figure}
@@ -119,32 +119,16 @@ Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description t
 	\caption{Description textuelle du cas d’utilisation «affectation  utilisateurs aux boutiques»}
 	\label{tab:descrip-text-affect-user-boutique}
 \end{table}
-\newpage
-\subsubsection{Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}
-Le tableau \ref{tab:descrip-text-update-boutique} contient la description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»
-\begin{table}[H]
-	\centering
-	\begin{tabular}{|l|l|}
-		\hline
-		\rowcolor[HTML]{C0C0C0} 
-		Cas d’utilisation & Affectation utilisateurs aux boutiques \\ \hline
-		Acteurs           & Système                                \\ \hline
-		Résumé &
-		\begin{tabular}[c]{@{}l@{}}Un script Bash sera exécuté chaque matin pour\\ exploiter les fichiers xml de serveur O3 afin d’obtenir\\ les nouvelles données boutiques\end{tabular} \\ \hline
-		précondition &
-		\begin{tabular}[c]{@{}l@{}}Chaque jour les fichiers O3 doit être existes dans le\\ dossier\end{tabular} \\ \hline
-		Scénario principal &
-		\begin{tabular}[c]{@{}l@{}}Le script sera lancé chaque matin et les fichiers O3\\ seront archivés avec leurs état ( soit OK en cas de\\ succès, soit KO en cas d'échec)\end{tabular} \\ \hline
-		post condition    & Mettre à jour la liste des boutiques   \\ \hline
-	\end{tabular}
-	\caption{Description textuelle du cas d’utilisation «mettre à jour les données boutiques»}
-	\label{tab:descrip-text-update-boutique}
-\end{table}
 
 \section{Conception}
 Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.\newpage
 \subsection{Diagramme de classes}
 la figure \ref{fig:classdiag-sprint2} illustre la structure statique du sprint 2 schématisée dans un diagramme de classe globale.
+Nous ajoutons 2 nouvelles classes :
+\begin{itemize}
+	\item \textbf{La classe Boutique :} représente les boutiques dans notre applications. Chaque boutique est identifiée par l'attribut code\_edo. Les autres champs sont expliquées dans la figure \ref{ffs0} dans l'annexe à la page \pageref{}.
+	\item \textbf{La classe associative Affectation : } permet aux utilisateurs d'appartenir à plusieurs boutiques.
+\end{itemize}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.5\linewidth]{img/conception/classes/ClassDiag-sprint2}
@@ -155,8 +139,10 @@ la figure \ref{fig:classdiag-sprint2} illustre la structure statique du sprint 2
 \subsection{Diagrammes de séquences détaillés}
 Nous allons maintenant passer à l’aspect dynamique des opérations représentées dans le diagramme de classe à l’aide des diagrammes de séquences de système et d’objets.
 \subsubsection[Quelques diagrammes de séquences système de Sprint 2]{Quelques diagrammes de séquences système de Sprint 2}
-Dans cette section, nous présenterons quelques diagrammes de séquences système de “module Boutique” tels que :
-\myparagraph{Diagramme de séquences système d’ «affecter un utilisateur au boutique»}
+Dans cette section, nous présenterons quelques diagrammes de séquences système de “module Boutique” tels que : 
+\myparagraph{Diagramme de séquences système d’«affecter un utilisateur au boutique»}
+Après la consultation de page d'affectation, l'administrateur remplit la formulaire par le nom complet d'utilisateur, le CUID et le nom du boutique puis valide. Le système vérifie l'existence de l'utilisateur et la boutique et insère les données en ajoutant la date système de l'opération.\\
+Un message de succès ou d'échec sera affiché.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 2/affectation-system"}
@@ -164,7 +150,8 @@ Dans cette section, nous présenterons quelques diagrammes de séquences systèm
 	\label{fig:affectation-system}
 \end{figure}
 
-\myparagraph{diagramme de séquences objets d’ «affecter un utilisateur au boutique»}
+\myparagraph{diagramme de séquences objets d’«affecter un utilisateur au boutique»}
+Ce diagramme détaille de plus le diagramme précédent. Le service d'autocomplete assure une meilleure orientation sur la saisie des données.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.65\linewidth]{"img/conception/sequences/sprint 2/affectation-obj"}
@@ -172,13 +159,7 @@ Dans cette section, nous présenterons quelques diagrammes de séquences systèm
 	\label{fig:affectation-obj}
 \end{figure}
 
-\myparagraph{L'algorigramme de «mise à jour des données boutiques» }
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\linewidth]{img/conception/FlowchartDiagram-update-boutique}
-	\caption[L'algorigramme de «mise à jour des données boutiques»]{L'algorigramme de «mise à jour des données boutiques»}
-	\label{fig:flowchartdiagram-update-boutique}
-\end{figure}
+
 
 \section{Réalisation}
 Dans cette sections nous allons exposer les différentes interfaces réalisées dans le sprint 2. 
@@ -208,7 +189,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Consultation des affectations et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/index"}
+		\includegraphics[width=0.6\linewidth]{"img/screenshots/affectation users-boutique/index"}
 		\caption[Interface consultation des affectations et recherche]{Interface consultation des affectations et recherche}
 		\label{fig:index-affectation}
 	\end{figure}
@@ -216,7 +197,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Voir une affectation
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/view"}
+		\includegraphics[width=0.6\linewidth]{"img/screenshots/affectation users-boutique/view"}
 		\caption[Interface voir une affectation]{Interface voir une affectation}
 		\label{fig:view-affectation}
 	\end{figure}
@@ -224,11 +205,11 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Affecter un utilisateur à une boutique
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/affectation users-boutique/affectation"}
+		\includegraphics[width=0.6\linewidth]{"img/screenshots/affectation users-boutique/affectation"}
 		\caption[Interface affecter un utilisateur à une boutique]{Interface affecter un utilisateur à une boutique}
 		\label{fig:create-affectation}
 	\end{figure}
-
+	\newpage
 	\item Résultat d'exportation des affectations
 	\begin{figure}[H]
 		\centering

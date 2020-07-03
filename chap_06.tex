@@ -1,3 +1,4 @@
+% !TeX spellcheck = fr_FR
 \chapter{Sprint 3 – Gestion des PEF}
 	
 \section*{Introduction}
@@ -59,7 +60,7 @@ La figure \ref{fig:usecase-sprint3} décrit le diagramme de cas d’utilisation 
 \end{figure}
 
 \subsection{Raffinement et description textuelle des diagrammes de cas d’utilisation}
-Dans cette section, nous présentons les diagrammes des cas d’utilisation détaillés et leurs descriptions textuelles.
+Dans cette section, nous présentons les diagrammes des cas d’utilisation détaillés et leurs descriptions textuelles.\newpage
 \subsubsection{Cas d’utilisation «gestion des catégories»}
 La figure \ref{fig:usecase-gestion-categories} illustre le raffinement du cas d’utilisation « gestion des catégories »
 
@@ -97,6 +98,7 @@ La figure \ref{fig:usecase-gestion-pef} illustre le raffinement du cas d’utili
 	\caption[Cas d’utilisation «gestion des PEF»]{Cas d’utilisation «gestion des PEF»}
 	\label{fig:usecase-gestion-pef}
 \end{figure}
+\newpage
 \myparagraph{Description textuelle du cas d’utilisation «gestion des PEF»}
 Le tableau \ref{tab:descrip-text-gestion-pef} contient la description textuelle du ccas d’utilisation «gestion des PEF».
 \begin{table}[H]
@@ -211,12 +213,20 @@ Le tableau \ref{tab:descrip-text-elab-logs} contient la description textuelle du
 \end{longtable}
 
 \section{Conception}
-Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint. \newpage
+Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint. 
+
+
 \subsection{Diagramme de classes}
 la figure \ref{fig:classdiag-sprint3} illustre la structure statique du sprint 3 schématisé dans un diagramme de classe globale.
+Dans ce sprint, nous ajoutons les dernières 3 classes :
+\begin{itemize}
+	\item \textbf{La classe Categorie :} représente les catégories des PEF. Ces catégories peuvent avoir un ou plusieurs types.
+	\item \textbf{La classe Application :} représente les applications et leurs URL d'accès. Chaque application est composée par des PEF.
+	\item \textbf{La classe PEF :} représente les PEF à utilisés. Ces PEF peut appartenir à une ou plusieurs boutique autrement cette boutique peut l'utiliser. Ainsi que, les PEF doivent avoir une ou plusieurs catégories. 
+\end{itemize}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/conception/classes/ClassDiag-sprint3}
+	\includegraphics[width=1\linewidth]{img/conception/classes/ClassDiag-sprint3}
 	\caption[Diagramme de classes sprint 3]{Diagramme de classes sprint 3}
 	\label{fig:classdiag-sprint3}
 \end{figure}
@@ -227,6 +237,8 @@ Nous allons maintenant passer à l’aspect dynamique des opérations représent
 Dans cette section, nous présenterons quelques diagrammes de séquences système de «gestion des PEF» tels que : \newpage
 
 \myparagraph{Diagramme de séquences système de «visibilité des PEF au boutique»} 
+Après la consultation de page de visibilité, l'administrateur remplit la formulaire par le nom du PEF et le nom de la boutique puis il valide. Le système vérifie l'existence du PEF et la boutique et insère les données.\\
+Un message de succès ou d'échec sera affiché.
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 3/visibilite-system"}
@@ -238,6 +250,7 @@ Dans cette section, nous présenterons quelques diagrammes de séquences systèm
 \subsubsection{Quelques diagramme de séquences objets de Sprint 3}
 Nous présentons dans ce qui suit quelques diagrammes de séquences objets détaillés \\du sprint 3.
 \myparagraph{Diagramme de séquences d’objets de «consultation logs API»} 
+Lors la consultation des logs API, le contrôleur de consultation va parcourir tous les fichiers logs et les transformer en format JSON. Ces informations seront représentées sous format de tableau dans l'IHM. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 3/log-api-obj"}
@@ -246,6 +259,7 @@ Nous présentons dans ce qui suit quelques diagrammes de séquences objets déta
 	\end{figure}
 	\newpage
 \myparagraph{Diagramme de séquences d’objets de «fiche client»} 
+Après la choix de client, une liste des PEF doit être affichée. Ces PEF seront filtrés en fonction de type d'utilisateur, autrement un conseiller client réactif de boutique n'utilise que des PEF de catégorie ayant le type CPRO. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 3/fiche-client-obj"}
@@ -264,7 +278,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 		\caption[Interface consultation des catégories et recherche]{Interface consultation des catégories et recherche}
 		\label{fig:index-categorie}
 	\end{figure}
-	
+	\newpage
 	\item Modifier ou créer une catégories
 	\begin{figure}[H]
 		\centering
@@ -335,7 +349,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 		\caption[Interface voir les données d'un PEF]{Interface voir les données d'un PEF}
 		\label{fig:view-pef}
 	\end{figure}
-	
+	\newpage
 	\item Modifier ou créer un PEF
 	\begin{figure}[H]
 		\centering
@@ -358,7 +372,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\item Consultation des types de PEF et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{img/screenshots/pef-type/index}
+		\includegraphics[width=0.7\linewidth]{img/screenshots/pef-type/index}
 		\caption[Interface consultation des types de PEF et recherche]{Interface consultation des types de PEF et recherche}
 		\label{fig:index-tp}
 	\end{figure}
@@ -366,18 +380,18 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\item Voir un type de PEF 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{img/screenshots/pef-type/view}
+		\includegraphics[width=0.7\linewidth]{img/screenshots/pef-type/view}
 		\caption[Interface voir un type de PEF ]{Interface voir un type de PEF }
 		\label{fig:view-tp}
 	\end{figure}
 \end{itemize}
-
+\newpage
 \subsection{Interfaces de visibilité des PEF aux boutiques}
 \begin{itemize}
 	\item Consultation des visibilités et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/visibilité pef-boutique/index"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/index"}
 		\caption[Interface consultation des visibilités et recherche]{Interface consultation des visibilités et recherche}
 		\label{fig:index-visib}
 	\end{figure}
@@ -385,7 +399,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\item Voir une visibilité 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
 		\caption[Interface voir une visibilité]{Interface voir une visibilité }
 		\label{fig:view-visib}
 	\end{figure}
@@ -393,7 +407,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\item Modifier ou créer une visibilité 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
 		\caption[Interface modifier ou créer une visibilité]{Interface modifier ou créer une visibilité}
 		\label{fig:edit-visib}
 	\end{figure}
@@ -401,7 +415,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\item Supprimer une visibilité 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
 		\caption[Interface supprimer une visibilité]{Interface supprimer une visibilité}
 		\label{fig:delete-visib}
 	\end{figure}
@@ -410,7 +424,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \subsection{Interfaces de consultation des PEF au fiche client}
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\linewidth]{"img/screenshots/fiche client/fiche client et accès au pef"}
+	\includegraphics[width=0.7\linewidth]{"img/screenshots/fiche client/fiche client et accès au pef"}
 	\caption[Interface de consultation des PEF au fiche client]{Interface de consultation des PEF au fiche client}
 	\label{fig:fiche-client-et-acces-au-pef}
 \end{figure}
@@ -427,7 +441,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\linewidth]{"img/screenshots/logs + srcd/log-application"}
+	\includegraphics[width=1\linewidth]{"img/screenshots/logs + srcd/log-application"}
 	\caption[Capture de fichier de logs d’application Panoramix]{Capture de fichier de logs d’application Panoramix}
 	\label{fig:log-application}
 \end{figure}

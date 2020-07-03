@@ -1,4 +1,4 @@
-% !TeX spellcheck = <none>
+% !TeX spellcheck = fr_FR
 \chapter{Sprint 1 – Gestion des utilisateurs et les rôles}
 	
 \section*{Introduction}
@@ -86,7 +86,7 @@ Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}
 	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
 	\label{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}\\
 \end{longtable}
-
+\newpage
 \subsubsection{Cas d’utilisation «Gérer rôles»}
 La figure \ref{fig:usecase-gestion-roles-1} illustre le raffinement du cas d’utilisation «Gérer rôles»
 \begin{figure}[H]
@@ -126,8 +126,8 @@ la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1
 \begin{itemize}
 	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.
 	\item \textbf{La classe Type :} permet de représenter les deux métiers de notre application : CPRO pour la boutique et 3901 pour le centre d'appel.
-	\item \textbf{La classe Roles :} permet de représenter les rôles dans notre application. Ces rôles peuvent être limités par une periode du temps connue à l'avance et ils peuvent être activés ou désactivés aussi. Chaque rôle doit avoir au moins un rôle.
-	\item \textbf{La classe associative user-role :} permet d'attribuer à un utilisateur un ou plusieur rôles. L'affectation un rôle à un utilisateur peut être activée ou désactivée.
+	\item \textbf{La classe Roles :} permet de représenter les rôles dans notre application. Ces rôles peuvent être limités par une période du temps connue à l'avance et ils peuvent être activés ou désactivés aussi. Chaque rôle doit avoir au moins un rôle.
+	\item \textbf{La classe associative user-role :} permet d'attribuer à un utilisateur un ou plusieurs rôles. L'affectation un rôle à un utilisateur peut être activée ou désactivée.
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -139,34 +139,39 @@ la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1
 Nous allons maintenant passer à l’aspect dynamique des opérations représentées dans le diagramme de classe à l’aide des diagrammes de séquences de système et d’objets.
 \subsubsection{Quelques diagramme de séquences système de Sprint 1}
 Dans cette section, nous présenterons quelques diagrammes de séquences système de \\sprint 1 tels que : \newpage
-\myparagraph{Diagramme de séquences système d’«Ajouter Utilisateur»}
+\myparagraph{Diagramme de séquences système d’«Ajouter Utilisateur»}\label{ajout-user}
+Ce diagramme représenté dans la figure \ref{fig:add-user} explique graphiquement des interactions entre les acteurs et le système selon l'ordre chronologique. D'abord l'acteur accède à la page de création des utilisateurs et il remplit la formulaire. Le système vérifie les données saisies tel que les rôles, l'email,etc.\\Si l'ajout d'utilisateur se termine normalement un message de succès sera affiché sinon un message d'erreur sera affiché.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.65\linewidth]{img/conception/sequences/add-user}
 	\caption[Diagramme de séquences système d’ «Ajouter Utilisateur»]{Diagramme de séquences système d’ «Ajouter Utilisateur»}
 	\label{fig:add-user}
 \end{figure}
-
+\newpage
 \myparagraph{Diagramme de séquences système de «Supprimer Utilisateur»}
+La figure \ref{fig:delete-user} résume le scénario de suppression d'un utilisateur. Tout d'abord, l'administrateur choisi l'utilisateur à supprimer puis il clique sur le bouton de suppression. Le système vérifie l'existence de cet utilisateur. Un message de succès ou d'échec sera affiché.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.65\linewidth]{img/conception/sequences/delete-user}
 	\caption[Diagramme de séquences système de «Supprimer Utilisateur»]{Diagramme de séquences système de «Supprimer Utilisateur»}
 	\label{fig:delete-user}
 \end{figure}
-
-\myparagraph{Diagramme de séquences système d’«Importer Utilisateurs»}
+\newpage
+\myparagraph{Diagramme de séquences système d’«Importer utilisateurs»}
+La figure \ref{fig:import} représente le scénario d'import des utilisateurs. Après l'upload de fichier CSV, le système vérifie la structure du fichier. Si ce dernier est bien structuré, et pour chaque ligne de fichier, le système vérifie la colonne action. Si la colonne action contient le mot "ADD" donc il va ajouter cet utilisateur dont ces informations sont dans cette ligne, sinon il va le supprimer.\\
+Un message sera affiché pour indiquer l'état de terminaison de processus.  
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.65\linewidth]{img/conception/sequences/import}
-	\caption[Diagramme de séquences système d’ «Importer Utilisateur»]{Diagramme de séquences système d' «Importer Utilisateurs»}
+	\caption[Diagramme de séquences système d’ «Importer utilisateurs»]{Diagramme de séquences système d' «Importer utilisateurs»}
 	\label{fig:import}
 \end{figure}
 
 \subsubsection{Diagramme de séquences objets de Sprint 1}
 Nous présentons dans ce qui suit quelques diagrammes de séquences objets détaillés du \\sprint 1.
 \newpage
-\myparagraph{Diagramme de séquences objets d’«Ajouter Utilisateur» }
+\myparagraph{Diagramme de séquences objets d’«Ajouter Utilisateur» } 
+Nous ajoutons à la description de la figure \ref{fig:add-user} l'appel de web service qui permet de changer la liste des rôles selon le type de l'utilisateur choisi.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.75\linewidth]{img/conception/sequences/add-user-obj}
@@ -194,8 +199,8 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 		\caption[Interface consultation des utilisateurs et recherche]{Interface consultation des utilisateurs et recherche}
 		\label{fig:consultation-user}
 	\end{figure}
-	
-	\item Voir un utilisateur
+	\newpage
+	\item Consulter les données d'un utilisateur
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.65\linewidth]{img/screenshots/users/view}
@@ -231,7 +236,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.65\linewidth]{img/screenshots/users/export}
-		\caption[Interface résultat d'exportation des utilisateurs]{Interface résultat d'exportation des utilisateurs}
+		\caption[Extrait de résultat d'exportation des utilisateurs]{Interface résultat d'exportation des utilisateurs}
 		\label{fig:export-user-ihm}
 	\end{figure}
 \end{itemize}
@@ -242,19 +247,19 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Consultation des rôles et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\linewidth]{img/screenshots/roles/index}
+		\includegraphics[width=0.65\linewidth]{img/screenshots/roles/index}
 		\caption[Interface consultation des rôles]{Interface consultation des rôles et recherche}
 		\label{fig:index-roles}
 	\end{figure}
 	
-	\item Voir un rôle
+	\item Consulter les données d'un rôle
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{img/screenshots/roles/view}
 		\caption[Interface voir un rôle]{Interface voir un rôle}
 		\label{fig:view-role}
 	\end{figure}
-
+	\newpage
 	\item Modifier ou créer un rôle
 	\begin{figure}[H]
 		\centering
@@ -279,7 +284,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Consultation des types de rôles et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/index"}
+		\includegraphics[width=0.8\linewidth]{"img/screenshots/type roles/index"}
 		\caption[Interface consultation de types des rôles et recherche]{Interface consultation de types des rôles et recherche}
 		\label{fig:index-tr}
 	\end{figure}
@@ -287,7 +292,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Voir les types d'un rôle 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/view"}
+		\includegraphics[width=0.8\linewidth]{"img/screenshots/type roles/view"}
 		\caption[Interface voir les types d'un rôle]{Interface voir les types d'un rôle}
 		\label{fig:view-tr}
 	\end{figure}
@@ -295,7 +300,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Donner ou modifier des type à un rôle
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/type roles/update"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/update"}
 		\caption[Interface donner des type à un rôle]{Interface donner des type à un rôle}
 		\label{fig:create-tr}
 	\end{figure}
@@ -303,18 +308,19 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\item Supprimer les type d'un rôle 
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/type roles/delete"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/type roles/delete"}
 		\caption[Interface supprimer les type d'un rôle]{Interface supprimer les type d'un rôle}
 		\label{fig:delete-tr}
 	\end{figure}
 \end{itemize}
 \subsection{Interfaces de gestion des activations des rôles attribués à un utilisateurs}
 les captures d'écran ci-dessous représentent les différentes IHM de des activations des rôles attribués à un utilisateurs.
+\newpage
 \begin{itemize}
 	\item Consultation des activations et recherche
 	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.5\linewidth]{"img/screenshots/activation des roles/index"}
+		\includegraphics[width=0.7\linewidth]{"img/screenshots/activation des roles/index"}
 		\caption[Interface consultation des activations des rôles aux utilisateurs]{Interface consultation des activations des rôles aux utilisateurs}
 		\label{fig:index-activation}
 	\end{figure}
@@ -326,7 +332,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de des activ
 		\caption[Interface voir une activation de rôle à un utilisateur]{Interface voir une activation de rôle à un utilisateur}
 		\label{fig:view-activation}
 	\end{figure}
-
+	\newpage
 	\item Activer/désactiver un rôle d'un utilisateurs
 	\begin{figure}[H]
 		\centering
