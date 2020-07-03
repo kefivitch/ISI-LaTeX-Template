@@ -325,21 +325,21 @@
         \makebox[\textwidth][c]{
         	\small\textLR{\@companyAddressFR}
         	~~\small\textLR{\textbf{Tél} : \@companyTel}
-        	~\small\textLR{\textbf{Fax} : \@companyFax}
+        	%~\small\textLR{\textbf{Fax} : \@companyFax}
         	~\small\textLR{\textbf{Email} : \@companyEmail}
         }
         \vspace{-3mm}
     }{\vspace{8mm}}}
     \makebox[\textwidth][c]{\rule[2mm]{1.03\columnwidth}{1pt}}
     \makebox[\textwidth][c]{
-    	\small\textLR{isi@isim.rnu.tn} \footnotesize{\textAR{البريد الالكتروني : }}
-    	~~~~~\footnotesize{\textLR{71 706 164}\textAR{الهاتف : }}
-    	~~~~~\footnotesize{\textAR{ أريانة }}\textLR{2080}\textAR{ نهج أبو الريحان الباروني }\textLR{2}
+    	\small\textLR{contact.tunisie@sofrecom.com} \footnotesize{\textAR{البريد الالكتروني :}}
+    	~~~~~\footnotesize{\textLR{31 302 927}\textAR{الهاتف :}}
+    	~~~~~\footnotesize{\textAR{مبنى ماتريكس، نهج بحيرة الكنستنس، ضفاف البحيرة - تونس}}
     }
     \makebox[\textwidth][c]{
-    	\small\textLR{2, Abou Raihane Bayrouni 2080 l'Ariana}
-    	~~~~~~~~\small\textLR{\textbf{Tél} : 71 706 164}
-    	~~~~~~~~\small\textLR{\textbf{Email} : isi@isim.rnu.tn}
+    	\small\textLR{Immeuble Matrix, Rue du Lac de Constance, Tunis}
+    	~~~~~~~~\small\textLR{\textbf{Tél} : 31 302 927}
+    	~~~~~~~~\small\textLR{\textbf{Email} : contact.tunisie@sofrecom.com}
     }
   }
 }
