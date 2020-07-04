@@ -12,9 +12,9 @@
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.3.2}\else \textLR {2.3.1}\fi }Environnement matériel}{\reset@font\mtcSSfont 13}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.2}\else \textLR {2.3.2}\fi }Environnement de développement}{\reset@font\mtcSSfont 13}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }Environnement logiciel}{\reset@font\mtcSSfont 15}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}4}L'architecture de la solution}{\reset@font\mtcSfont 18}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{\reset@font\mtcSSfont 18}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{\reset@font\mtcSSSfont 18}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}4}L'architecture de la solution}{\reset@font\mtcSfont 17}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{\reset@font\mtcSSfont 17}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{\reset@font\mtcSSSfont 17}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .2}L'architecture logique de l’application}{\reset@font\mtcSSSfont 19}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi }L'architecture logicielle}{\reset@font\mtcSSfont 19}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.4.2}\else \textLR {2.4.2}\fi .1}L'architecture logicielle des tests de non régression}{\reset@font\mtcSSSfont 19}}

@@ -3,7 +3,7 @@
 	
 \section*{Introduction}
 Ce chapitre fait l’objet d’une présentation du deuxième sprint du projet. Ce dernier comporte la gestion des utilisateurs et leurs rôles.
-
+Tout d'abord, nous allons commencer par la description de le sprint backlog et les user stories. Ensuite, nous allons exprimer ces user stories en diagrammes de conception. Enfin, nous présenterons le travail réalisé et les résultats obtenus.
 \section[Sprint Backlog]{Sprint Backlog}
 Le sprint Backlog permet de faciliter la récupération des tâches et qui fait la mise au point du travail tout en précisant les tâches. Ces dernières contiennent tous les user-stories du Product Backlog.
 \subsection[But du sprint]{But du sprint}
@@ -44,7 +44,7 @@ Après avoir déterminé l'objectif exact du sprint, il est temps de déterminer
 \footnotetext{plus faible plus complexe}
 
 \section{Etude et réalisation du sprint 1}
-La deuxième partie de notre projet, qui représente le module de gestion des utilisateurs et leurs rôles, nous donne la possibilité d’ajouter la nouvelle population C’Pro.
+La deuxième partie de notre projet, qui représente le module de gestion des utilisateurs et leurs rôles, nous donne la possibilité d’ajouter la nouvelle population CPRO.
 \subsection{Diagramme de cas d’utilisation global sprint 1}
 La figure \ref{fig:usecase-sprint1} décrit le diagramme de cas d’utilisation global du sprint 1.
 \begin{figure}[H]
@@ -60,7 +60,7 @@ La figure \ref{fig:usecase-gestion-users} décrit le raffinement du cas d’util
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/conception/usecases/sprint 1/usecase-gestion-users"}
-	\caption[Cas d’utilisation «Gérer utilisateurs»]{Cas d’utilisation «Gérer utilisateurs»}
+	\caption[Cas d’utilisation «Gérer utilisateurs»]{Diagramme ce cas d’utilisation «Gérer utilisateurs»}
 	\label{fig:usecase-gestion-users}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
@@ -68,7 +68,7 @@ Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}
 
 \begin{longtable}[c]{|l|l|}
 	\hline
-	\rowcolor[HTML]{9B9B9B} 
+	\rowcolor[HTML]{C0C0C0} 
 	Cas d’utilisation & Gérer utilisateurs                                                                 \\ \hline
 	\endfirsthead
 	%
@@ -80,7 +80,7 @@ Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs}
 	Résumé            & L’administrateur des habilitations ou l’administrateur peut gérer les utilisateurs \\ \hline
 	Pré-condition     & L’acteur doit être authentifié                                                     \\ \hline
 	Scénario principal &
-	\begin{tabular}[c]{@{}l@{}}Pour gérer les utilisateurs, l’acteur peut :\\ Ajouter un utilisateur\\ Modifier un utilisateur\\ Supprimer un utilisateur\\ Consulter les utilisateurs\\ Import des utilisateurs ou les supprimer en masse en\\ basant sur le champs action ( soit ADD, soit DEL)\\ Exporter les utilisateurs dans un fichier csv\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}Pour gérer les utilisateurs, l’acteur peut :\\ Ajouter un utilisateur\\ Modifier un utilisateur\\ Supprimer un utilisateur\\ Consulter les utilisateurs\\Rechercher des utilisateurs\\ Import des utilisateurs ou les supprimer en masse en\\ basant sur le champs action ( soit ADD, soit DEL)\\ Exporter les utilisateurs dans un fichier csv\end{tabular} \\ \hline
 	Post-condition    & Mettre à jour la liste des utilisateurs                                            \\ \hline
 	\captionsetup{justification=centering}
 	\caption{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
@@ -92,7 +92,7 @@ La figure \ref{fig:usecase-gestion-roles-1} illustre le raffinement du cas d’u
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=01\linewidth]{"img/conception/usecases/sprint 1/usecase-gestion-roles-1"}
-	\caption[cas d’utilisation «Gérer rôles»]{cas d’utilisation «Gérer rôles»}
+	\caption[ cas d’utilisation «Gérer rôles»]{Diagramme de cas d’utilisation «Gérer rôles»}
 	\label{fig:usecase-gestion-roles-1}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «Gérer rôles»}
@@ -112,7 +112,7 @@ Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-roles} contie
 	Résumé            & L’administrateur peut gérer les rôles  \\ \hline
 	Pré-condition     & L'administrateur doit être authentifié \\ \hline
 	Scénario principal &
-	\begin{tabular}[c]{@{}l@{}}Pour gérer les rôles, l’administrateur peut :\\ Ajouter un rôle\\ Modifier un rôle\\ Supprimer un rôle\\ Consulter les rôles\\ Gestion des types de rôles\\ Activation des rôles attribué à un utilisateur\end{tabular} \\ \hline
+	\begin{tabular}[c]{@{}l@{}}Pour gérer les rôles, l’administrateur peut :\\ Ajouter un rôle\\ Modifier un rôle\\ Supprimer un rôle\\ Consulter les rôles\\Rechercher des rôles\\ Gestion des types de rôles\\ Activation des rôles attribué à un utilisateur\end{tabular} \\ \hline
 	Post-condition    & Mettre à jour la liste des rôles       \\ \hline
 	\captionsetup{justification=centering}
 	\caption{Description textuelle du cas d’utilisation «Gérer rôles»}
@@ -124,7 +124,7 @@ Dans cette partie, nous présentons les différents diagrammes de classes ainsi 
 \subsection{Diagramme de classes}
 la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale. Ce diagramme est composé de 4 classes d'où :
 \begin{itemize}
-	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.
+	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.Les autres champs sont expliquées dans le tableau \ref{tab:dictio-1} dans l'annexe à la page \pageref{tab:dictio-1}.
 	\item \textbf{La classe Type :} permet de représenter les deux métiers de notre application : CPRO pour la boutique et 3901 pour le centre d'appel.
 	\item \textbf{La classe Roles :} permet de représenter les rôles dans notre application. Ces rôles peuvent être limités par une période du temps connue à l'avance et ils peuvent être activés ou désactivés aussi. Chaque rôle doit avoir au moins un rôle.
 	\item \textbf{La classe associative user-role :} permet d'attribuer à un utilisateur un ou plusieurs rôles. L'affectation un rôle à un utilisateur peut être activée ou désactivée.
@@ -204,7 +204,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.65\linewidth]{img/screenshots/users/view}
-		\caption[Interface voir utilisateur]{Interface voir utilisateur}
+		\caption[Interface voir utilisateur]{Interface consulter les données d'un utilisateur}
 		\label{fig:view-user}
 	\end{figure}
 
@@ -256,7 +256,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{img/screenshots/roles/view}
-		\caption[Interface voir un rôle]{Interface voir un rôle}
+		\caption[Interface voir un rôle]{Interface consulter les données d'un rôle}
 		\label{fig:view-role}
 	\end{figure}
 	\newpage
@@ -289,11 +289,11 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 		\label{fig:index-tr}
 	\end{figure}
 
-	\item Voir les types d'un rôle 
+	\item Consulter les types d'un rôle 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.8\linewidth]{"img/screenshots/type roles/view"}
-		\caption[Interface voir les types d'un rôle]{Interface voir les types d'un rôle}
+		\caption[Interface voir les types d'un rôle]{Interface consulter les types d'un rôle}
 		\label{fig:view-tr}
 	\end{figure}
 	\newpage
@@ -325,11 +325,11 @@ les captures d'écran ci-dessous représentent les différentes IHM de des activ
 		\label{fig:index-activation}
 	\end{figure}
 	
-	\item Voir une activation de rôle d'un utilisateur
+	\item Consulter une activation de rôle d'un utilisateur
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/screenshots/activation des roles/view"}
-		\caption[Interface voir une activation de rôle à un utilisateur]{Interface voir une activation de rôle à un utilisateur}
+		\caption[Interface voir une activation de rôle à un utilisateur]{Interface consulter une activation de rôle à un utilisateur}
 		\label{fig:view-activation}
 	\end{figure}
 	\newpage

@@ -7,7 +7,7 @@ Dans ce chapitre nous allons principalement nous intéresser à la fonctionnalit
 \section{Backlog sprint}
 Dans le backlog du sprint, nous présenterons deux parties suivantes
 \subsection{But de sprint}
-Le but de ce sprint est de gérer les PEF pour que chaque utilisateur peut les accéder lors l’ouverture de fiche client.
+Le but de ce sprint est de filtrer et ordonner les PEF pour que chaque utilisateur peut les utiliser lors l’ouverture de fiche client.
 \subsection{User stories}
 Après avoir défini l'objectif du sprint, nous pouvons lister les user stories qui appartiennent au sprint.
 Le tableau \ref{tab:user-stories-sprint3} liste les différents user stories de notre sprint :
@@ -20,7 +20,7 @@ Le tableau \ref{tab:user-stories-sprint3} liste les différents user stories de 
 	\endhead
 	%
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite de gérer les catégories \\ des PEF\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Djouter les interfaces de la gestion\\ des catégories des PEF :\\ \tabitem Consultation\\ \tabitem Ajout\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\ des catégories des PEF :\\ \tabitem Consultation\\ \tabitem Ajout\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
 	2 \\ \hline
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite de gérer les types\\ des catégories des PEF\end{tabular} &
 	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\ des types de catégories :\\ \tabitem Consultation\\ \tabitem Ajout\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
@@ -38,7 +38,7 @@ Le tableau \ref{tab:user-stories-sprint3} liste les différents user stories de 
 	\begin{tabular}[c]{@{}l@{}}Fournir la liste des PEF au \\ conseiller client réactif en fonction \\ de type de l’utilisateur ( CPRO \\ pour boutique ou 3901 pour \\ centre d’appel) de catégorie et de\\  type de catégorie\end{tabular} &
 	1 \\ \hline
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite d’avoir une vue totale \\ des logs des APIs\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Développer une interface qui \\ comporte les informations \\ complètes de logs APIs\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}Développer une interface qui \\ comporte les informations \\et les statistiques\\ complètes de logs APIs\end{tabular} &
 	2 \\ \hline
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite de tracer toutes actions\\ prises par les utilisateurs sur\\ l’application\end{tabular} &
 	\begin{tabular}[c]{@{}l@{}}Elaborer les logs de navigation sur \\ l’application et les actions prises\end{tabular} &
@@ -67,7 +67,7 @@ La figure \ref{fig:usecase-gestion-categories} illustre le raffinement du cas d�
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"img/conception/usecases/sprint 3/usecase-gestion-categories"}
-	\caption[Cas d’utilisation «gestion des catégories»]{Gas d’utilisation «gestion des catégories»}
+	\caption[Cas d’utilisation «gestion des catégories»]{Diagramme de cas d’utilisation «gestion des catégories»}
 	\label{fig:usecase-gestion-categories}
 \end{figure}
 
@@ -95,12 +95,12 @@ La figure \ref{fig:usecase-gestion-pef} illustre le raffinement du cas d’utili
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/conception/usecases/sprint 3/usecase-gestion-PEF"}
-	\caption[Cas d’utilisation «gestion des PEF»]{Cas d’utilisation «gestion des PEF»}
+	\caption[Cas d’utilisation «gestion des PEF»]{Diagramme de cas d’utilisation «gestion des PEF»}
 	\label{fig:usecase-gestion-pef}
 \end{figure}
 \newpage
 \myparagraph{Description textuelle du cas d’utilisation «gestion des PEF»}
-Le tableau \ref{tab:descrip-text-gestion-pef} contient la description textuelle du ccas d’utilisation «gestion des PEF».
+Le tableau \ref{tab:descrip-text-gestion-pef} contient la description textuelle du cas d’utilisation «gestion des PEF».
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|}
@@ -125,7 +125,7 @@ La figure \ref{fig:usecase-gestion-visibilite} illustre le raffinement du cas d�
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/conception/usecases/sprint 3/usecase-gestion-visibilite"}
-	\caption[Cas d’utilisation «visibilité des PEF au boutique»]{Cas d’utilisation «visibilité des PEF au boutique»}
+	\caption[Cas d’utilisation «visibilité des PEF au boutique»]{Diagramme de cas d’utilisation «visibilité des PEF au boutique»}
 	\label{fig:usecase-gestion-visibilite}
 \end{figure}
 
@@ -191,8 +191,8 @@ Le tableau \ref{tab:descrip-text-api-logs} contient la description textuelle du 
 	\label{tab:descrip-text-api-logs}
 \end{table}
 
-\subsubsection{Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}
-Le tableau \ref{tab:descrip-text-elab-logs} contient la description textuelle du cas d’utilisation «élaboration des logs Panoramix»
+\subsubsection{Description de la tâche d'«élaboration des logs Panoramix»}
+Le tableau \ref{tab:descrip-text-elab-logs} contient la description textuelle du processus d'«élaboration des logs Panoramix»
 
 \begin{longtable}[c]{|l|l|}
 	\hline
@@ -208,7 +208,7 @@ Le tableau \ref{tab:descrip-text-elab-logs} contient la description textuelle du
 	Scénario principal &
 	\begin{tabular}[c]{@{}l@{}}Chaque navigation ou action prise sur Panoramix,\\ le système doit décrire cette action sous un tel\\ format  structuré qui comporte\\ les informations suivante :\\ \tabitem Date d’action\\ \tabitem Heure d’action\\ \tabitem CUID d’utilisateur\\ \tabitem Nom d’utilisateur\\ \tabitem Prénom de l’utilisateur\\ \tabitem Sujet d’action\\ \tabitem L’action\\ \tabitem Etat d’action\\ \tabitem Rôle d’utilisateur\\ \tabitem Département d’utilisateur \\ \tabitem etc..\\ Ces champs doivent être séparés par une “;”\end{tabular} \\ \hline
 	Post condition    & Le fichier log sera rédigé                                                                                                                             \\ \hline
-	\caption{Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}
+	\caption{Description textuelle du processus d'«élaboration des logs Panoramix»}
 	\label{tab:descrip-text-elab-logs}\\
 \end{longtable}
 

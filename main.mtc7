@@ -12,7 +12,7 @@
 {\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Description textuelle du cas d’utilisation «visibilité des PEF au boutique»}{\reset@font\mtcPfont 65}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .4}Description textuelle du cas d’utilisation «consultation fiche client»}{\reset@font\mtcSSSfont 66}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .5}Description textuelle du cas d’utilisation «consultation des logs API»}{\reset@font\mtcSSSfont 66}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}{\reset@font\mtcSSSfont 66}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description de la tâche d'«élaboration des logs Panoramix»}{\reset@font\mtcSSSfont 66}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {6.}3}Conception}{\reset@font\mtcSfont 67}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.3.6}\else \textLR {6.3.1}\fi }Diagramme de classes}{\reset@font\mtcSSfont 67}}
 {\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.6}\else \textLR {6.3.2}\fi }Diagrammes de séquences détaillés}{\reset@font\mtcSSfont 68}}

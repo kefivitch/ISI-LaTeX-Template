@@ -1,11 +1,11 @@
 \chapter{Sprint 0 – Migration de Panoramix}
 
 \section*{Introduction}
-Après avoir analyser et spécifier les besoins globaux de notre client, nous détaillerons les différentes étapes effectuées durant ce premier sprint ayant pour objectif « la migration de notre application ».  Cette migration assure la possibilité d’intégrer la nouvelle partie dans Panoramix.\\
+Après avoir analyser et spécifier les besoins globaux de notre client, nous allons détailler les différentes étapes effectuées durant ce premier sprint ayant pour objectif « la migration de notre application ».  Cette migration assure la possibilité d’intégrer la nouvelle partie dans Panoramix.\\
 Nous commencerons, tout d’abord, par présenter le backlog du sprint suivi d’une analyse détaillée et une comparaison entre les outils.
 
 \section[Sprint Backlog]{Sprint Backlog}
-Le tableau \ref{tab:sprint-backlog-sprint0}, qui représente une liste de tâches exprimées sous forme de besoins, illustre la liste des tâches de notre backlog de sprint
+Le tableau \ref{tab:sprint-backlog-sprint0} représente la liste des tâches de notre backlog de sprint
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|}
@@ -70,7 +70,7 @@ Parmi les principales raisons de migration, le support de PHP 7 d’où les vers
 \section[Automatisation des tests de non régression]{Automatisation des tests de non régression}
 Dans cette section, nous présentons la réalisation des différentes étapes d’automatisation des tests de non régression indiquées dans la figure \ref{fig:jenkins-schema} ci-dessus.
 \subsection{Objectifs des tests}
-Notre application Panoramix est considérée comme un portail qui assure l’accès aux différents PEFs ( points d’entrée fonctionnels ). Pour cela, l’équipe Panoramix décide de développer des  tests de non régression ou autrement des tests de l’IHM sur l’application de serveur d'intégration pour vérifier l’accès aux PEFs avec d’intégrer les modifications de code dans le serveur de production.
+Notre application Panoramix est considérée comme un portail qui assure l’accès aux différents PEF. Pour cela, l’équipe Panoramix décide de développer des  tests de non régression ou autrement des tests de l’IHM sur l’application de serveur d'intégration pour vérifier l’accès aux PEF avec d’intégrer les modifications de code dans le serveur de production.
 \subsection{Définition des tests}
 Les tests sont envoyés sous format un fichier Excel contient :
 \begin{itemize}
@@ -82,7 +82,7 @@ Les tests sont envoyés sous format un fichier Excel contient :
 	\item Résultat attendu : précise le résultat de l’IHM après l'exécution de notre scénario  
 	\item Ecrans : Capture d’écran de résultat attendu 
 	\item Commentaire : Cette colonne est réservée aux commentaires supplémentaires ou une indication.
-\end{itemize}
+\end{itemize}\newpage
 Nos 54 tests peuvent être présentés comme illustre le tableau \ref{fig:excel-robot} :
 \begin{figure}[H]
 	\centering
@@ -124,7 +124,7 @@ Le projet est maintenant prêt, nous préparons les configurations nécessaires 
 La dernière étape de configuration est la configuration de l'environnement de build qui sert à installer :
 \begin{itemize}
 	\item GeckoDriver : qui est le responsable pour l'API HTTP décrite par le protocole WebDriver pour communiquer avec les navigateurs Gecko, comme Firefox
-	\item Firefox : Le navigateur web utilisé pour executer les IHM
+	\item Firefox : Le navigateur web utilisé pour exécuter les IHM
 	\item Robot Framework : Le framework d'automatisation utilisé pour tester les interfaces.
 \end{itemize}
 \begin{figure}[H]
@@ -134,7 +134,7 @@ La dernière étape de configuration est la configuration de l'environnement de 
 	\label{fig:env-build}
 \end{figure}
 \subsection{Gestion de code source}
-Dans cette partie, nous configurons Jenkins de façon à récupérer les tests cases de Robot Framework. Nous choisissons la gestion de code avec Git et nous déclarons les dépôts distants hébergé chez Orange Forge avec la branche /develop. Chaque projet Jenkins possède un dépôt distant pour importer les tests. Lorsque le job est exécuté, Jenkins s’assure à chaque fois d’importer la dernière version des tests. Pour la configuration, il suffit de renseigner l’URL https de dépôts distants et fournir le nom d’utilisateur et le mot de passe. Un champ nous permet aussi de spécifier la branche du dépôt à utiliser comme l'illustre la figure \ref{fig:source-jenkins}
+Dans cette partie, nous configurons Jenkins de façon à récupérer les tests cases de Robot Framework. Nous choisissons la gestion de code avec Git et nous déclarons les dépôts distants hébergé chez Orange Forge avec la branche /develop. Chaque projet Jenkins possède un dépôt distant pour importer les tests.Lorsque le job est exécuté, Jenkins s’assure à chaque fois d’importer la dernière version des tests.\\Pour la configuration, il suffit de renseigner l’URL https de dépôts distants et fournir le nom d’utilisateur et le mot de passe. Un champ nous permet aussi de spécifier la branche du dépôt à utiliser comme l'illustre la figure \ref{fig:source-jenkins}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.9\linewidth]{img/jenkins/source}
@@ -164,7 +164,7 @@ Dans cette étape, nous précisons l’action principale du job. Pour le job de 
 \end{figure}
 
 \subsubsection{Actions à la suite du build}
-Dans cette étape, nous activons la notification par mail, en attachant les  deux fichiers report.html et log.html, et en précisant à qui l'email sera envoyé, par qui, le contenu et le sujet d'email.La figure \ref{fig:actions-after} présenté cette configuration :
+Dans cette étape, nous activons la notification par mail, en attachant les  deux fichiers report.html et log.html, et en précisant à qui l'email sera envoyé, par qui, le contenu et le sujet d'email.\newpage La figure \ref{fig:actions-after} présenté cette configuration :
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/jenkins/actions after"}

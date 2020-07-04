@@ -70,11 +70,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {\if@rl \I {3.3.2}\else \textLR {2.3.3}\fi }Environnement logiciel}{15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {\filterminitoc {2.}4}L'architecture de la solution}{18}%
+\contentsline {section}{\numberline {\filterminitoc {2.}4}L'architecture de la solution}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{18}%
+\contentsline {subsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi }L'architecture logique}{17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{18}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .1}L'architecture logique des tests de non régression}{17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {\if@rl \I {1.4.2}\else \textLR {2.4.1}\fi .2}L'architecture logique de l’application}{19}%
 \defcounter {refsection}{0}\relax 
@@ -270,7 +270,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .5}Description textuelle du cas d’utilisation «consultation des logs API»}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description textuelle du cas d’utilisation «élaboration des logs Panoramix»}{66}%
+\contentsline {subsubsection}{\numberline {\if@rl \I {2.2.6}\else \textLR {6.2.2}\fi .6}Description de la tâche d'«élaboration des logs Panoramix»}{66}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {\filterminitoc {6.}3}Conception}{67}%
 \defcounter {refsection}{0}\relax 
@@ -318,9 +318,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{Annexes}{82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 1.~Exemple d'annexe}{82}%
+\contentsline {section}{Annexe 1.~L'algorigramme de «mise à jour des données boutiques»}{82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Annexe 2.~Entreprise}{83}%
+\contentsline {section}{Annexe 2.~Extrait des fichier XML}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Annexe 3.~Dictionnaire de données}{84}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

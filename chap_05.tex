@@ -53,6 +53,7 @@ La figure \ref{fig:usecase-sprint2} décrit le diagramme de cas d’utilisation 
 Dans cette section, nous présentons les diagrammes des cas d’utilisation détaillés et leurs descriptions textuelles.
 \subsubsection{Description textuelle du cas d’utilisation «simulation SRCD»}
 Le tableau \ref{tab:descrip-text-sim-srcd} contient la description textuelle du cas d’utilisation «simulation SRCD»
+
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|}
@@ -63,7 +64,7 @@ Le tableau \ref{tab:descrip-text-sim-srcd} contient la description textuelle du 
 		Résumé &
 		\begin{tabular}[c]{@{}l@{}}Semble à la page bouchon qui sert à simuler le \\ mécanisme que le client est inscrit en entrant à \\ la boutique\end{tabular} \\ \hline
 		Scénario principal &
-		\begin{tabular}[c]{@{}l@{}}L’utilisateur remplit le formulaire par :\\ code edo de boutique\\ CUID de client \\ id d'établissement\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}L’utilisateur remplit le formulaire par :\\ code edo de la boutique\\ CUID du client \\ l'identifiant d'établissement\end{tabular} \\ \hline
 		Post condition    & Le client sera ajouté au fil d’attente \\ \hline
 	\end{tabular}
 	\captionsetup{justification=centering}
@@ -96,7 +97,7 @@ La figure \ref{fig:usecase-affectation} illustre le raffinement du cas d’utili
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/conception/usecases/sprint 2/UseCase-affectation"}
-	\caption[Cas d’utilisation «affectation utilisateurs aux boutiques»]{Cas d’utilisation «affectation utilisateurs aux boutiques»}
+	\caption[Diagramme cas d’utilisation «affectation utilisateurs aux boutiques»]{Cas d’utilisation «affectation utilisateurs aux boutiques»}
 	\label{fig:usecase-affectation}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «affectation  utilisateurs aux boutiques»}
@@ -112,7 +113,7 @@ Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description t
 		précondition &
 		\begin{tabular}[c]{@{}l@{}}l’administrateur doit être authentifié\\ L’utilisateur doit être existant\\ La boutique doit être existante\end{tabular} \\ \hline
 		Scénario principal &
-		\begin{tabular}[c]{@{}l@{}}Pour gérer les affectations, l’administrateur peut :\\ affecter un utilisateur à une boutique\\ Modifier une affectation\\ Supprimer une affectation\\ Consulter les affectations\\ Rechercher des affectations\end{tabular} \\ \hline
+		\begin{tabular}[c]{@{}l@{}}Pour gérer les affectations, l’administrateur peut :\\ affecter un utilisateur à une boutique\\ Modifier une affectation\\ Supprimer une affectation\\ Consulter les affectations\\ Rechercher des affectations\\Exporter les affectations en fichier CSV\end{tabular} \\ \hline
 		Post condition    & Mettre à jour la liste des affectations                       \\ \hline
 	\end{tabular}
 	\captionsetup{justification=centering}
@@ -126,7 +127,7 @@ Dans cette partie, nous présentons les différents diagrammes de classes ainsi 
 la figure \ref{fig:classdiag-sprint2} illustre la structure statique du sprint 2 schématisée dans un diagramme de classe globale.
 Nous ajoutons 2 nouvelles classes :
 \begin{itemize}
-	\item \textbf{La classe Boutique :} représente les boutiques dans notre applications. Chaque boutique est identifiée par l'attribut code\_edo. Les autres champs sont expliquées dans la figure \ref{ffs0} dans l'annexe à la page \pageref{}.
+	\item \textbf{La classe Boutique :} représente les boutiques dans notre applications. Chaque boutique est identifiée par l'attribut code\_edo. Les autres champs sont expliquées dans le tableau \ref{tab:dictio-2} dans l'annexe à la page \pageref{tab:dictio-2}.
 	\item \textbf{La classe associative Affectation : } permet aux utilisateurs d'appartenir à plusieurs boutiques.
 \end{itemize}
 \begin{figure}[H]
@@ -194,11 +195,11 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 		\label{fig:index-affectation}
 	\end{figure}
 	
-	\item Voir une affectation
+	\item Consulter les données d'une affectation
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{"img/screenshots/affectation users-boutique/view"}
-		\caption[Interface voir une affectation]{Interface voir une affectation}
+		\caption[Interface voir une affectation]{Interface consulter les données d'une affectation}
 		\label{fig:view-affectation}
 	\end{figure}
 

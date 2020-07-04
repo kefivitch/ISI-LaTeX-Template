@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {8.2}\else \textLR {2.8}\fi }{\ignorespaces Logo MariaDB}}{14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces Logo HeidiSQL}}{15}%
+\contentsline {figure}{\numberline {\if@rl \I {9.2}\else \textLR {2.9}\fi }{\ignorespaces Logo HeidiSQL}}{14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {10.2}\else \textLR {2.10}\fi }{\ignorespaces Logo SeleniumLibrary}}{15}%
 \defcounter {refsection}{0}\relax 
@@ -40,7 +40,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {15.2}\else \textLR {2.15}\fi }{\ignorespaces Logo Axios}}{16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Logo HTML5}}{17}%
+\contentsline {figure}{\numberline {\if@rl \I {16.2}\else \textLR {2.16}\fi }{\ignorespaces Logo HTML5}}{16}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {17.2}\else \textLR {2.17}\fi }{\ignorespaces Logo PHP}}{17}%
 \defcounter {refsection}{0}\relax 
@@ -146,7 +146,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {1.5}\else \textLR {5.1}\fi }{\ignorespaces Diagramme de cas d’utilisation global sprint 2}}{54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Cas d’utilisation «affectation utilisateurs aux boutiques»}}{55}%
+\contentsline {figure}{\numberline {\if@rl \I {2.5}\else \textLR {5.2}\fi }{\ignorespaces Diagramme cas d’utilisation «affectation utilisateurs aux boutiques»}}{55}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {3.5}\else \textLR {5.3}\fi }{\ignorespaces Diagramme de classes de sprint 2}}{56}%
 \defcounter {refsection}{0}\relax 
@@ -232,7 +232,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }{\ignorespaces L'algorigramme de «mise à jour des données boutiques»}}{82}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{Annexe 2.1~~~Logo d'entreprise}{83}%
+\contentsline {figure}{Annexe 2.1~~~Extrait des fichiers XML de mise à jour de données boutique}{83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{Annexe 3.1~~~Dictionnaire de données}{84}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}

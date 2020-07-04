@@ -64,9 +64,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {\if@rl \I {6.6}\else \textLR {6.6}\fi }{\ignorespaces Description textuelle du cas d’utilisation «consultation des logs API»\relax }}{66}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Description textuelle du cas d’utilisation «élaboration des logs Panoramix»\relax }}{67}%
+\contentsline {table}{\numberline {\if@rl \I {7.6}\else \textLR {6.7}\fi }{\ignorespaces Description textuelle du processus d'«élaboration des logs Panoramix»\relax }}{67}%
 \defcounter {refsection}{0}\relax 
 \vspace {3.8mm}
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {1.7}\else \textLR {7.1}\fi }{\ignorespaces Dictionnaire de données 1\relax }}{84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {2.7}\else \textLR {7.2}\fi }{\ignorespaces Dictionnaire de données 2\relax }}{85}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {\if@rl \I {3.7}\else \textLR {7.3}\fi }{\ignorespaces Dictionnaire de données 3\relax }}{86}%
 \babel@toc {arabic}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
