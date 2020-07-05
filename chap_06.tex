@@ -2,12 +2,12 @@
 \chapter{Sprint 3 – Gestion des PEF}
 	
 \section*{Introduction}
-Dans ce chapitre nous allons principalement nous intéresser à la fonctionnalité la plus  importante de notre projet. Tout comme le sprint précédent, nous procéderons par étapes afin d’éviter d’ignorer une partie de ce sprint.
+Dans ce chapitre, nous allons principalement nous intéresser à la fonctionnalité la plus  importante de notre projet. Tout comme le sprint précédent, nous procéderons par étapes afin d’éviter d’ignorer une partie de ce sprint.
 
 \section{Backlog sprint}
 Dans le backlog du sprint, nous présenterons deux parties suivantes
 \subsection{But de sprint}
-Le but de ce sprint est de filtrer et ordonner les PEF pour que chaque utilisateur peut les utiliser lors l’ouverture de fiche client.
+Le but de ce sprint est de filtrer et ordonner les PEF pour que chaque utilisateur puisse les utiliser lors de l’ouverture de fiche client.
 \subsection{User stories}
 Après avoir défini l'objectif du sprint, nous pouvons lister les user stories qui appartiennent au sprint.
 Le tableau \ref{tab:user-stories-sprint3} liste les différents user stories de notre sprint :
@@ -48,7 +48,7 @@ Le tableau \ref{tab:user-stories-sprint3} liste les différents user stories de 
 	\label{tab:user-stories-sprint3}\\
 \end{longtable}
 
-\section{Etude de réalisation du sprint 3}
+\section{Étude de réalisation du sprint 3}
 Cette section de notre projet présente les différents diagrammes de cas d’utilisation avec leurs raffinements.
 \subsection{Diagramme de cas d’utilisation global sprint 3}
 La figure \ref{fig:usecase-sprint3} décrit le diagramme de cas d’utilisation global du sprint 3.
@@ -213,7 +213,7 @@ Le tableau \ref{tab:descrip-text-elab-logs} contient la description textuelle du
 \end{longtable}
 
 \section{Conception}
-Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint. 
+Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquences détaillés pour ce sprint. 
 
 
 \subsection{Diagramme de classes}
@@ -222,7 +222,7 @@ Dans ce sprint, nous ajoutons les dernières 3 classes :
 \begin{itemize}
 	\item \textbf{La classe Categorie :} représente les catégories des PEF. Ces catégories peuvent avoir un ou plusieurs types.
 	\item \textbf{La classe Application :} représente les applications et leurs URL d'accès. Chaque application est composée par des PEF.
-	\item \textbf{La classe PEF :} représente les PEF à utilisés. Ces PEF peut appartenir à une ou plusieurs boutique autrement cette boutique peut l'utiliser. Ainsi que, les PEF doivent avoir une ou plusieurs catégories. 
+	\item \textbf{La classe PEF :} représente les PEF à utilisés. Ces PEF peuvent appartenir à une ou plusieurs boutique autrement cette boutique peut l'utiliser. Ainsi que les PEF doivent avoir une ou plusieurs catégories. 
 \end{itemize}
 \begin{figure}[H]
 	\centering
@@ -237,7 +237,7 @@ Nous allons maintenant passer à l’aspect dynamique des opérations représent
 Dans cette section, nous présenterons quelques diagrammes de séquences système de «gestion des PEF» tels que : \newpage
 
 \myparagraph{Diagramme de séquences système de «visibilité des PEF au boutique»} 
-Après la consultation de page de visibilité, l'administrateur remplit la formulaire par le nom du PEF et le nom de la boutique puis il valide. Le système vérifie l'existence du PEF et la boutique et insère les données.\\
+Après la consultation de page de visibilité, l'administrateur remplit le formulaire par le nom du PEF et le nom de la boutique puis il valide. Le système vérifie l'existence du PEF et la boutique et insère les données.\\
 Un message de succès ou d'échec sera affiché.
 	\begin{figure}[H]
 		\centering
@@ -250,7 +250,7 @@ Un message de succès ou d'échec sera affiché.
 \subsubsection{Quelques diagramme de séquences objets de Sprint 3}
 Nous présentons dans ce qui suit quelques diagrammes de séquences objets détaillés \\du sprint 3.
 \myparagraph{Diagramme de séquences d’objets de «consultation logs API»} 
-Lors la consultation des logs API, le contrôleur de consultation va parcourir tous les fichiers logs et les transformer en format JSON. Ces informations seront représentées sous format de tableau dans l'IHM. 
+Lors de la consultation des logs API, le contrôleur de consultation va parcourir tous les fichiers logs et les transformer en format JSON. Ces informations seront représentées sous format de tableau dans l'IHM. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 3/log-api-obj"}
@@ -259,7 +259,7 @@ Lors la consultation des logs API, le contrôleur de consultation va parcourir t
 	\end{figure}
 	\newpage
 \myparagraph{Diagramme de séquences d’objets de «fiche client»} 
-Après la choix de client, une liste des PEF doit être affichée. Ces PEF seront filtrés en fonction de type d'utilisateur, autrement un conseiller client réactif de boutique n'utilise que des PEF de catégorie ayant le type CPRO. 
+Après le choix de client, une liste des PEF doit être affichée. Ces PEF seront filtrés en fonction de type d'utilisateur, autrement un conseiller client réactif de boutique n'utilise que des PEF de catégorie ayant le type CPRO. 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/conception/sequences/sprint 3/fiche-client-obj"}
@@ -270,6 +270,7 @@ Après la choix de client, une liste des PEF doit être affichée. Ces PEF seron
 \section{Réalisation}
 Dans cette section, nous allons exposer les différentes interfaces réalisées dans le sprint 3.
 \subsection{Interfaces de gestion des catégories}
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des catégories.
 \begin{itemize}
 	\item Consultation des catégories et recherche
 	\begin{figure}[H]
@@ -297,9 +298,9 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{itemize}
 
 \subsection{Interfaces de gestion des type de catégories}
-
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des type de catégories.
 \begin{itemize}
-	\item Consultation des types des catégories
+	\item Consulter des types des catégories
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.6\linewidth]{img/screenshots/categorie-type/index}
@@ -307,11 +308,11 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 		\label{fig:index-tc}
 	\end{figure}
 	\newpage
-	\item Voir un type des catégories
+	\item Consulter un type des catégories
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{img/screenshots/categorie-type/view}
-		\caption[Interface voir un type des catégories]{Interface voir un type des catégories}
+		\caption[Interface voir un type des catégories]{Interface consulter un type des catégories}
 		\label{fig:view-tc}
 	\end{figure}
 	
@@ -333,6 +334,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{itemize}
 \newpage
 \subsection{Interfaces de gestion des PEF}
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des PEF.
 \begin{itemize}
 	\item Consultation des PEF et recherche
 	\begin{figure}[H]
@@ -342,11 +344,11 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 		\label{fig:index-pef}
 	\end{figure}
 
-	\item Voir les données d'un PEF
+	\item Consulter les données d'un PEF
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.55\linewidth]{img/screenshots/pef/view}
-		\caption[Interface voir les données d'un PEF]{Interface voir les données d'un PEF}
+		\caption[Interface voir les données d'un PEF]{Interface consulter les données d'un PEF}
 		\label{fig:view-pef}
 	\end{figure}
 	\newpage
@@ -368,6 +370,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{itemize}
 \newpage
 \subsection{Interfaces de consultation des types de PEF}
+Les captures d'écran ci-dessous représentent les différentes IHM de consultation des types de PEF.
 \begin{itemize}
 	\item Consultation des types de PEF et recherche
 	\begin{figure}[H]
@@ -387,8 +390,9 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{itemize}
 \newpage
 \subsection{Interfaces de visibilité des PEF aux boutiques}
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion de visibilité des PEF aux boutiques.
 \begin{itemize}
-	\item Consultation des visibilités et recherche
+	\item Consulter des visibilités et recherche
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/index"}
@@ -396,11 +400,11 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 		\label{fig:index-visib}
 	\end{figure}
 	
-	\item Voir une visibilité 
+	\item Consulter une visibilité 
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{"img/screenshots/visibilité pef-boutique/view"}
-		\caption[Interface voir une visibilité]{Interface voir une visibilité }
+		\caption[Interface voir une visibilité]{Interface consulter une visibilité }
 		\label{fig:view-visib}
 	\end{figure}
 
@@ -421,7 +425,8 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 	\end{figure}
 	
 \end{itemize}
-\subsection{Interfaces de consultation des PEF au fiche client}
+\subsection{Interface de consultation des PEF au fiche client}
+La capture d'écran ci-dessous représente l’interface de consultation des PEF au fiche client.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"img/screenshots/fiche client/fiche client et accès au pef"}
@@ -430,6 +435,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{figure}
 
 \subsection{Interface de consultation des log API}
+La capture d'écran ci-dessous représente l’interface de consultation des log API.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"img/screenshots/logs + srcd/detailed log"}
@@ -438,7 +444,7 @@ Dans cette section, nous allons exposer les différentes interfaces réalisées 
 \end{figure}
 
 \subsection{Capture de fichier de logs d’application Panoramix}
-
+La capture d'écran ci-dessous représente la capture de fichier de logs d’application Panoramix.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\linewidth]{"img/screenshots/logs + srcd/log-application"}

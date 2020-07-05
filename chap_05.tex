@@ -4,7 +4,7 @@
 Dans ce chapitre, nous allons nous intéresser à le module Boutique. Par la suite, nous nous intéresserons à l’aspect conceptuel et fonctionnel de ce sprint.
 
 \section[Backlog sprint]{Backlog sprint}
-Dans le backlog du sprint, nous présenterons deux parties :  le but du sprint et les user stories.
+Dans le backlog du sprint, nous présenterons deux parties : le but du sprint et les user stories.
 
 \subsection[But du sprint]{But du sprint}
 En suivant le même principe que le sprint précédent, nous commencerons par définir l'objectif du sprint. Par conséquent, l'objectif de ce sprint est l'intégration de module Boutique et l’affectation des utilisateurs aux boutiques.
@@ -28,7 +28,7 @@ La table \ref{tab:user-stories-sprint-2} représente notre backlog de Sprint 2.
 	\begin{tabular}[c]{@{}l@{}}Ajouter les interfaces de la gestion\\ des affectations\\ \tabitem Consultation\\ \tabitem Modification\\ \tabitem Suppression\\ \tabitem Affectation des utilisateurs\\ \tabitem Recherche\\ et la logique derrière\end{tabular} &
 	2 \\ \hline
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un administrateur, je\\ souhaite d’exporter les\\  affectations des utilisateurs CPRO\\  aux boutiques\end{tabular} &
-	\begin{tabular}[c]{@{}l@{}}Ajouter bouton “exporter” dans\\ l’interface de gestion des\\ utilisateurs et la logique derrière\end{tabular} &
+	\begin{tabular}[c]{@{}l@{}}Ajouter un  bouton “exporter” dans\\ l’interface de gestion des\\ utilisateurs et la logique derrière\end{tabular} &
 	3 \\ \hline
 	\begin{tabular}[c]{@{}l@{}}En tant qu’un utilisateur de \\ Panoramix, je souhaite de simuler \\ la page SRCD\end{tabular} &
 	Développer une interface SRCD &
@@ -101,7 +101,7 @@ La figure \ref{fig:usecase-affectation} illustre le raffinement du cas d’utili
 	\label{fig:usecase-affectation}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «affectation  utilisateurs aux boutiques»}
-Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques»
+Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description textuelle du cas d’utilisation «affectation utilisateurs aux boutiques».
 \begin{table}[H]
 	\centering
 	\begin{tabular}{|l|l|}
@@ -122,12 +122,12 @@ Le tableau \ref{tab:descrip-text-affect-user-boutique} contient la description t
 \end{table}
 
 \section{Conception}
-Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.\newpage
+Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquences détaillés pour ce sprint.\newpage
 \subsection{Diagramme de classes}
 la figure \ref{fig:classdiag-sprint2} illustre la structure statique du sprint 2 schématisée dans un diagramme de classe globale.
 Nous ajoutons 2 nouvelles classes :
 \begin{itemize}
-	\item \textbf{La classe Boutique :} représente les boutiques dans notre applications. Chaque boutique est identifiée par l'attribut code\_edo. Les autres champs sont expliquées dans le tableau \ref{tab:dictio-2} dans l'annexe à la page \pageref{tab:dictio-2}.
+	\item \textbf{La classe Boutique :} représente les boutiques dans notre applications. Chaque boutique est identifiée par l'attribut code\_edo. Les autres champs sont expliqués dans le tableau \ref{tab:dictio-2} dans l'annexe à la page \pageref{tab:dictio-2}.
 	\item \textbf{La classe associative Affectation : } permet aux utilisateurs d'appartenir à plusieurs boutiques.
 \end{itemize}
 \begin{figure}[H]
@@ -142,7 +142,7 @@ Nous allons maintenant passer à l’aspect dynamique des opérations représent
 \subsubsection[Quelques diagrammes de séquences système de Sprint 2]{Quelques diagrammes de séquences système de Sprint 2}
 Dans cette section, nous présenterons quelques diagrammes de séquences système de “module Boutique” tels que : 
 \myparagraph{Diagramme de séquences système d’«affecter un utilisateur au boutique»}
-Après la consultation de page d'affectation, l'administrateur remplit la formulaire par le nom complet d'utilisateur, le CUID et le nom du boutique puis valide. Le système vérifie l'existence de l'utilisateur et la boutique et insère les données en ajoutant la date système de l'opération.\\
+Après la consultation de page d'affectation, l'administrateur remplit le formulaire par le nom complet d'utilisateur, le CUID et le nom du boutique puis valide. Le système vérifie l'existence de l'utilisateur et la boutique et insère les données en ajoutant la date système de l'opération.\\
 Un message de succès ou d'échec sera affiché.
 \begin{figure}[H]
 	\centering
@@ -163,11 +163,11 @@ Ce diagramme détaille de plus le diagramme précédent. Le service d'autocomple
 
 
 \section{Réalisation}
-Dans cette sections nous allons exposer les différentes interfaces réalisées dans le sprint 2. 
+Dans cette section, nous allons exposer les différentes interfaces réalisées dans le sprint 2. 
 \subsection{Interfaces de consultation boutique}
-les captures d'écran ci-dessous représentent les deux IHMs de consultation boutique.
+Les captures d'écran ci-dessous représentent les deux IHM de consultation boutique.
 \begin{itemize}
-	\item Consultation des boutiques et recherche
+	\item Consulter des boutiques et recherche
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\linewidth]{img/screenshots/boutique/index}
@@ -175,17 +175,17 @@ les captures d'écran ci-dessous représentent les deux IHMs de consultation bou
 		\label{fig:index-btq}
 	\end{figure}
 	
-	\item Voir les données d'une boutique
+	\item Consulter les données d'une boutique
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.5\linewidth]{img/screenshots/boutique/view}
-		\caption[Interfacevoir les données d'une boutique]{Interface voir les données d'une boutique}
+		\caption[Interface voir les données d'une boutique]{Interface Consultation les données d'une boutique}
 		\label{fig:view-btq}
 	\end{figure}
 \end{itemize}
 
 \subsection{Interfaces de gestion des affectations}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des affectations.
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des affectations.
 \begin{itemize}
 	\item Consultation des affectations et recherche
 	\begin{figure}[H]
@@ -220,7 +220,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\end{figure}
 \end{itemize}
 \subsection{Interface de simulation SRCD}
-la capture d'écran ci-dessous représente l’interface de simulation SRCD.
+La capture d'écran ci-dessous représente l’interface de simulation SRCD.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{"img/screenshots/logs + srcd/screencapture-localhost-pano-pfe-panoramix-public-srcd-phtml-2020-06-11-18_18_04"}

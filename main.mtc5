@@ -1,25 +1,25 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}1}Sprint Backlog}{\reset@font\mtcSfont 34}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.1.4}\else \textLR {4.1.1}\fi }But du sprint}{\reset@font\mtcSSfont 34}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.1.4}\else \textLR {4.1.2}\fi }User stories}{\reset@font\mtcSSfont 34}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}2}Etude et réalisation du sprint 1}{\reset@font\mtcSfont 35}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Diagramme de cas d’utilisation global sprint 1}{\reset@font\mtcSSfont 35}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{\reset@font\mtcSSfont 35}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .1}Cas d’utilisation «Gérer utilisateurs»}{\reset@font\mtcSSSfont 36}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Description textuelle du cas d’utilisation «Gérer utilisateurs»}{\reset@font\mtcPfont 36}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .2}Cas d’utilisation «Gérer rôles»}{\reset@font\mtcSSSfont 37}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Description textuelle du cas d’utilisation «Gérer rôles»}{\reset@font\mtcPfont 37}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}3}Conception}{\reset@font\mtcSfont 37}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.3.4}\else \textLR {4.3.1}\fi }Diagramme de classes}{\reset@font\mtcSSfont 37}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }Diagrammes de séquences détaillés}{\reset@font\mtcSSfont 38}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 1}{\reset@font\mtcSSSfont 38}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système d’«Ajouter Utilisateur»}{\reset@font\mtcPfont 39}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système de «Supprimer Utilisateur»}{\reset@font\mtcPfont 40}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système d’«Importer utilisateurs»}{\reset@font\mtcPfont 41}}
-{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .2}Diagramme de séquences objets de Sprint 1}{\reset@font\mtcSSSfont 41}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences objets d’«Ajouter Utilisateur» }{\reset@font\mtcPfont 42}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences objets de «Supprimer Utilisateur» }{\reset@font\mtcPfont 42}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}4}Réalisation}{\reset@font\mtcSfont 43}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.4}\else \textLR {4.4.1}\fi }Interfaces de gestion des utilisateurs}{\reset@font\mtcSSfont 43}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.4.4}\else \textLR {4.4.2}\fi }Interfaces de gestion des rôles}{\reset@font\mtcSSfont 46}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {3.4.4}\else \textLR {4.4.3}\fi }Interfaces de gestion des types de rôles}{\reset@font\mtcSSfont 47}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {4.4.4}\else \textLR {4.4.4}\fi }Interfaces de gestion des activations des rôles attribués à un utilisateurs}{\reset@font\mtcSSfont 49}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}1}Sprint Backlog}{\reset@font\mtcSfont 32}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.1.4}\else \textLR {4.1.1}\fi }But du sprint}{\reset@font\mtcSSfont 32}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.1.4}\else \textLR {4.1.2}\fi }User stories}{\reset@font\mtcSSfont 32}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}2}Etude et réalisation du sprint 1}{\reset@font\mtcSfont 33}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.2.4}\else \textLR {4.2.1}\fi }Diagramme de cas d’utilisation global sprint 1}{\reset@font\mtcSSfont 33}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi }Raffinement et description textuelle des diagrammes de cas d’utilisation}{\reset@font\mtcSSfont 33}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .1}Cas d’utilisation «Gérer utilisateurs»}{\reset@font\mtcSSSfont 34}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Description textuelle du cas d’utilisation «Gérer utilisateurs»}{\reset@font\mtcPfont 34}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.2.4}\else \textLR {4.2.2}\fi .2}Cas d’utilisation «Gérer rôles»}{\reset@font\mtcSSSfont 35}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Description textuelle du cas d’utilisation «Gérer rôles»}{\reset@font\mtcPfont 35}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}3}Conception}{\reset@font\mtcSfont 35}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.3.4}\else \textLR {4.3.1}\fi }Diagramme de classes}{\reset@font\mtcSSfont 35}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi }Diagrammes de séquences détaillés}{\reset@font\mtcSSfont 36}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .1}Quelques diagramme de séquences système de Sprint 1}{\reset@font\mtcSSSfont 36}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système d’«Ajouter Utilisateur»}{\reset@font\mtcPfont 37}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système de «Supprimer Utilisateur»}{\reset@font\mtcPfont 38}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences système d’«Importer utilisateurs»}{\reset@font\mtcPfont 39}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.3.4}\else \textLR {4.3.2}\fi .2}Diagramme de séquences objets de Sprint 1}{\reset@font\mtcSSSfont 39}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences objets d’«Ajouter Utilisateur» }{\reset@font\mtcPfont 40}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Diagramme de séquences objets de «Supprimer Utilisateur» }{\reset@font\mtcPfont 40}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {4.}4}Réalisation}{\reset@font\mtcSfont 41}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {1.4.4}\else \textLR {4.4.1}\fi }Interfaces de gestion des utilisateurs}{\reset@font\mtcSSfont 41}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {2.4.4}\else \textLR {4.4.2}\fi }Interfaces de gestion des rôles}{\reset@font\mtcSSfont 44}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {3.4.4}\else \textLR {4.4.3}\fi }Interfaces de gestion des types de rôles}{\reset@font\mtcSSfont 45}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\if@rl \I {4.4.4}\else \textLR {4.4.4}\fi }Interfaces de gestion des activations des rôles attribués à un utilisateurs}{\reset@font\mtcSSfont 47}}

@@ -7,7 +7,7 @@ Tout d'abord, nous allons commencer par la description de le sprint backlog et l
 \section[Sprint Backlog]{Sprint Backlog}
 Le sprint Backlog permet de faciliter la récupération des tâches et qui fait la mise au point du travail tout en précisant les tâches. Ces dernières contiennent tous les user-stories du Product Backlog.
 \subsection[But du sprint]{But du sprint}
-La première règle à suivre avant de se lancer dans un sprint, l’équipe SCRUM doit obligatoirement définir le but de ce sprint. Et pour cela, nous devons répondre à une question existentielle: Pourquoi faisons-nous ce sprint?\\
+La première règle à suivre avant de se lancer dans un sprint, l’équipe SCRUM doit obligatoirement définir le but de ce sprint. Et pour cela, nous devons répondre à une question existentielle: pourquoi faisons-nous ce sprint?\\
 Donc, suite à une conversation entre le Product Owner et l’équipe SCRUM, nous avons conclu que le but de notre premier sprint sera : «Gestion des utilisateurs et leurs rôles».
 \subsection[User stories]{User stories}
 Après avoir déterminé l'objectif exact du sprint, il est temps de déterminer les user stories que nous voulons y inclure. Lors de la sélection de ces user stories, nous devons garder à l'esprit la priorité de chaque user story que nous avons configurée lorsque nous avons établi notre backlog produit.
@@ -64,7 +64,7 @@ La figure \ref{fig:usecase-gestion-users} décrit le raffinement du cas d’util
 	\label{fig:usecase-gestion-users}
 \end{figure}
 \myparagraph{Description textuelle du cas d’utilisation «Gérer utilisateurs»}
-Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs} contient la description textuelle du cas d’utilisation« Gérer Utilisateurs»\\
+Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-utilisateurs} contient la description textuelle du cas d’utilisation «Gérer Utilisateurs»\\
 
 \begin{longtable}[c]{|l|l|}
 	\hline
@@ -120,11 +120,11 @@ Le tableau \ref{tab:Description-textuelle-du-cas-utilisation-gerer-roles} contie
 \end{longtable}
 
 \section{Conception}
-Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquence détaillés pour ce sprint.
+Dans cette partie, nous présentons les différents diagrammes de classes ainsi que de séquences détaillés pour ce sprint.
 \subsection{Diagramme de classes}
-la figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale. Ce diagramme est composé de 4 classes d'où :
+La figure \ref{fig:classdiag-sprint1} illustre la structure statique du sprint 1 schématisé dans un diagramme de classe globale. Ce diagramme est composé de 4 classes d'où :
 \begin{itemize}
-	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.Les autres champs sont expliquées dans le tableau \ref{tab:dictio-1} dans l'annexe à la page \pageref{tab:dictio-1}.
+	\item \textbf{La classe User :} permet de représenter l'utilisateur de notre application qui est identifié par le champs id\_user.Les autres champs sont expliqués dans le tableau \ref{tab:dictio-1} dans l'annexe à la page \pageref{tab:dictio-1}.
 	\item \textbf{La classe Type :} permet de représenter les deux métiers de notre application : CPRO pour la boutique et 3901 pour le centre d'appel.
 	\item \textbf{La classe Roles :} permet de représenter les rôles dans notre application. Ces rôles peuvent être limités par une période du temps connue à l'avance et ils peuvent être activés ou désactivés aussi. Chaque rôle doit avoir au moins un rôle.
 	\item \textbf{La classe associative user-role :} permet d'attribuer à un utilisateur un ou plusieurs rôles. L'affectation un rôle à un utilisateur peut être activée ou désactivée.
@@ -140,7 +140,7 @@ Nous allons maintenant passer à l’aspect dynamique des opérations représent
 \subsubsection{Quelques diagramme de séquences système de Sprint 1}
 Dans cette section, nous présenterons quelques diagrammes de séquences système de \\sprint 1 tels que : \newpage
 \myparagraph{Diagramme de séquences système d’«Ajouter Utilisateur»}\label{ajout-user}
-Ce diagramme représenté dans la figure \ref{fig:add-user} explique graphiquement des interactions entre les acteurs et le système selon l'ordre chronologique. D'abord l'acteur accède à la page de création des utilisateurs et il remplit la formulaire. Le système vérifie les données saisies tel que les rôles, l'email,etc.\\Si l'ajout d'utilisateur se termine normalement un message de succès sera affiché sinon un message d'erreur sera affiché.
+Ce diagramme représenté dans la figure \ref{fig:add-user} explique graphiquement des interactions entre les acteurs et le système selon l'ordre chronologique. D'abord, l'acteur accède à la page de création des utilisateurs et il remplit la formulaire. Le système vérifie les données saisies tel que les rôles, l'email,etc.\\Si l'ajout d'utilisateur se termine normalement un message de succès sera affiché sinon un message d'erreur sera affiché.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.65\linewidth]{img/conception/sequences/add-user}
@@ -188,9 +188,9 @@ Nous ajoutons à la description de la figure \ref{fig:add-user} l'appel de web s
 \end{figure}
 
 \section[Réalisation]{Réalisation}
-Dans cette sous-sections nous allons exposer les différentes interfaces réalisées dans le \\sprint 1. 
+Dans cette sous-sections, nous allons exposer les différentes interfaces réalisées dans le \\sprint 1. 
 \subsection[Interfaces de gestion des utilisateurs]{Interfaces de gestion des utilisateurs}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des utilisateurs.
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des utilisateurs.
 \begin{itemize}
 	\item Consultation des utilisateurs \& recherche
 	\begin{figure}[H]
@@ -242,7 +242,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 \end{itemize}
 
 \subsection{Interfaces de gestion des rôles}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des rôles.
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des rôles.
 \begin{itemize}
 	\item Consultation des rôles et recherche
 	\begin{figure}[H]
@@ -272,13 +272,13 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=0.7\linewidth]{img/screenshots/roles/delete}
-		\caption[Interface sSupprimer un rôle]{Interface supprimer un rôle}
+		\caption[Interface Supprimer un rôle]{Interface supprimer un rôle}
 		\label{fig:delete-role}
 	\end{figure}
 \end{itemize}
 
 \subsection{Interfaces de gestion des types de rôles}
-les captures d'écran ci-dessous représentent les différentes IHM de gestion des types des rôles.
+Les captures d'écran ci-dessous représentent les différentes IHM de gestion des types des rôles.
 \newpage
 \begin{itemize}
 	\item Consultation des types de rôles et recherche
@@ -314,7 +314,7 @@ les captures d'écran ci-dessous représentent les différentes IHM de gestion d
 	\end{figure}
 \end{itemize}
 \subsection{Interfaces de gestion des activations des rôles attribués à un utilisateurs}
-les captures d'écran ci-dessous représentent les différentes IHM de des activations des rôles attribués à un utilisateurs.
+Les captures d'écran ci-dessous représentent les différentes IHM de des activations des rôles attribués à un utilisateurs.
 \newpage
 \begin{itemize}
 	\item Consultation des activations et recherche
