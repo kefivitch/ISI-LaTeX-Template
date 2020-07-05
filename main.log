@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  4 JUL 2020 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.6.25)  5 JUL 2020 02:04
 entering extended mode
 **./main.tex
 (main.tex
@@ -2935,12 +2935,32 @@ LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <17.28> not available
 (Font)              Font shape `LAE/cmr/b/n' tried instead on input line 23.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
 (Font)              scaled to size 21.59999pt on input line 23.
+
+Overfull \hbox (0.56569pt too wide) in paragraph at lines 22--24
+[][][]
+ []
+
 LaTeX Font Info:    Font shape `LAE/cmr/m/n' will be
 (Font)              scaled to size 12.5pt on input line 26.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[][]
+ []
+
 LaTeX Font Info:    Font shape `LAE/cmr/bx/n' in size <10.95> not available
 (Font)              Font shape `LAE/cmr/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `LAE/cmr/b/n' will be
 (Font)              scaled to size 13.68748pt on input line 30.
+
+Overfull \hbox (0.56569pt too wide) in paragraph at lines 41--42
+[][] []
+ []
+
+
+Overfull \hbox (0.56569pt too wide) in paragraph at lines 63--64
+[] 
+ []
+
 )
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
@@ -3013,14 +3033,14 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  31676 strings out of 480790
  581620 string characters out of 2908936
- 1270933 words of memory out of 3000000
+ 1270932 words of memory out of 3000000
  46691 multiletter control sequences out of 15000+200000
  582708 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,17n,100p,1341b,4305s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 63i,17n,100p,1169b,4305s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-ecbx1728.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecrm1000.pk>{E:/Softwares/MikTex/fonts/enc/dvips/arabi/ararabeyes.enc
+ecrm1000.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1728.pk>{E:/Softwares/MikTex/fonts/enc/dvips/arabi/ararabeyes.enc
 } <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
 ccc1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/e
 c/dpi600\ectt1095.pk> <C:\Users\kefiv\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/
@@ -3048,9 +3068,9 @@ X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk> <C:\Users\kefiv\AppData\L
 ocal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk><E:/Softwares/Mi
 kTex/fonts/type1/arabi/arabeyes/ae_almateen.pfb><E:/Softwares/MikTex/fonts/type
 1/arabi/arabeyes/ae_almohanad_bold.pfb>
-Output written on main.pdf (101 pages, 6137433 bytes).
+Output written on main.pdf (101 pages, 6145060 bytes).
 PDF statistics:
- 1419 PDF objects out of 1440 (max. 8388607)
+ 1424 PDF objects out of 1440 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  548 words of extra memory for PDF output out of 10000 (max. 10000000)
 
